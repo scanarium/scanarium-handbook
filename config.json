@@ -1,0 +1,8 @@
+{
+    "source": "{conf_dir}/source",
+    "target": "{conf_dir}/output",
+    "default_l10n": "de",
+    "additional_l10ns": [
+        "en"
+    ]
+}
