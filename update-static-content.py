@@ -3,22 +3,59 @@
 import argparse
 import os
 import shutil
+import subprocess
 import sys
 
 
 DOCUMENT_ROOT = os.path.dirname(os.path.abspath(sys.argv[0]))
 IMAGE_DIR = os.path.join(DOCUMENT_ROOT, 'images')
+CONVERT = '/usr/bin/convert'
+WIDTH_SMALL = 200
 
 
-def copy_image(source, target_name=None):
+def run_command(command):
+    subprocess.run(command, check=True, timeout=10)
+
+
+def generate_resized_image(source, target, width):
+    command = [
+        CONVERT,
+        source,
+        '-resize', f'{width}x{int(width*1.33333)}',
+        '-background', 'white',
+        '-flatten',
+        target,
+        ]
+    return run_command(command)
+
+
+def generate_small_image(source, target):
+    return generate_resized_image(source, target, WIDTH_SMALL)
+
+
+def copy_image(source, target_name=None, target_dir=IMAGE_DIR,
+               small=False):
     if target_name is None:
         target_name = os.path.basename(source)
-    target = os.path.join(IMAGE_DIR, target_name)
+    target = os.path.join(target_dir, target_name)
+    os.makedirs(target_dir, exist_ok=True)
     shutil.copy2(source, target)
+
+    if small:
+        resized_name = target_name.rsplit('.', 1)[0] + '-small.jpg'
+        generate_small_image(source,
+                             os.path.join(target_dir, resized_name))
 
 
 def process_scanarium_dir(dir):
-    pass
+    scenes_dir = os.path.join(dir, 'scenes')
+    for scene in os.listdir(scenes_dir):
+        scene_dir = os.path.join(scenes_dir, scene)
+        if os.path.isdir(scene_dir):
+            scene_file = os.path.join(scene_dir, 'scene-bait.png')
+            target_dir = os.path.join(IMAGE_DIR, 'scenes', scene)
+            copy_image(scene_file, target_dir=target_dir, small=True)
+
 
 def process_scanarium_support_dir(dir):
     name = os.path.join(
