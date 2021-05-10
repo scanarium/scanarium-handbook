@@ -4,5 +4,8 @@
     "default_l10n": "de",
     "additional_l10ns": [
         "en"
+    ],
+    "resources": [
+        "{conf_dir}/images"
     ]
 }
