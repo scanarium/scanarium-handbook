@@ -6,6 +6,10 @@
         "en"
     ],
     "resources": [
-        "{conf_dir}/images"
-    ]
+        "{conf_dir}/images",
+        "{conf_dir}/templates/styles"
+    ],
+    "exporter": {
+        "html-template-file": "{conf_dir}/templates/html-template.html"
+    }
 }
