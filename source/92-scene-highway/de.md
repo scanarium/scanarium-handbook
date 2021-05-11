@@ -1,7 +1,7 @@
-# Szene: Landstraße
+# Szene: {=property(scene-translated)}
 
-[![Screenshot Szene Landstraße](images/scenes/{=property(scene)}/scene-bait-small.jpg){: class=left-image }](images/scenes/{=property(scene)}/scene-bait.png)
-In der Landstraßen-Szene könnt ihr Fahrzeuge ausmalen.
+[![Screenshot Szene {=property(scene-translated)}](images/scenes/{=property(scene)}/scene-bait-small.jpg){: class=left-image }](images/scenes/{=property(scene)}/scene-bait.png)
+In der {=property(scene-translated)}-Szene könnt ihr Fahrzeuge ausmalen.
 
 Autos, Traktoren, Lastern, Quads, Sportwagen bis zu Einsatzfahrzeugen von Feuehrwehr, Rettung und Polizei.
 
@@ -18,4 +18,5 @@ Die Einsatzfahrzeuge fahren manchmal normal und manchmal mit Blaulicht.
 id:scene-highway
 version:2
 scene:highway
+scene-translated:Landstraße
 youtube-demo-video-id:tV8ORzmh3E
