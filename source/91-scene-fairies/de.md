@@ -3,7 +3,7 @@
 {=macro(scene-header-localized)}
 In der {=property(scene-translated)}-Szene könnt ihr Feen, Elfen und Schmetterlinge ausmalen.
 
-Eure ausgemalten Wesen und Tiere fliegen über den Himmel, flattern mit den Flügeln und gucken zu euch heraus.
+Eure ausgemalten Figuren fliegen über den Himmel, flattern mit den Flügeln und gucken zu euch heraus.
 
 {=macro(scene-links-localized)}
 
