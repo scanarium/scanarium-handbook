@@ -1,7 +1,6 @@
 # Szene: {=property(scene-translated)}
 
-{=macro(scene-header-localized)}
-In der {=property(scene-translated)}-Szene könnt ihr Luftballons und Vögel ausmalen.
+{=macro(scene-header-localized, Luftballons und Vögel)}
 
 Eure Luftballons schweben langsam und gemütlich von unten nach oben über den Wolkenhimmel und werden dabei vom Wind verweht.
 

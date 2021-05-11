@@ -1,7 +1,6 @@
 # Szene: {=property(scene-translated)}
 
-{=macro(scene-header-localized)}
-In der {=property(scene-translated)}-Szene könnt ihr Feen, Elfen und Schmetterlinge ausmalen.
+{=macro(scene-header-localized, Feen, Elfen und Schmetterlinge)}
 
 Eure ausgemalten Figuren fliegen über den Himmel, flattern mit den Flügeln und gucken zu euch heraus.
 

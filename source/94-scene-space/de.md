@@ -1,7 +1,6 @@
 # Szene: {=property(scene-translated)}
 
-{=macro(scene-header-localized)}
-In der {=property(scene-translated)}-Szene könnt ihr Raumschiffe, Untertassen, Astronauten und Sterne ausmalen.
+{=macro(scene-header-localized, Raumschiffe, Untertassen, Astronauten und Sterne)}
 
 Die Raketen, Fliegende Untertassen, Astronauten haben Raketentriebwerke und fliegen herum.
 

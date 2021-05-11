@@ -1,7 +1,6 @@
 # Szene: {=property(scene-translated)}
 
-{=macro(scene-header-localized)}
-In der {=property(scene-translated)}-Szene könnt ihr Fahrzeuge ausmalen.
+{=macro(scene-header-localized, Fahrzeuge)}
 
 Autos, Traktoren, Lastern, Quads, Sportwagen bis zu Einsatzfahrzeugen von Feuehrwehr, Rettung und Polizei.
 
