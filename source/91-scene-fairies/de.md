@@ -1,6 +1,6 @@
 # Szene: {=property(scene-translated)}
 
-[![Screenshot Szene {=property(scene-translated)}](images/scenes/{=property(scene)}/scene-bait-small.jpg){: class=left-image }](images/scenes/{=property(scene)}/scene-bait.png)
+{=macro(scene-header-localized)}
 In der {=property(scene-translated)}-Szene könnt Feen, Elfen und Schmetterlinge ausmalen.
 
 Eure ausgemalten Wesen und Tiere fliegen über den Himmel, flattern mit den Flügeln und gucken zu euch heraus.

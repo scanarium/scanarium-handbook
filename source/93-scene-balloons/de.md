@@ -1,6 +1,6 @@
 # Szene: {=property(scene-translated)}
 
-[![Screenshot Szene {=property(scene-translated)}](images/scenes/{=property(scene)}/scene-bait-small.jpg){: class=left-image }](images/scenes/{=property(scene)}/scene-bait.png)
+{=macro(scene-header-localized)}
 In der {=property(scene-translated)}-Szene könnt ihr Luftballons und Vögel ausmalen.
 
 Eure Luftballons schweben langsam und gemütlich von unten nach oben über den Wolkenhimmel und werden dabei vom Wind verweht.
