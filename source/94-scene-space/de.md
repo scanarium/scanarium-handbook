@@ -7,7 +7,7 @@ Die Raketen, Fliegende Untertassen, Astronauten haben Raketentriebwerke und flie
 
 Sterne stehen manchmal still, manchmal drehen sie sich.
 
-[![YouTube icon](images/youtube.png){: class=text-icon} Demo Video bei YouTube](https://www.youtube.com/watch?v=E-3di0kQQdY&list=PL-o9mFmKUyeaNl0TSucCBEsVJLK6gcZdZ)
+[![YouTube icon](images/youtube.png){: class=text-icon} Demo Video bei YouTube](https://www.youtube.com/watch?v={=property(youtube-demo-video-id)}&list=PL-o9mFmKUyeaNl0TSucCBEsVJLK6gcZdZ)
 
 [![Scanarium icon](images/scanarium.png){: class=text-icon} Live Demo](https://demo.scanarium.com/?scene={=property(scene)})
 
@@ -16,3 +16,4 @@ Sterne stehen manchmal still, manchmal drehen sie sich.
 id:scene-space
 version:2
 scene:space
+youtube-demo-video-id:E-3di0kQQdY
