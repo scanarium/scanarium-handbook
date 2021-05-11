@@ -1,8 +1,8 @@
 # Szene: {=property(scene-translated)}
 
-{=macro(scene-header-localized, Raumschiffe, Untertassen, Astronauten und Sterne)}
+{=macro(scene-header-localized, Raumschiffe, Fliegende Untertassen, Astronauten und Sterne)}
 
-Die Raketen, Fliegende Untertassen, Astronauten haben Raketentriebwerke und fliegen herum.
+Die Raketen, Fliegende Untertassen und Astronauten haben Raketentriebwerke und fliegen herum.
 
 Sterne stehen manchmal still, manchmal drehen sie sich.
 
