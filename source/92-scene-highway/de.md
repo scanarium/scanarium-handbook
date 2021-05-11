@@ -17,6 +17,4 @@ Die Einsatzfahrzeuge fahren manchmal normal und manchmal mit Blaulicht.
 
 id:scene-highway
 version:2
-scene:highway
 scene-translated:Landstraße
-youtube-demo-video-id:tV8ORzmh3E

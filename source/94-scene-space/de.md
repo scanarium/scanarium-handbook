@@ -15,6 +15,4 @@ Sterne stehen manchmal still, manchmal drehen sie sich.
 
 id:scene-space
 version:2
-scene:space
 scene-translated:Weltall
-youtube-demo-video-id:E-3di0kQQdY

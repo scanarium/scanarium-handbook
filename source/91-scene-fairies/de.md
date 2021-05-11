@@ -13,6 +13,4 @@ Eure ausgemalten Wesen und Tiere fliegen über den Himmel, flattern mit den Flü
 
 id:scene-fairies
 version:2
-scene:fairies
 scene-translated:Feenwelt
-youtube-demo-video-id:BirtO0QGkI4
