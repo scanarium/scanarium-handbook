@@ -1,0 +1,82 @@
+{
+  "__meta__": {
+    "comment": "Mostly empty localization on purpose, as the default is text representation is English anyways",
+    "maintainer": "christian@scanarium.com"
+  },
+  "messages": {
+    "{PoliceCar-Decal}": "P O L I C E  "
+  },
+  "parameters": {
+    "actor_name": {
+      "Astronaut": "Astronaut",
+      "BunnyBalloon": "Bunny Balloon",
+      "Bus": "Bus",
+      "CompactMpv": "Compact MPV",
+      "DragonBalloon": "Dragon Balloon",
+      "FireTruck": "Fire Truck",
+      "FlowerFairy": "Flower Fairy",
+      "FlyingSaucer": "Flying Saucer",
+      "HeartBalloon": "Heart Balloon",
+      "MonsterTruck": "Monster Truck",
+      "OldFamilyCar": "Old Family Car",
+      "PlainBalloon": "Plain Balloon",
+      "PoliceCar": "Police Car",
+      "QuadBike": "Quad Bike",
+      "SimpleButterfly": "Simple Butterfly",
+      "SimpleRocket": "Simple Rocket",
+      "SportsCar": "Sports Car",
+      "Star": "Star",
+      "TailedButterfly": "Tailed Butterfly",
+      "Tractor": "Tractor",
+      "Truck": "Truck",
+      "UnicornBalloon": "Unicorn Balloon",
+      "WaterElf": "Water Elf",
+      "WoodFairy": "Wood Fairy",
+      "ZaggedButterfly": "Zagged Butterfly"
+    },
+    "cgi_name": {
+      "regenerate-static-content": "Regenerate static content",
+      "reindex": "Reindex",
+      "reset-dynamic-content": "Reset dynamic content",
+      "scan": "Scan",
+      "show-source": "Show source"
+    },
+    "command_label": {
+      "command": "Command",
+      "scene": "Scene"
+    },
+    "command_name": {
+      "reset": "Reset",
+      "switchScene": "Switch scene",
+      "system": "System"
+    },
+    "event_name": {
+      " ": "space key",
+      "pointer": "click/tap"
+    },
+    "language": {
+      "de": "German",
+      "en": "English",
+      "eo": "Esperanto"
+    },
+    "parameter_label": {
+      "actor": "Actor",
+      "parameter": "Parameter"
+    },
+    "parameter_name": {
+      "DynamicContent": "All images",
+      "poweroff": "Power off",
+      "toggleDevInfo": "Toggle Developer Information",
+      "toggleFps": "Toggle  FPS"
+    },
+    "parameter_variant_name": {
+      "Detailed": "Detailed"
+    },
+    "scene_name": {
+      "balloons": "Balloons",
+      "fairies": "Fairies",
+      "highway": "Highway",
+      "space": "Space"
+    }
+  }
+}

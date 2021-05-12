@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
+import json
 import os
 import shutil
 import subprocess
@@ -9,8 +10,15 @@ import sys
 
 DOCUMENT_ROOT = os.path.dirname(os.path.abspath(sys.argv[0]))
 IMAGE_DIR = os.path.join(DOCUMENT_ROOT, 'images')
+PYTHON_SOURCE_DIR = os.path.join(DOCUMENT_ROOT, 'functions')
+CONFIG_FILE = os.path.join(DOCUMENT_ROOT, 'config.json')
 CONVERT = '/usr/bin/convert'
 WIDTH_SMALL = 200
+
+with open(CONFIG_FILE) as f:
+    CONFIG = json.loads(f.read())
+
+LANGUAGES = [CONFIG['default_l10n']] + CONFIG['additional_l10ns']
 
 
 def run_command(command):
@@ -33,13 +41,19 @@ def generate_small_image(source, target):
     return generate_resized_image(source, target, WIDTH_SMALL)
 
 
-def copy_image(source, target_name=None, target_dir=IMAGE_DIR,
-               small=False):
+def copy_file(source, target_dir=DOCUMENT_ROOT, target_name=None):
     if target_name is None:
         target_name = os.path.basename(source)
     target = os.path.join(target_dir, target_name)
     os.makedirs(target_dir, exist_ok=True)
     shutil.copy2(source, target)
+    return (target, target_dir, target_name)
+
+
+def copy_image(source, target_dir=IMAGE_DIR, target_name=None,
+               small=False):
+    (_, _, target_name) = copy_file(
+        source, target_dir=target_dir, target_name=target_name)
 
     if small:
         resized_name = target_name.rsplit('.', 1)[0] + '-small.jpg'
@@ -56,12 +70,30 @@ def process_scanarium_dir(dir):
             target_dir = os.path.join(IMAGE_DIR, 'scenes', scene)
             copy_image(scene_file, target_dir=target_dir, small=True)
 
+    groups = []
+    for (name, group) in [
+        ('LocalizerFactory.py', 'translate'),
+        ('Localizer.py', 'translate'),
+        ('MessageFormatter.py', 'translate'),
+            ]:
+        copy_file(os.path.join(dir, 'scanarium', name),
+                  target_dir=os.path.join(PYTHON_SOURCE_DIR, group))
+        if group not in groups:
+            init_file = os.path.join(PYTHON_SOURCE_DIR, group, '__init__.py')
+            open(init_file, 'w').close()
+            groups.append(group)
+
+    for language in LANGUAGES:
+        copy_file(os.path.join(dir, 'localization', f'{language}.json'),
+                  target_dir=os.path.join(PYTHON_SOURCE_DIR, 'translate',
+                                          'localizations'))
+
 
 def process_scanarium_support_dir(dir):
     name = os.path.join(
         dir, 'avatar',
         'avatar-ohne-hintergrund-ohne-schwarzem-rand-mit-schatten.png')
-    copy_image(name, 'logo-big.png')
+    copy_image(name, target_name='logo-big.png')
 
 
 def process_scanarium_homepage_dir(dir):
