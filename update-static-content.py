@@ -95,6 +95,10 @@ def process_scanarium_support_dir(dir):
         'avatar-ohne-hintergrund-ohne-schwarzem-rand-mit-schatten.png')
     copy_image(name, target_name='logo-big.png')
 
+    dir_handbook = os.path.join(dir, 'handbook', 'images')
+    for file in os.listdir(dir_handbook):
+        copy_image(os.path.join(dir_handbook, file), small=True)
+
 
 def process_scanarium_homepage_dir(dir):
     for image in [

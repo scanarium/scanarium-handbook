@@ -67,3 +67,9 @@ h3 {
     text-align: center;
     align: center;
 }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
