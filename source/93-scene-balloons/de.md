@@ -11,4 +11,3 @@ Und wenn ihr's ein wenig wilder mögt, dann malt zusätzlich noch Vögel aus. Di
 
 id:scene-balloons
 version: 2
-scene-translated:Luftballons

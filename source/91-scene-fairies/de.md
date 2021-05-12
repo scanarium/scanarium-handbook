@@ -9,4 +9,3 @@ Eure ausgemalten Figuren fliegen über den Himmel, flattern mit den Flügeln und
 
 id:scene-fairies
 version:2
-scene-translated:Feenwelt
