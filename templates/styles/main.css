@@ -193,7 +193,7 @@ ul.toc-collapsed {
     }
 
     #toc-container {
-        display: none
+        display: none;
         border: 1em solid green;
     }
 
@@ -224,7 +224,7 @@ ul.toc-collapsed {
     }
 
     #toc-container {
-        display: none
+        display: none;
         border: 1em solid green;
     }
 
