@@ -186,3 +186,11 @@ function addTableOfContents() {
 document.addEventListener ("DOMContentLoaded", () => {
 	addTableOfContents();
 });
+
+window.addEventListener ("load", () => {
+        if (!window.matchMedia('(max-width: 90em)').matches) {
+            // Document is wide enough, so let's default to showing the table
+            // of contents.
+            document.body.classList.toggle('toc-open');
+        }
+});
