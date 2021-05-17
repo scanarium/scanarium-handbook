@@ -25,4 +25,4 @@ Und genauso wie wir's hier bei der Blumenfee gesehen haben ist's auch bei den an
 Steht „mit Details” im Namen mit dabei, sind schon mehr Sachen im Ausmalbild vorgegeben.
 Fehlt das „mit Details” im Namen, gibt's weniger Vorgaben und man kann sich selber ausdenken, wie es aussehen soll.
 
-id:scene-fairies-each-coloring-page-twice
+version:1

@@ -1,3 +1,3 @@
 # Fotografieren / Einscannen der Bilder?
 
-id:scanning
+version:1

@@ -1,3 +1,3 @@
 # Unterstützte Geräte
 
-id:introduction
+version:1

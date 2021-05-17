@@ -11,5 +11,4 @@ Die Einsatzfahrzeuge fahren manchmal normal und manchmal mit Blaulicht.
 {=macro(scene-links-localized)}
 
 
-id:scene-highway
-version:2
+version:2.1

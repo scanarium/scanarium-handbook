@@ -7,5 +7,4 @@ Eure ausgemalten Figuren fliegen über den Himmel, flattern mit den Flügeln und
 {=macro(scene-links-localized)}
 
 
-id:scene-fairies
-version:2
+version:2.1

@@ -6,4 +6,4 @@
 * [Scanarium bei Twitter](https://twitter.com/scanarium/)
 * [Scanarium bei YouTube](https://www.youtube.com/channel/UCTwq7yR9KomRJythLrmhSyA)
 
-id:links
+version:1

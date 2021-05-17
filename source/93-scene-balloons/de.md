@@ -9,5 +9,4 @@ Und wenn ihr's ein wenig wilder mögt, dann malt zusätzlich noch Vögel aus. Di
 {=macro(scene-links-localized)}
 
 
-id:scene-balloons
-version: 2
+version: 2.1

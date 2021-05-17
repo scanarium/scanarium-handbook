@@ -18,5 +18,4 @@ Bei diesen Bildern weiß Scanarium, wo der Text steht und kann ihn deswegen beim
 Deswegen kann man eine Aufschrift, die ihr auf die Plane des Lastwagens draufmalt, nur gut lesen, wenn der Lastwagen von rechts nach links fährt.
 Aber die „POLIZEI” Aufschrift auf dem Polizeiauto kann man gut lesen, egal ob es von rechts nach links oder von links nach rechts fährt.
 
-id:scene-highway-writing-mirrored
-version: 1
+version: 1.1
