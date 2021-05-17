@@ -192,11 +192,6 @@ ul.toc-collapsed {
         width: 95%;
     }
 
-    #toc-container {
-        display: none;
-        border: 1em solid green;
-    }
-
     .toc-open #toc-container {
         width: 100%;
         height: 40%;
@@ -221,11 +216,6 @@ ul.toc-collapsed {
 
     .toc-open .content-positioner {
         left: 30%;
-    }
-
-    #toc-container {
-        display: none;
-        border: 1em solid green;
     }
 
     .toc-open #toc-container {
