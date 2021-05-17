@@ -172,9 +172,7 @@ function addTableOfContents() {
     tocToggle.id = 'toc-toggle';
     tocToggle.src = 'images/toc-bullet-plus.svg';
     tocToggle.onclick = function() {
-        console.log('click');
         document.body.classList.toggle('toc-open');
-        console.log('click done');
     };
 
     tocContainer.appendChild(tocToggle);
