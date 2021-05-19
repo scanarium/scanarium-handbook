@@ -14,6 +14,7 @@
         "html-template-file": "{conf_dir}/templates/html-template.html"
     },
     "macros": {
+        "node-link": "[{=nodeTitle($1)}](#$1)",
         "scene-header-image": "{=macro(zoomable-image-left, Screenshot {=property(scene-translated)},images/scenes/{=property(scene)}/scene-bait.png)}",
         "scene-header-text-de": "In der {=property(scene-translated)}-Szene könnt ihr $* ausmalen.",
         "scene-header-localized": "{=macro(scene-header-image)}\n{=macro(scene-header-text-{=property(language)},$*)}\n\n",
