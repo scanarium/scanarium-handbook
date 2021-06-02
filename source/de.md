@@ -5,7 +5,8 @@
 (Version {=property(build_day_iso)}, {=property(build_git_description)} )
 {: class=centered}
 
-_Dieses Dokument ist noch ein Platzhalter. Bei Fragen zu Scanarium, wende dich direkt an [christian@scanarium.at](mailto:christian@scanarium.at)_
+_Dieses Dokument ist noch ein Platzhalter. Bei Fragen zu Scanarium, wende dich direkt an {=macro(help-email-link)}_
 
 id:root
-version:6
+version:6.1
+help-email-address:hilfe@scanarium.com
