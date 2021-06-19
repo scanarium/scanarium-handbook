@@ -6,6 +6,7 @@
         "en"
     ],
     "resources": [
+        "{conf_dir}/favicons/*",
         "{conf_dir}/images",
         "{conf_dir}/templates/styles",
         "{conf_dir}/templates/scripts"
