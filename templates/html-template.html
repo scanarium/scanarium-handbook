@@ -23,6 +23,49 @@
 <a href="https://www.youtube.com/channel/UCTwq7yR9KomRJythLrmhSyA"><img class="text-icon" src="images/youtube.png" alt="YouTube icon"/></a>
 </p>
 
+  <div id="top-language-selector">
+    <script>
+var pathname_in_language = function (pathname, language) {
+  if (pathname.substring(pathname.length - 1, pathname.length) == '/') {
+    pathname += 'index.html.' + language;
+  } else {
+    pathname = location.pathname.replace(/\.[a-z]+$/i, '.' + language);
+  }
+  return pathname;
+}
+
+var languagePicked = function() {
+  var element = document.getElementById('top-language-selector-select');
+  var newLanguage = (element || {}).value;
+  if (newLanguage) {
+    var location = document.location;
+    location.pathname = pathname_in_language(location.pathname, newLanguage);
+  }
+}
+    </script>
+    <img id="top-language-selector-img" src="images/language-selector.png"></img>
+    <select id="top-language-selector-select" name="language" class="seethrough" onchange="languagePicked()" oninput="languagePicked()">
+<!-- LANGUAGE-OPTION -->
+    </select>
+<script>
+const languagesString = "{=property(build_localizations)}";
+const currentLanguage = "{=property(language)}";
+var languages = languagesString.split(",");
+languages.sort();
+var topLanguageSelectorSelect = document.getElementById("top-language-selector-select");
+languages.forEach(language => {
+  var option = document.createElement("option");
+  option.value = language;
+  if (language == currentLanguage) {
+    option.selected = "selected";
+  }
+  var text = language;
+  option.appendChild(document.createTextNode(text));
+  topLanguageSelectorSelect.appendChild(option);
+});
+</script>
+  </div>
+
     </div>
     <div class="content-positioner">
       <div class="content">
@@ -84,10 +127,6 @@ var pathname_in_language = function (pathname, language) {
 }
 
 const separator = " | ";
-const languagesString = "{=property(build_localizations)}";
-const currentLanguage = "{=property(language)}";
-var languages = languagesString.split(",");
-languages.sort();
 var languageTextLinks = document.getElementById("language-text-links");
 if (languages.length > 0) {
   languageTextLinks.appendChild(document.createTextNode(separator));

@@ -104,6 +104,7 @@ def process_scanarium_homepage_dir(dir):
     for image in [
         'facebook',
         'instagram',
+        'language-selector',
         'scanarium',
         'twitter',
         'youtube',

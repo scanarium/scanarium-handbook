@@ -204,6 +204,33 @@ ul.toc-collapsed {
   padding-right: 0.5em;
 }
 
+#top-language-selector {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  z-index: 20;
+}
+
+#top-language-selector-img, #top-language-selector-select {
+  position: fixed;
+  right: 1.4em;
+  top: 2.2rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+#top-language-selector-img {
+  z-index: 30;
+}
+
+#top-language-selector-select {
+  z-index: 40;
+}
+
+.seethrough {
+  opacity: 0;
+}
+
 @media print {
     #toc-container, .top-icon-list {
         display: none;
