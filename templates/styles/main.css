@@ -108,12 +108,20 @@ h3 {
     border-radius: 0.5em;
 }
 
+.toc-label-indented {
+    display: flex;
+}
+
 .toc-label-selected {
     background: #35c8ff;
 }
 
 .toc-label:hover {
     background: #9ef2f9;
+}
+
+.toc-text-indented {
+    flex: auto;
 }
 
 #toc {
@@ -145,9 +153,14 @@ ul.toc-collapsed {
 
 .toc-bullet {
     width: 1.5em;
+    height: 1.5em;
     cursor: pointer;
     padding-right: 0em;
     vertical-align: middle;
+}
+
+.toc-bullet-indented {
+    flex: none;
 }
 
 .big-image {

@@ -93,12 +93,18 @@ function selectTocListItem(item) {
     }
 }
 
-function tocToElement(tocObj) {
+function tocToElement(tocObj, indented) {
     var element = document.createElement('li');
     element.className = 'toc-item-l' + (tocObj.level);
 
     var label = document.createElement('div');
     label.className = 'toc-label toc-label-l' + (tocObj.level);
+    var classList = label.classList;
+    classList.add('toc-label')
+    classList.add('toc-label-l' + tocObj.level);
+    if (indented){
+        classList.add('toc-label-indented');
+    }
     label.onclick = function(e) {
         if (tocObj.level == 1) {
             document.body.classList.toggle('toc-open');
@@ -112,8 +118,11 @@ function tocToElement(tocObj) {
     }
 
     var bullet = document.createElement('img');
-    var classList = bullet.classList;
+    classList = bullet.classList;
     classList.add('toc-bullet');
+    if (indented){
+        classList.add('toc-bullet-indented');
+    }
     if (tocObj.level == 1) {
         bullet.src = 'images/toc-bullet-minus.svg';
     } else {
@@ -128,7 +137,11 @@ function tocToElement(tocObj) {
     }
     label.appendChild(bullet);
 
-    var labelText = document.createTextNode(tocObj.name ? tocObj.name : '---');
+    var labelText = document.createElement('span');
+    if (indented) {
+        labelText.classList.add('toc-text-indented');
+    }
+    labelText.appendChild(document.createTextNode(tocObj.name ? tocObj.name : '---'));
     label.appendChild(labelText);
 
 
@@ -150,7 +163,7 @@ function tocToElement(tocObj) {
             subelements.className = 'toc-collapsed';
         }
         tocObj.subnodes.forEach(subnode => {
-            subelements.appendChild(tocToElement(subnode));
+            subelements.appendChild(tocToElement(subnode, indented));
         });
 
         element.appendChild(subelements);
@@ -159,11 +172,12 @@ function tocToElement(tocObj) {
 }
 
 function addTableOfContents() {
+    const indented = true;
     var tree = scrapeTocObjFromDocument();
 
     var toc = document.createElement('ul');
     toc.id = 'toc';
-    toc.appendChild(tocToElement(tree));
+    toc.appendChild(tocToElement(tree, indented));
 
     var tocContainer = document.createElement('div');
     tocContainer.id = 'toc-container';
