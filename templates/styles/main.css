@@ -152,8 +152,8 @@ ul.toc-collapsed {
 }
 
 .toc-bullet {
-    width: 1.5em;
-    height: 1.5em;
+    width: 1.1em;
+    height: 1.1em;
     cursor: pointer;
     padding-right: 0em;
     vertical-align: middle;

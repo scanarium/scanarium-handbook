@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="320"
-   height="320"
+   width="240"
+   height="240"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
@@ -24,7 +24,7 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
+     inkscape:zoom="3.5390625"
      inkscape:cx="103.08597"
      inkscape:cy="120.75083"
      inkscape:document-units="px"
@@ -51,7 +51,7 @@
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-732.3622)">
+     transform="translate(0,-812.3622)">
     <path
        sodipodi:type="star"
        style="color:#000000;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:#333333;stroke-width:11.86805153;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -67,7 +67,7 @@
        inkscape:rounded="0"
        inkscape:randomized="0"
        d="m -63.036205,86.349266 -5e-6,102.705514 -88.94558,-51.35276 -88.94558,-51.35276 88.94558,-51.352749 88.94559,-51.352753 z"
-       transform="matrix(0,-0.6536721,-0.65454621,0,216.51959,793.01595)"
+       transform="matrix(0,-0.6536721,-0.65454621,0,176.51959,833.01595)"
        inkscape:transform-center-y="-18.793791" />
   </g>
 </svg>
