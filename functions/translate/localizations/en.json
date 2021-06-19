@@ -50,13 +50,6 @@
       "WoodFairy": "Wood Fairy",
       "ZaggedButterfly": "Zagged Butterfly"
     },
-    "cgi_name": {
-      "regenerate-static-content": "Regenerate static content",
-      "reindex": "Reindex",
-      "reset-dynamic-content": "Reset dynamic content",
-      "scan": "Scan",
-      "show-source": "Show source"
-    },
     "command_label": {
       "command": "Command",
       "scene": "Scene"
@@ -74,6 +67,28 @@
       "de": "German",
       "en": "English",
       "eo": "Esperanto"
+    },
+    "method_name": {
+      "regenerate-static-content": "Regenerate static content",
+      "reindex": "Reindex",
+      "reset-dynamic-content": "Reset dynamic content",
+      "scan": "Scan",
+      "scan-data": "Upload",
+      "show-source": "Show source"
+    },
+    "month": {
+      "1": "January",
+      "10": "October",
+      "11": "November",
+      "12": "December",
+      "2": "February",
+      "3": "March",
+      "4": "April",
+      "5": "May",
+      "6": "June",
+      "7": "July",
+      "8": "August",
+      "9": "September"
     },
     "parameter_label": {
       "actor": "Actor",
