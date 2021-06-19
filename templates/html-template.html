@@ -48,10 +48,17 @@ var languagePicked = function() {
 <!-- LANGUAGE-OPTION -->
     </select>
 <script>
+const languageMatrixString = "{=dumpLanguageMatrix({=property(build_localizations)})}";
+var languageMatrix = {}
+languageMatrixString.split(',').forEach(pair => {
+  const keyValue = pair.split(':', 2);
+  languageMatrix[keyValue[0]] = keyValue[1];
+});
 const languagesString = "{=property(build_localizations)}";
 const currentLanguage = "{=property(language)}";
 var languages = languagesString.split(",");
 languages.sort();
+
 var topLanguageSelectorSelect = document.getElementById("top-language-selector-select");
 languages.forEach(language => {
   var option = document.createElement("option");
@@ -60,6 +67,10 @@ languages.forEach(language => {
     option.selected = "selected";
   }
   var text = language;
+  var matrixKey = currentLanguage + '-' + language;
+  if (matrixKey in languageMatrix) {
+    text = language + ' - ' + languageMatrix[matrixKey];
+  }
   option.appendChild(document.createTextNode(text));
   topLanguageSelectorSelect.appendChild(option);
 });
@@ -145,6 +156,10 @@ if (languages.length > 0) {
       container.href = location.protocol + '//' +location.host + pathname_in_language(location.pathname, language) + location.search + location.hash;
     }
     var text = language;
+    var matrixKey = language + '-' + language;
+    if (matrixKey in languageMatrix) {
+      text = languageMatrix[matrixKey] + ' (' + language + ')';
+    }
     container.appendChild(document.createTextNode(text));
     languageTextLinks.appendChild(container);
 
