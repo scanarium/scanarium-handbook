@@ -69,6 +69,59 @@
 <h3 id="chapter4.3" class="document-generator-node">Chapter 4.3</h3>
 <p>Some content</p>
 <!-- FOOTER-START -->
+<div class="footer">
+<p id="language-text-links">
+<!-- LANGUAGE-TEXT-LINKS -->
+</p>
+<script>
+var pathname_in_language = function (pathname, language) {
+  if (pathname.substring(pathname.length - 1, pathname.length) == '/') {
+    pathname += 'index.html.' + language;
+  } else {
+    pathname = location.pathname.replace(/\.[a-z]+$/i, '.' + language);
+  }
+  return pathname;
+}
+
+const separator = " | ";
+const languagesString = "{=property(build_localizations)}";
+const currentLanguage = "{=property(language)}";
+var languages = languagesString.split(",");
+languages.sort();
+var languageTextLinks = document.getElementById("language-text-links");
+if (languages.length > 0) {
+  languageTextLinks.appendChild(document.createTextNode(separator));
+  const location = document.location;
+  languages.forEach((language, index) => {
+    var container;
+    if (language == currentLanguage) {
+      var container = document.createElement("span");
+      container.className = "selected";
+    } else {
+      var container = document.createElement("a");
+      container.className = "language-text-link";
+      // We want this to work with `file://` urls, so we cannot use
+      // location.origin directly, as this is browser dependent for
+      // `file://` URLs (E.g.: protocol part is null for Firefox)
+      container.href = location.protocol + '//' +location.host + pathname_in_language(location.pathname, language) + location.search + location.hash;
+    }
+    var text = language;
+    container.appendChild(document.createTextNode(text));
+    languageTextLinks.appendChild(container);
+
+    languageTextLinks.appendChild(document.createTextNode(separator));
+  })
+}
+
+window.onhashchange = function() {
+  for (const link of document.getElementsByClassName('language-text-link')) {
+    link.href = link.href.replace(/#.*$/, '') + document.location.hash;
+  }
+}
+window.onhashchange();
+</script>
+  <p class="impressum"><a href="https://quelltextlich.at/impressum.html">Impressum</a></p>
+</div>
       </div>
     </div>
   </body>

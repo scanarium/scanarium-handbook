@@ -178,6 +178,32 @@ ul.toc-collapsed {
     display: table;
 }
 
+.footer {
+    width: 100%;
+    background-color: #35c8ff;
+    margin-top: 10em;
+    padding: 0.2em 0em;
+}
+
+.footer a, .footer a:visited {
+    color: #fff;
+    border-radius: 0.2em;
+    padding: 0.2em 0.2em;
+}
+
+.footer a:hover {
+    background: #027dfd;
+}
+
+.footer #language-text-links {
+    text-align: center;
+}
+
+.impressum {
+  text-align:right;
+  padding-right: 0.5em;
+}
+
 @media print {
     #toc-container, .top-icon-list {
         display: none;
