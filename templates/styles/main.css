@@ -72,7 +72,7 @@ h3 {
     box-sizing: border-box;
     overflow-y: auto;
     z-index: 20;
-    background: white;
+    background: #f2f2f2;
 }
 
 .toc-open #toc-container {
@@ -202,6 +202,7 @@ ul.toc-collapsed {
         height: 40%;
         border-bottom: 0.2em solid black;
         border-right: none;
+        background: white;
     }
 
     .toc-open #toc {
