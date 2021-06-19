@@ -38,13 +38,16 @@ h1 {
 }
 
 h2 {
-  margin-top: 3em;
-  padding-top: 1em;
+  margin-top: 7em;
+  padding: 1em;
+  background: #9ae4ff;
+  border-radius: 0.1em;
 }
 
 h3 {
   margin-top: 2em;
   padding-top: 1em;
+  border-bottom: 0.1em solid #35c8ff;
 }
 
 .top-icon-list {
