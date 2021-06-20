@@ -1,3 +1,3 @@
-# Fotografieren / Einscannen der Bilder?
+# Fotografieren / Einscannen der Bilder
 
-version:1
+version:1.001
