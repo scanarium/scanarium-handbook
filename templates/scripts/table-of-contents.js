@@ -91,11 +91,19 @@ function selectTocListItem(item) {
             });
         }
     }
+
+    // And uncollapse parents, so we can see the node
+    var node = item;
+    while (node && node.id != 'toc') {
+        node.classList.remove('toc-collapsed');
+        node = node.parentNode;
+    }
 }
 
 function tocToElement(tocObj, indented) {
     var element = document.createElement('li');
     element.className = 'toc-item-l' + (tocObj.level);
+    element.id = 'toc-item-' + tocObj.id;
 
     var label = document.createElement('div');
     label.className = 'toc-label toc-label-l' + (tocObj.level);
@@ -197,8 +205,24 @@ function addTableOfContents() {
     document.body.appendChild(tocContainer);
 }
 
+function openHashInTableOfContents() {
+    const hash = document.location.hash;
+    if (hash) {
+        const targetId = 'toc-item-' + hash.substring(1);
+        var node = document.getElementById(targetId);
+        if (node) {
+            selectTocListItem(node);
+        }
+    }
+}
+
+window.addEventListener ("hashchange", () => {
+	openHashInTableOfContents();
+});
+
 document.addEventListener ("DOMContentLoaded", () => {
 	addTableOfContents();
+        openHashInTableOfContents();
 });
 
 window.addEventListener ("load", () => {
