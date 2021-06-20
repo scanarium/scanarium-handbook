@@ -21,7 +21,7 @@ body {
     overflow-y: auto;
 }
 
-.content {
+#content {
   width: 44em;
   margin-left:auto;
   margin-right:auto;
@@ -280,7 +280,7 @@ a.clickable-heading-link, a.clickable-heading-link:hover, a.clickable-heading-li
         top: 40%;
     }
 
-    .content {
+    #content {
         width: 95%;
     }
 
@@ -303,7 +303,7 @@ a.clickable-heading-link, a.clickable-heading-link:hover, a.clickable-heading-li
 }
 
 @media (max-width: 90em) and (orientation: landscape) {
-    .content {
+    #content {
         width: 95%;
     }
 
