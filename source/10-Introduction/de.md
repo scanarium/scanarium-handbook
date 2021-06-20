@@ -1,6 +1,11 @@
 # Was ist Scanarium und wie funktioniert's?
 
-Scanarium ist ein _Ausmalspiel für junge, kreative Zeichner:innen und Maler:innen_.
+Scanarium ist ein _Ausmalspiel für junge, kreative Kinder, die gerne zeichnen oder malen_.
+
+{=macro(todo, Da wäre: „für junge, kreative Zeichner:innen und Maler:innen” irgendwie schöner)}
+
+{=macro(todo, Vielleict: „für junge Kreative, die gerne zeichnen oder malen”?)}
+
 
 Es passt perfekt vom Kindergartenstart bis zum frühen Volksschulalter.
 
@@ -12,6 +17,6 @@ So funktioniert's:
 
 ![Scanarium worflow](images/bait.gif){: class=big-image}
 
-So beginnen die [Autos](https://demo.scanarium.com/?scene=highway) von euren Ausmalbildern zu fahren, oder [Raumschiffe](https://demo.scanarium.com/?scene=space) und [Vögel](https://demo.scanarium.com/?scene=balloons) zu fliegen.
+So beginnen die [Autos](https://demo.scanarium.com/?scene=highway) aus euren Ausmalbildern zu fahren, oder eure [Raumschiffe](https://demo.scanarium.com/?scene=space) und [Vögel](https://demo.scanarium.com/?scene=balloons) zu fliegen.
 
-version:1.001
+version:1.002
