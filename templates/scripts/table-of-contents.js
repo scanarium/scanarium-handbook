@@ -63,7 +63,7 @@ function scrapeTocObjFromDocument() {
     return tree;
 }
 
-function selectTocListItem(item) {
+function selectTocListItem(item, forceOpen) {
     var toc = document.getElementById('toc');
 
     var isFirstSelect = true;
@@ -81,7 +81,7 @@ function selectTocListItem(item) {
         classLists.push(subnodeList.classList);
     }
     if (!item.classList.contains('toc-item-l1')) {
-        if (isFirstSelect) {
+        if (isFirstSelect || forceOpen) {
             classLists.forEach(classList => {
                 classList.remove('toc-collapsed');
             });
@@ -211,7 +211,7 @@ function openHashInTableOfContents() {
         const targetId = 'toc-item-' + hash.substring(1);
         var node = document.getElementById(targetId);
         if (node) {
-            selectTocListItem(node);
+            selectTocListItem(node, true);
         }
     }
 }
