@@ -51,9 +51,10 @@ h3 {
 }
 
 .top-icon-list {
-  margin: 0.3em 1.3em 0em auto;
-  width: 33%;
-  right: 0px;
+  position: fixed;
+  margin: 0em;
+  top: 0.2rem;
+  right: 1.4em;
   padding: 0.2em;
   text-align:right;
 }
