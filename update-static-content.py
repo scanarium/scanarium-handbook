@@ -69,6 +69,7 @@ def process_scanarium_dir(dir):
             scene_file = os.path.join(scene_dir, 'scene-bait.png')
             target_dir = os.path.join(IMAGE_DIR, 'scenes', scene)
             copy_image(scene_file, target_dir=target_dir, small=True)
+    copy_image(os.path.join(dir, 'docs', 'images', 'bait.gif'))
 
     groups = []
     for (name, group) in [

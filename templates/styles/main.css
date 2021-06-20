@@ -189,6 +189,7 @@ a.clickable-heading-link, a.clickable-heading-link:hover, a.clickable-heading-li
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+  padding: 1em 0em;
 }
 
 .left-image {
