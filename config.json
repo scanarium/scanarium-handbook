@@ -23,6 +23,7 @@
         "scene-links": "[![YouTube icon](images/youtube.png){: class=text-icon} $1](https://www.youtube.com/watch?v={=property(youtube-demo-video-id)}&list=PL-o9mFmKUyeaNl0TSucCBEsVJLK6gcZdZ)\\n\\n[![Scanarium icon](images/scanarium.png){: class=text-icon} $2](https://demo.scanarium.com/?scene={=property(scene)})\\n\\n[![Coloring page icon](images/coloring-page.png){: class=text-icon} $3](https://scanarium.com/#pdfs-{=property(scene)})",
         "scene-links-de": "{=macro(scene-links, Demo Video bei YouTube, Live Demo, Ausmalbilder für diese Szene)}",
         "scene-links-localized": "{=macro(scene-links-{=property(language)})}",
+        "todo": "\n\n(todo) $*\n{: class=todo}\n\n",
         "zoomable-image-left": "[![$1]({=substring($2,,-4)}-small.jpg){: class=left-image }]($2)"
     },
     "external_functions": {

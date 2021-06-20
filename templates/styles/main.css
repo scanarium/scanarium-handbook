@@ -212,6 +212,10 @@ a.clickable-heading-link, a.clickable-heading-link:hover, a.clickable-heading-li
     display: table;
 }
 
+.todo {
+    background-color: #ff0;
+}
+
 .footer {
     width: 100%;
     background-color: #35c8ff;
