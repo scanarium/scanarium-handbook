@@ -1,7 +1,9 @@
-# Muss ich ein Programm installieren?
+# Muss ich ein Programm oder eine App installieren?
 
-Nein, du musst kein eigenes Programm installieren, um Scanarium spielen zu können.
+Nein, für Scanarium du musst kein eigenes Programm installieren und auch keine App.
 
-Ein normaler Browser (Chrome, Firefox, Edge,…) mit Internet-Zugang reicht um loszulegen.
+Ein normaler Browser (Chrome, Firefox, Edge,…) mit Internet-Zugang reicht.
 
-version: 1.001
+Probier's gleich auf unsere [Demo Seite](https://demo.scanarium.com/) aus.
+
+version: 1.002
