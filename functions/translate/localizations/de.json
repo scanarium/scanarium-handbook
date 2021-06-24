@@ -21,6 +21,7 @@
     "All coloring pages": "Alle Ausmalbilder",
     "All scenes got reset": "Alle Szenen wurden zurückgesetzt",
     "All {scene_name} coloring pages": "Alle {scene_name} Ausmalbilder",
+    "Apply settings": "Änderungen anwenden",
     "Applying the changes requires to automatically reload the page": "Um die Änderungen anwenden zu können, ist ein automatisches Neu-laden der Seite notwendig.",
     "Archive {year}": " Archiv {year}",
     "Attachment": "Anhang",
@@ -41,6 +42,7 @@
     "Downloading coloring page \"{actor_name}\" might close this page.": "Das Herunterladen des Ausmalbilds \"{actor_name}\" kann unter Umständen diese Seite schließen.",
     "Dynamic config \"{file}\" cannot be read": "Dynamische Konfigurationsdatei \"{file}\" kann nicht gelesen werden",
     "Dynamic config \"{file}\" is not available": "Dynamische Konfigurationsdatei \"{file}\" ist nicht verfügbar",
+    "Email": "E-mail",
     "Empty configuration entry at \"{key}\" in \"{section}\"": "Konfiguration von \"{key}\" in \"{section}\" is leer",
     "Enter/leave fullscreen mode": "Vollbild-Modus umschalten",
     "Exception marked as skipped": "Ausnahme ist übersprungen markiert",
@@ -65,6 +67,7 @@
     "If you run into issues, or your pictures fail to scan please let us know through email to {email} or use this form:": "Wenn etwas nicht funktioniert oder das Scannen deiner Bilder nicht klappt, schick uns bitte eine Email an {email} oder melde es über dieses Formular:",
     "If you run into issues, or your pictures fail to scan please report them using this form:": "Wenn etwas nicht funktioniert oder das Scannen deiner Bilder nicht klappt, melde es bitte über dieses Formular:",
     "Image is too small. Minimum width is {min_width} pixels": "Bild ist zu klein. Mindestbreite ist {min_width} Pixel",
+    "Imprint": "Impressum",
     "Include last failed upload": "Letztes fehlgeschlagenes Bild mitschicken",
     "Intentional error from the \"debug:fail\" command": "Absichtlicher Fehler vom Kommando \"debug:fail\"",
     "Invalid value": "Ungültiger Wert",
@@ -89,6 +92,8 @@
     "Paused": "Pause",
     "QR code contains misformed data": "QR-Code enthält ungültige Daten",
     "Really reset the scene \"{scene_name}\", delete this scenes' scanned actors, and start afresh? (This cannot be undone)": "Die Szene \"{scene_name}\" wirklich zurücksetzen, eingescannte Figuren löschen und neu starten? (Dies kann nicht rückgängig gemacht werden)",
+    "Received status {actual_status} instead of {expected_status}": "Antwortstatus war {actual_status} statt {expected_status}",
+    "Redirection after logout.": "Weiterleitung nach Ausloggen.",
     "Reindex actors": "Gespeicherte Zeichnungen neu indexieren",
     "Reset scene \"{scene_name}\"": "Szene \"{scene_name}\" zurücksetzen",
     "Resetting all scenes failed": "Zurücksetzen der Szenen schlug fehl",
@@ -133,16 +138,19 @@
     "Upload of \"{image_name}\" started": "Hochladen von \"{image_name}\" gestartet",
     "User interface": "Benutzeroberfläche",
     "Welcome to Scanarium!": "Willkommen bei Scanarium!",
+    "Write us an email!": "Schreib uns!",
     "Yearly Archives": "Archiv für einzelne Jahre",
     "fps: {fps}": "Bilder/s: {fps}",
     "more": "mehr",
     "undefined error": "Unbekannter Fehler",
+    "when an actor of a different scene got scanned": "Durch Scannen einer Figur aus einer anderen Szene",
     "your.address@example.org": "deine.adresse@beispiel.org",
     "{PoliceCar-Decal}": "P O L I Z E I",
     "{command_name} command failed": "Kommando {command_name} schlug fehl",
     "{command_name} command ok": "Kommando {command_name} ok",
     "{method_name} failed": "Fehler beim {method_name}",
     "{method_name} ok": "{method_name} ok",
+    "{method_name} started": "{method_name} gestartet",
     "{month} {day}, {year}": "{day}. {month} {year}",
     "{parameter_name} ({parameter_variant_name})": "{parameter_name} mit {parameter_variant_name}",
     "↓↓↓ Insert coloring pages below ↓↓↓": "↓↓↓ Ausgemalte Bilder hier unten ins Fach einlegen ↓↓↓"
@@ -212,6 +220,7 @@
       "eo": "Esperanto"
     },
     "method_name": {
+      "logout": "Ausloggen",
       "regenerate-static-content": "Neu-Erzeugung der statischen Inhalte",
       "reindex": "Reindexierung",
       "report-feedback": "Feedback-Einsendung",
@@ -238,7 +247,8 @@
     "page_title": {
       "Administration": "Verwaltung",
       "General": "Allgemein",
-      "Help": "Hilfe"
+      "Help": "Hilfe",
+      "Logout": "Ausloggen"
     },
     "parameter_label": {
       "actor": "Figur",
@@ -266,6 +276,9 @@
       "Homepage": "Homepage",
       "Instagram": "Instagram",
       "Twitter": "Twitter"
+    },
+    "url-description": {
+      "imprint": "Impressum"
     }
   }
 }
