@@ -13,8 +13,8 @@ Dann musst du nur noch zugucken und dich freuen... und natürlich noch viel mehr
 
 Hier gibt's auch noch Anleitungsvideos:
 
-[![YouTube icon](images/youtube.png){: class=text-icon} Anleitung für Tablet/Handy](https://www.youtube.com/watch?v=FIYDL830S-Y&list=PL-o9mFmKUyebsYSo_hhymaLoi2dhylJuk)
+{=macro(linked-text-icon, YouTube, Anleitung für Tablet/Handy, https://www.youtube.com/watch?v=FIYDL830S-Y&list=PL-o9mFmKUyebsYSo_hhymaLoi2dhylJuk)}
 
-[![YouTube icon](images/youtube.png){: class=text-icon} Anleitung für Laptop/PC](https://www.youtube.com/watch?v=akekQRD-kuw&list=PL-o9mFmKUyebsYSo_hhymaLoi2dhylJuk)
+{=macro(linked-text-icon, YouTube, Anleitung für Laptop/PC, https://www.youtube.com/watch?v=akekQRD-kuw&list=PL-o9mFmKUyebsYSo_hhymaLoi2dhylJuk)}
 
-version: 1.0002
+version: 1.0003
