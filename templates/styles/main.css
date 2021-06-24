@@ -329,3 +329,8 @@ a.clickable-heading-link, a.clickable-heading-link:hover, a.clickable-heading-li
         height: 3em;
     }
 }
+
+/* Rules specific to handbook *************************************************/
+#links + ul li {
+    padding: 0.4em 0em;
+}
