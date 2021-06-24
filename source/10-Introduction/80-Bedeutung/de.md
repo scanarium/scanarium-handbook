@@ -1,5 +1,5 @@
 # Was bedeutet "Scanarium"?
 
-Scanarium setzt sich zusammen aus *Scan*nen und Aqu*arium*. Scanarium ist also ein Lebensraum für eingescannte Lebewesen :)
+Scanarium (ausgesprochen „Skenarium”) setzt sich zusammen aus *Scan*nen und Aqu*arium*. Scanarium ist also ein Lebensraum für eingescannte Lebewesen :)
 
-version: 1.001
+version: 1.002
