@@ -334,3 +334,7 @@ a.clickable-heading-link, a.clickable-heading-link:hover, a.clickable-heading-li
 #links + ul li {
     padding: 0.4em 0em;
 }
+
+.source-file {
+    font-family: monospace;
+}
