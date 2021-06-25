@@ -1,5 +1,4 @@
-# Was ist Scanarium und wie funktioniert's?
-{=macro(todo, Wär's besser oben einfach „Was ist Scanarium?” zu schreiben? Weil kürzer.)}
+# Was ist Scanarium?
 
 Scanarium ist ein _Ausmalspiel für junge, kreative Kinder, die gerne zeichnen oder malen_.
 
@@ -22,4 +21,4 @@ So funktioniert's:
 
 So beginnen die [Autos](https://demo.scanarium.com/?scene=highway) aus euren Ausmalbildern zu fahren, oder eure [Raumschiffe](https://demo.scanarium.com/?scene=space) und [Vögel](https://demo.scanarium.com/?scene=balloons) zu fliegen.
 
-version:1.003
+version:1.004
