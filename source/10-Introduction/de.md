@@ -18,5 +18,6 @@ So funktioniert's:
 ![Scanarium worflow](images/bait.gif){: class=big-image}
 
 So beginnen die [Autos](https://demo.scanarium.com/?scene=highway) aus euren Ausmalbildern zu fahren, oder eure [Raumschiffe](https://demo.scanarium.com/?scene=space) und [Vögel](https://demo.scanarium.com/?scene=balloons) zu fliegen.
+{=macro(todo, Sollen wir hier wirklich auf „du” also Anrede umstellen?)}
 
-version:1.005
+version:1.006
