@@ -1,9 +1,8 @@
 # Wie kann ich mein Passwort ändern?
 
-{=macro(todo, Eventuell auf Liste der Schritte umbauen)}
-{=macro(todo, Da muss man mittlerweilen auf das Tab „Verwaltung” klicken)}
-{=macro(todo, Generell: Wie macht man das „tippe/klicke” generell? Das liest sich ein wenig komisch. Ist „auswählen” besser?)}
-Tippe/Klicke auf den Scanarium-Bildschirm, tippe/klicke dann auf "{=translate(Settings)}".
-Unter "{=translate(Change password)}" kannst du dein gewünschtes Passwort eintragen.
+* Tippe/Klicke auf den Scanarium-Bildschirm.
+* Wähle "{=translate(Settings)}" aus.
+* Wähle "{=translate(page_title, Administration)}" oben im aufgesprungenen Fenster aus.
+* Unter "{=translate(Change password)}" kannst du dein altes und dein gewünschtes, neues Passwort eintragen.
 
-version: 1.002
+version: 1.003
