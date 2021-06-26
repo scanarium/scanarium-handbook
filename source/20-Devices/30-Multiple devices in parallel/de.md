@@ -1,12 +1,15 @@
 # Kann ich Scanarium gleichzeit auf mehreren Geräten anschauen?
 
-Ja, das geht!
-Logge dich einfach auf jedem deiner Geräte mit deinen Zugangsdaten ein.
-Wenn auf einem Gerät ein neues Bild gescannt wird, wird das dann auch auf allen anderen Geräten angezeigt.
-Man sieht aber nicht genau das Gleiche zur selben Zeit.
+Ja, das geht wunderbar!
 
-Besonders parktisch ist das, wenn man zum Beispiel mit dem Smartphone die ausgemalten Bilder fotografiert und hochlädt, und dann kann man auf einem großen Bildschirm wie zum Beispiel einem SmartTV den Raumschiffen, Schmetterlingen, Autos,... zusehen.
+Logge dich einfach auf jedem deiner Geräte mit deinen Zugangsdaten ein und los geht's.
 
-Außerdem kann man auch verschiedene Szenen auf verschiedenen Geräten zur selben Zeit spielen.
+Jedes deiner Gerät zeigt sein eigenes Scanarium.
 
-version: 1.001
+Und wenn auf einem deiner Geräte ein neues Bild gescannt wird, dann wird es auch auf deinen anderen Geräten angezeigt.
+
+Man kann also zum Beispiel die ausgemalten Bilder mit dem Smartphone fotografieren/hochladen und am großen Monitor des PCs oder am SmartTV den Raumschiffen, Schmetterlingen, Autos,... zusehen.
+
+Man kann aber auch gleichzeitig auf jedem Gerät eine andere Szene spielen.
+
+version: 1.002
