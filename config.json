@@ -26,7 +26,8 @@
         "todo": "\n\n(todo) $*\n{: class=todo}\n\n",
         "text-icon": "![$1 icon](images/{=lower($1)}.png){: class=text-icon}",
         "linked-text-icon": "[{=macro(text-icon, $1)} $2]($3)",
-        "zoomable-image-left": "[![$1]({=substring($2,,-4)}-small.jpg){: class=left-image }]($2)"
+        "zoomable-image-left": "[![$1]({=substring($2,,-4)}-small.jpg){: class=left-image }]($2)",
+        "zoomable-image-right": "[![$1]({=substring($2,,-4)}-small.jpg){: class=right-image }]($2)"
     },
     "external_functions": {
         "translate": {

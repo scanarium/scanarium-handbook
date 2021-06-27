@@ -13,7 +13,10 @@ IMAGE_DIR = os.path.join(DOCUMENT_ROOT, 'images')
 PYTHON_SOURCE_DIR = os.path.join(DOCUMENT_ROOT, 'functions')
 CONFIG_FILE = os.path.join(DOCUMENT_ROOT, 'config.json')
 CONVERT = '/usr/bin/convert'
-WIDTH_SMALL = 200
+WIDTHS = {
+    '': 1280,
+    'small': 200,
+}
 
 with open(CONFIG_FILE) as f:
     CONFIG = json.loads(f.read())
@@ -25,10 +28,16 @@ def run_command(command):
     subprocess.run(command, check=True, timeout=10)
 
 
-def generate_resized_image(source, target, width):
-    command = [
-        CONVERT,
-        source,
+def generate_resized_image(source, variant='', conversion='jpg', levels=[]):
+    target = source.rsplit('.', 1)[0]
+    if variant:
+        target += '-' + variant
+    target += '.' + conversion
+    width = WIDTHS[variant]
+    command = [CONVERT, source]
+    if levels:
+        command += ['-level', ','.join(level.strip() for level in levels)]
+    command += [
         '-resize', f'{width}x{int(width*1.33333)}',
         '-background', 'white',
         '-flatten',
@@ -37,8 +46,8 @@ def generate_resized_image(source, target, width):
     return run_command(command)
 
 
-def generate_small_image(source, target):
-    return generate_resized_image(source, target, WIDTH_SMALL)
+def generate_small_image(source, levels=[]):
+    return generate_resized_image(source, variant='small', levels=levels)
 
 
 def copy_file(source, target_dir=DOCUMENT_ROOT, target_name=None):
@@ -51,15 +60,18 @@ def copy_file(source, target_dir=DOCUMENT_ROOT, target_name=None):
 
 
 def copy_image(source, target_dir=IMAGE_DIR, target_name=None,
-               small=False):
-    (_, _, target_name) = copy_file(
+               small=False, small_levels=[], conversion=None):
+    (target, _, _) = copy_file(
         source, target_dir=target_dir, target_name=target_name)
 
-    if small:
-        resized_name = target_name.rsplit('.', 1)[0] + '-small.jpg'
-        generate_small_image(source,
-                             os.path.join(target_dir, resized_name))
+    if conversion is not None:
+        generate_resized_image(target)
 
+    if small:
+        generate_small_image(target, levels=small_levels)
+
+    if conversion is not None:
+        os.remove(target)
 
 def process_scanarium_dir(dir):
     scenes_dir = os.path.join(dir, 'scenes')
@@ -112,6 +124,11 @@ def process_scanarium_homepage_dir(dir):
         'youtube',
             ]:
         copy_image(os.path.join(dir, f'dynamisch/images/{image}.png'))
+
+    source = os.path.join(dir, 'published-html', 'pdfs', 'fairies',
+                          'FlowerFairy', 'de', 'Blumenfee.pdf')
+    copy_image(source, target_name='sample-coloring-page-de.pdf',
+               conversion='jpg', small=True, small_levels=['90%', '100%'])
 
 
 def parse_arguments():
