@@ -1,8 +1,17 @@
 # Wieso sehen die Ausmalbilder so komisch aus?
 
-Die [Scanarium-Ausmalbilder](https://scanarium.com/#pdfs) sehen etwas anders aus als herkömmliche Ausmalbilder.
-Das muss so sein, damit Scanarium richtig funktioniert.
-Auf jedem Ausmalbild ist ein QR-Code zu sehen - daran erkennt Scanarium um welchen Akteur und welche Szene es sich handelt.
-Außerdem ist ein schwarzer Rahmen auf jedem Ausmalbild, der Scanarium hilft sich auf dem Blatt zu orientieren, damit euer Ausmalbild richtig ausgeschnitten und gescannt wird.
+{=macro(todo, Für mich ist „komisch” ein wenig negativ besetzt - die Frage liest sich für mich abwertend)}
 
-version: 1.001
+Auf den [Scanarium-Ausmalbildern](https://scanarium.com/#pdfs) ist neben dem eigentlichen Motiv auch noch:
+
+* der Namen der Figur und Szene,
+* ein QR-Code und
+* ein schwarzes Rechteck am Blattrand.
+
+Am Namen der Figur und Szene erkennt man, wo das Bild dazugehört.
+
+Am QR-Code erkennt der Computer, welches Ausmalbild auf dem Foto ist.
+
+Am scharzen Rechteck erkennt der Computer, wo das Ausmalbild auf dem Foto ist.
+
+version: 1.002
