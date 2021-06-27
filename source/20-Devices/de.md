@@ -1,3 +1,5 @@
 # Unterstützte Geräte
 
-version:1
+{=macro(todo, Sollen wir hier noch eine “high-level summary” einbauen?)}
+
+version:1.001

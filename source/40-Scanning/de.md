@@ -1,3 +1,5 @@
 # Fotografieren / Einscannen der Bilder
 
-version:1.001
+{=macro(todo, Sollen wir hier noch eine “high-level summary” einbauen?)}
+
+version:1.002
