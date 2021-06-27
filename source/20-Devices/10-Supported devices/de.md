@@ -1,5 +1,7 @@
 # Welche Geräte und Software kann ich verwenden?
 
+{=macro(todo, Wär's besser diesen Text gleich direkt in „Unterstützte Geräte” raufzuschieben? Weil so wie's jetzt ist, muss man 2x Klicken, bis man die Unterstützten Geräte sieht.)}
+
 Auf aktuellen
 
 * Tablets (z.B. Amazon Fire 10 HD oder iPad Pro 9),
@@ -12,4 +14,4 @@ die nicht älter als 5 Jahre sind, funktioniert Scanarium typischerweise problem
 Geh mit deinem Tablet, Smartphone, ... auf die [Demo Seite](https://demo.scanarium.com/).
 Wenn die Demo Seite flüssig läuft, wird auch das Spielen klappen :-)
 
-version: 1.001
+version: 1.002
