@@ -2,7 +2,8 @@
 
 Nein, du brauchst [Scanarium-Ausmalbilder](https://scanarium.com/#pdfs).
 
-Die findest du auf der [Scanarium Homepage](https://scanarium.com/#pdfs) und du kannst sie natürlich sooft du willst ausdrucken.
+Die Scanarium-Ausmalbilder kannst du kostenlos im [PDF-Bereich der Homepage](https://scanarium.com/#pdfs) runterladen.
 
-version: 1.001
+Und du kannst sie natürlich sooft ausdrucken, ausmalen und einscannen wie du willst. :-)
 
+version: 1.002
