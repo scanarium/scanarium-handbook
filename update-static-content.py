@@ -43,7 +43,8 @@ def generate_resized_image(source, variant='', conversion='jpg', levels=[]):
         '-flatten',
         target,
         ]
-    return run_command(command)
+    run_command(command)
+    return target
 
 
 def generate_small_image(source, levels=[]):
@@ -65,13 +66,13 @@ def copy_image(source, target_dir=IMAGE_DIR, target_name=None,
         source, target_dir=target_dir, target_name=target_name)
 
     if conversion is not None:
-        generate_resized_image(target)
+        tmp_source = target + '-tmp'
+        os.rename(target, tmp_source)
+        target = generate_resized_image(tmp_source)
+        os.remove(tmp_source)
 
     if small:
         generate_small_image(target, levels=small_levels)
-
-    if conversion is not None:
-        os.remove(target)
 
 def process_scanarium_dir(dir):
     scenes_dir = os.path.join(dir, 'scenes')
@@ -111,6 +112,10 @@ def process_scanarium_support_dir(dir):
     dir_handbook = os.path.join(dir, 'handbook', 'images')
     for file in os.listdir(dir_handbook):
         copy_image(os.path.join(dir_handbook, file), small=True)
+
+    dir_handbook = os.path.join(dir, 'handbook', 'images-big')
+    for file in os.listdir(dir_handbook):
+        copy_image(os.path.join(dir_handbook, file), small=True, conversion='jpg')
 
 
 def process_scanarium_homepage_dir(dir):
