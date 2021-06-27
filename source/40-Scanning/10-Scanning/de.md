@@ -1,7 +1,10 @@
 # Worauf muss ich beim Fotografieren achten?
 
-Das Ausmalbild sollte flach liegen und es sollte nicht zu dunkel sein.
-Am besten du fotografierst das Ausmalbild direkt am Malplatz (ein dunkler, einfarbiger Hintergrund kann beim Scannen der Bilder Probleme machen).
-Wichtig ist, dass der schwarze Rahmen ganz auf dem Foto zu sehen ist.
+Damit das Hochladen des Bildes gut klappt, achte beim Fotografieren darauf dass:
 
-version: 1.001
+* es beim Fotografieren nicht zu dunkel ist,
+* das Ausmalbild flach liegt,
+* der schwarzer Rahmen am Rand des Ausmalbilds ganz drauf ist und
+* dass das Bild nicht zu sehr verwackelt ist.
+
+version: 1.002
