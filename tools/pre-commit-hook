@@ -19,7 +19,9 @@ assert_at_most_one_sentence_per_line() {
     # 0.01 seconds, so I won't set this straight for now.
     if grep -vnr '^\({=macro(\|[0-9]\+\.\)' source \
         | grep -v '^[^:]*properties.md:' \
+        | sed -e 's/\(bzw\)\./\1|/g' \
         | grep '[^.B][!?.] [^:]' \
+        | sed -e 's/|/./g' \
 
     then
         error "Found lines (see above) with more than one sentence per line"
