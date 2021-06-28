@@ -17,7 +17,10 @@ check_version_numbers() {
 assert_at_most_one_sentence_per_line() {
     # This is backwards and hugely ineffective. But it takes less than
     # 0.01 seconds, so I won't set this straight for now.
-    if grep -vnr '^\({=macro(\|[0-9]\+\.\)' source | grep '[^.B][!?.] [^:]'
+    if grep -vnr '^\({=macro(\|[0-9]\+\.\)' source \
+        | grep -v '^[^:]*properties.md:' \
+        | grep '[^.B][!?.] [^:]' \
+
     then
         error "Found lines (see above) with more than one sentence per line"
     fi
