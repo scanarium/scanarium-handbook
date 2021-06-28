@@ -34,6 +34,10 @@
             "file": "{conf_dir}/functions/translate.py",
             "name": "translate"
         },
+        "translate1Param": {
+            "file": "{conf_dir}/functions/translate.py",
+            "name": "translate1Param"
+        },
         "dumpLanguageMatrix": {
             "file": "{conf_dir}/functions/translate.py",
             "name": "dumpLanguageMatrix"

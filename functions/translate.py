@@ -31,6 +31,12 @@ def translate(file, state, args):
 
     return ret
 
+def translate1Param(file, state, args):
+    localizer = get_localizer(file['properties']['language'])
+    ret = None
+    template = ', '.join(args[0:-2])
+    return localizer.localize(template, {args[-2]: args[-1]})
+
 def dumpLanguageMatrix(file, state, args):
     l10ns = file['properties']['build_localizations'].split(',')
     lst = [];
