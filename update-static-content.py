@@ -38,7 +38,7 @@ def generate_resized_image(source, variant='', conversion='jpg', levels=[]):
     if levels:
         command += ['-level', ','.join(level.strip() for level in levels)]
     command += [
-        '-resize', f'{width}x{int(width*1.33333)}',
+        '-resize', f'{width}x{int(width*1.33333)}>',
         '-background', 'white',
         '-flatten',
         target,
