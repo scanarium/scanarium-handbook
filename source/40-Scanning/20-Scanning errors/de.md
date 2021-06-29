@@ -1,19 +1,45 @@
 # Ich kann mein Bild nicht hochladen - was kann ich tun?
 
-Überprüfe mit der Checkliste, ob du alles richtig gemacht hast:
+{=macro(todo, OnlineHiflfe lokalisieren)}
 
-* Hast du ein [Scanarium-Ausmalbild](https://scanarium.com/#pdfs) verwendet?
-* Ist der ganze schwarze Rahmen auf dem Foto zu sehen?
-* Ist der QR-Code auf dem Foto zu sehen?
-    (Es darf nicht in den QR-Code gemalt werden.)
-* Ist das Foto scharf und nicht verwackelt?
-* Ist das Foto gut ausgeleuchtet?
-    (Achte auf gute Lichtverhältnisse beim Fotografieren.)
-* Ist das Ausmalbild beim Fotografieren auf einem hellen Hintergrund gelegen?
-    (Dunkler, einfarbiger Hintergrund kann Probleme machen.)
-* Ist das Ausmalbild flach aufgelegen, als du es fotografiert hast?
+Am einfachsten klickst du auf den Knopf "Online-Hilfe" unterhalb der Fehlermeldung in Scanarium.
+Das öffnet die Hilfeseite für genau das Problem, das es mit dem Bild gibt.
 
-Du hast alles richtig gemacht und es klappt trotzdem nicht?
-Dann melde dich bei uns unter [hilfe@scanarium.com](mailto:hilfe@scanarium.com)
+Generell ist wichtig darauf zu achten, dass
 
-version: 1.001
+* du ein [Scanarium-Ausmalbild](#coloringpages) verwendest,
+
+    {=macro(zoomable-image-left, todo, images/scanning-foreign-page.jpg)}
+    {=macro(zoomable-image-left, todo, images/scanning-ok.jpg)}
+{: class=clearfix}
+
+* das Bild gleichmäßig hell ist (nicht zu dunkel und keine harten Schatten),
+
+    {=macro(zoomable-image-left, todo, images/scanning-too-dark.jpg)}
+    {=macro(zoomable-image-left, todo, images/scanning-hard-shadows.jpg)}
+    {=macro(zoomable-image-left, todo, images/scanning-ok.jpg)}
+{: class=clearfix}
+
+* das Bild nicht zu sehr verwackelt ist,
+
+    {=macro(zoomable-image-left, todo, images/scanning-too-blurry.jpg)}
+    {=macro(zoomable-image-left, todo, images/scanning-ok.jpg)}
+{: class=clearfix}
+
+* der QR-Code gut lesbar ist (nicht verdeckt und nicht reingemalt),
+
+    {=macro(zoomable-image-left, todo, images/scanning-object-on-qr.jpg)}
+    {=macro(zoomable-image-left, todo, images/scanning-color-on-qr.jpg)}
+    {=macro(zoomable-image-left, todo, images/scanning-ok.jpg)}
+{: class=clearfix}
+
+* der schwarze Rahmen am Rand des Ausmalbildes vollständig auf dem Bild ist (nicht abgeschnitten und nicht verdeckt).
+
+    {=macro(zoomable-image-left, Schwarzer Rahmen ist oben abgeschnitten, images/scanning-rectangle-cut-off.jpg)}
+    {=macro(zoomable-image-left, Schwarzer Rahmen ist vollständig auf dem Bild, images/scanning-ok.jpg)}
+{: class=clearfix}
+
+Wenn das Hochladen trotzdem nicht klappt, schick uns das Bild bitte an {=macro(help-email-link)}
+
+
+version: 1.003
