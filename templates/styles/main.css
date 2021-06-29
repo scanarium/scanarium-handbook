@@ -50,6 +50,12 @@ h3 {
   border-bottom: 0.1em solid #35c8ff;
 }
 
+h4, h5, h6 {
+  margin-top: 1.5em;
+  padding-top: 1em;
+  border-bottom: 0.05em solid #ccc;
+}
+
 .top-icon-list {
   position: fixed;
   margin: 0em;
