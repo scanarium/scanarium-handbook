@@ -38,4 +38,6 @@ Wenn beim Hochladen kein QR-Code gefunden wurde, fotografier das Bild nochmal un
 Lade dieses neue Bild hoch.
 Damit sollte es klappen.
 
-version: 1.001
+Wenn es wieder nicht klappt, schick uns das Bild bitte an {=macro(help-email-link)}
+
+version: 1.002

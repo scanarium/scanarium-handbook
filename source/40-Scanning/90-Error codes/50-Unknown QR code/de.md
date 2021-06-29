@@ -16,4 +16,6 @@ Damit sollte das Hochladen klappen.
 {=macro(zoomable-image-left, Nur der QR-Code vom Scanarium-Ausmalbild ist auf dem Foto, images/scanning-ok.jpg)}
 {: class=clearfix}
 
-version: 1.001
+Wenn es wieder nicht klappt, schick uns das Bild bitte an {=macro(help-email-link)}
+
+version: 1.002

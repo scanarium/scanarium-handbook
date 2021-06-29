@@ -10,4 +10,6 @@ Erhöhe die Auflösung bzw. Detailstufe des Geräts, mit dem du die Fotos machst
 
 Danach fotografier das Ausmalbild nochmals und lade das neue Foto hoch.
 
-version: 1.002
+Wenn es wieder nicht klappt, schick uns das Bild bitte an {=macro(help-email-link)}
+
+version: 1.003
