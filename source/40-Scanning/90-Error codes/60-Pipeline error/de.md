@@ -1,5 +1,7 @@
 # Fehlermeldung: "{=translate({=property(error-message)})}"
 
-{=macro(todo, Section schreiben)}
+Fotografier das Ausmalbild bitte nochmals neu und lade das neue Bild hoch.
 
-version: 1.000
+Wenn es wieder nicht klappt, schick uns das Bild bitte an {=macro(help-email-link)}
+
+version: 1.001
