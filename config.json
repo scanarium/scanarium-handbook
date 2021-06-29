@@ -24,10 +24,10 @@
         "scene-links-de": "{=macro(scene-links, Demo Video bei YouTube, Live Demo, Ausmalbilder für diese Szene)}",
         "scene-links-localized": "{=macro(scene-links-{=property(language)})}",
         "todo": "\n\n(todo) $*\n{: class=todo}\n\n",
-        "text-icon": "![$1 icon](images/{=lower($1)}.png){: class=text-icon}",
-        "linked-text-icon": "[{=macro(text-icon, $1)} $2]($3)",
-        "zoomable-image-left": "[![$1]({=substring($2,,-4)}-small.jpg){: class=left-image }]($2)",
-        "zoomable-image-right": "[![$1]({=substring($2,,-4)}-small.jpg){: class=right-image }]($2)"
+        "text-icon": "![$1 icon](images/{=lower($1)}.png \"$2\"){: class=text-icon}",
+        "linked-text-icon": "[{=macro(text-icon, $1, $2)} $2]($3)",
+        "zoomable-image-left": "[![$1]({=substring($2,,-4)}-small.jpg \"$1\"){: class=left-image }]($2)",
+        "zoomable-image-right": "[![$1]({=substring($2,,-4)}-small.jpg \"$1\"){: class=right-image }]($2)"
     },
     "external_functions": {
         "translate": {
