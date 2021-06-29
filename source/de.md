@@ -8,6 +8,8 @@
 _Dieses Dokument ist noch ein Platzhalter.
 Bei Fragen zu Scanarium, wende dich direkt an {=macro(help-email-link)}_
 
+{=macro(todo, „Schwarzes Rechteck” einheitlich benennen)}
+
 id:root
-version:6.101
+version:6.102
 help-email-address:hilfe@scanarium.com
