@@ -2,4 +2,6 @@
 
 {=macro(todo, Section schreiben)}
 
-version: 1.000
+{=macro(todo, Sollen wir auch eine Section für nicht-unterstützte Dateitypen mache?)}
+
+version: 1.001
