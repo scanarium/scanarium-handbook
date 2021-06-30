@@ -1,4 +1,4 @@
-# Szene: {=property(scene-translated)}
+# {=property(scene-translated)}
 
 {=macro(scene-header-localized, Luftballons und Vögel)}
 
