@@ -1,6 +1,6 @@
 # Fehlermeldung: "{=translate({=property(error-message)})}"
 
-Wenn beim Hochladen kein QR-Code gefunden wurde, fotografier das Bild nochmal und achte besonders darauf, dass
+Wenn beim Hochladen kein QR-Code gefunden wurde, fotografiere das Bild nochmal neu und achte besonders darauf, dass
 
 * du ein [Scanarium-Ausmalbild](#coloringpages) verwendest,
 
@@ -40,4 +40,4 @@ Damit sollte es klappen.
 
 Wenn es wieder nicht klappt, schick uns das Bild bitte an {=macro(help-email-link)}
 
-version: 1.002
+version: 1.003

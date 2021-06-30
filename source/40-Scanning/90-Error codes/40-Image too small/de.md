@@ -8,8 +8,8 @@ Das hochgeladene Bild ist zu klein.
 
 Erhöhe die Auflösung bzw. Detailstufe des Geräts, mit dem du die Fotos machst (zB Kamera, Handy-App, ...).
 
-Danach fotografier das Ausmalbild nochmals und lade das neue Foto hoch.
+Fotografiere danach das Ausmalbild nochmals neu und lade das neue Foto hoch.
 
 Wenn es wieder nicht klappt, schick uns das Bild bitte an {=macro(help-email-link)}
 
-version: 1.003
+version: 1.004
