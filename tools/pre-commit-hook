@@ -4,6 +4,7 @@ set -e
 set -o pipefail
 
 DOCUMENT_GENERATOR_DIR="../scanarium-document-generator"
+SOURCE_DIR="source"
 
 error() {
     echo "ERROR" "$@" >&2
@@ -17,7 +18,7 @@ check_version_numbers() {
 assert_at_most_one_sentence_per_line() {
     # This is backwards and hugely ineffective. But it takes less than
     # 0.01 seconds, so I won't set this straight for now.
-    if grep -vnr '^\({=macro(\|[0-9]\+\.\)' source \
+    if grep -vnr '^\({=macro(\|[0-9]\+\.\)' "$SOURCE_DIR" \
         | grep -v '^[^:]*properties.md:' \
         | sed -e 's/\(bzw\)\./\1|/g' \
         | grep '[^.B][!?.] [^:]' \
@@ -28,8 +29,26 @@ assert_at_most_one_sentence_per_line() {
     fi
 }
 
+assert_no_dangling_internal_links() {
+    local ANCHOR=
+    while read ANCHOR
+    do
+        if ! grep --quiet -r '^\s*id\s*:\s*'"${ANCHOR:1}"'\s*$' "$SOURCE_DIR"
+        then
+            grep -r "$ANCHOR" "$SOURCE_DIR"
+            error "Link target '$ANCHOR' is undefined."
+        fi
+    done < <( \
+        grep -h -r '#' "$SOURCE_DIR" \
+        | tr '()' '\n\n' \
+        | grep '^#[a-zA-Z0-9-]\+$' \
+        | sort -u \
+        )
+}
+
 run() {
     check_version_numbers
     assert_at_most_one_sentence_per_line
+    assert_no_dangling_internal_links
 }
 run
