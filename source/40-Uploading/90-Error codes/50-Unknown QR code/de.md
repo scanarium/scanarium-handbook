@@ -4,7 +4,7 @@ Im hochgeladenen Bild wurde ein QR-Code gefunden, der nicht zu Scanarium gehört
 
 Eventuell auf einer Schachtel oder auf einem Prospekt im Foto-Hintergrund.
 
-Mach ein neues Foto von deinem [Scanarium-Ausmalbild](#coloringpages) und achte darauf, dass:
+Mach ein neues Foto von deinem [Scanarium-Ausmalbild](#scanarium-coloring-pages) und achte darauf, dass:
 
 * das schwarze Rechteck am Ausmalbild-Rand gut zu sehen ist,
 * der QR-Code des Ausmalbilds gut zu sehen ist und
@@ -18,4 +18,4 @@ Damit sollte das Hochladen klappen.
 
 Wenn es wieder nicht klappt, schick uns das Bild bitte an {=macro(help-email-link)}
 
-version: 1.002
+version: 1.003

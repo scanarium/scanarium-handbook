@@ -5,7 +5,7 @@ Das öffnet die Hilfeseite für genau das Problem, das es mit dem Bild gibt.
 
 Generell ist wichtig darauf zu achten, dass
 
-* du ein [Scanarium-Ausmalbild](#coloringpages) verwendest,
+* du ein [Scanarium-Ausmalbild](#scanarium-coloring-pages) verwendest,
 
     {=macro(zoomable-image-left, todo, images/scanning-foreign-page.jpg)}
     {=macro(zoomable-image-left, todo, images/scanning-ok.jpg)}
@@ -40,4 +40,4 @@ Generell ist wichtig darauf zu achten, dass
 Wenn das Hochladen trotzdem nicht klappt, schick uns das Bild bitte an {=macro(help-email-link)}
 
 
-version: 1.004
+version: 1.005

@@ -2,7 +2,7 @@
 
 Wenn beim Hochladen kein QR-Code gefunden wurde, fotografiere das Bild nochmal neu und achte besonders darauf, dass
 
-* du ein [Scanarium-Ausmalbild](#coloringpages) verwendest,
+* du ein [Scanarium-Ausmalbild](#scanarium-coloring-pages) verwendest,
 
     {=macro(zoomable-image-left, todo, images/scanning-foreign-page.jpg)}
     {=macro(zoomable-image-left, todo, images/scanning-ok.jpg)}
@@ -40,4 +40,4 @@ Damit sollte es klappen.
 
 Wenn es wieder nicht klappt, schick uns das Bild bitte an {=macro(help-email-link)}
 
-version: 1.003
+version: 1.004
