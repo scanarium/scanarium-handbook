@@ -1,9 +1,18 @@
-# Muss ich Filzstifte zum Ausmalen verwenden?
+# Welche Stifte/Farben kann ich verwenden?
 
-Nein, du kannst die Bilder prinzipiell mit allen Farben/Stiften anmalen.
+Du kannst die Bilder mit allen Farben, Stiften, Kreiden und sonstwas anmalen :-)
 
-Das Papier sollte dabei allerdings nicht zu wellig werden.
-Wasserfarben sind deshalb eher nicht geeignet.
+Es geht zum Beispiel wunderbar mit
+
+* Farbstiften,
+* Filzstiften,
+* Gelstiften,
+* Glitzerstiften und
+* Ölkreiden.
+
+Wasserfarben und Fingerfarben klappen natürlich prinzipiell auch.
+Aber wenn man zu feucht malt, wellt sich das Papier.
+Und das kann beim Hochladen stören.
 
 Wir verwenden am liebsten:
 
@@ -12,4 +21,4 @@ Wir verwenden am liebsten:
 
 {=macro(todo, Sollen wir hier noch Fotos von den Stiften machen?)}
 
-version: 1.004
+version: 1.005
