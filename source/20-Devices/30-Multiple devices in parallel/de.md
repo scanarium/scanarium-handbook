@@ -1,4 +1,4 @@
-# Kann ich Scanarium gleichzeit auf mehreren Geräten anschauen?
+# Kann ich gleichzeitig auf mehreren Geräten spielen?
 
 Ja, das geht wunderbar!
 
@@ -12,4 +12,4 @@ Man kann also zum Beispiel die ausgemalten Bilder mit dem Smartphone fotografier
 
 Man kann aber auch gleichzeitig auf jedem Gerät eine andere Szene spielen.
 
-version: 1.002
+version: 1.003
