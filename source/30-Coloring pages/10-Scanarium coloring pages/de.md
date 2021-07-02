@@ -2,7 +2,7 @@
 
 Scanarium-Ausmalbilder sind Ausmalbilder, die speziell für Scanarium aufbereitet wurden.
 
-Sie haben einen am schwarzen Rahmen und einen QR-Code:
+Sie haben einen am [schwarzen Rahmen](#rectangle) und einen [QR-Code](#qr-code):
 
 {=macro(zoomable-image-left, Scanarium-Ausmalbild, images/coloring-page-foreign.jpg)}
 {=macro(zoomable-image-left, Normales Ausmalbild, images/coloring-page-ok.jpg)}
@@ -13,4 +13,4 @@ Im [PDF-Bereich der Homepage](https://scanarium.com/#pdfs) kannst du sie kostenl
 Scanarium funktioniert nur mit diesen Scanarium-Ausmalbildern.
 
 
-version: 1.000
+version: 1.001

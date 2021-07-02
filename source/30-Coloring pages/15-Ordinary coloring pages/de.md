@@ -2,7 +2,7 @@
 
 Nein, du brauchst [Scanarium-Ausmalbilder](#scanarium-coloring-pages).
 
-Du erkennst sie am schwarzen Rahmen und am QR-Code:
+Du erkennst sie am [schwarzen Rahmen](#rectangle) und am [QR-Code](#qr-code):
 
 {=macro(zoomable-image-left, Scanarium-Ausmalbild, images/coloring-page-foreign.jpg)}
 {=macro(zoomable-image-left, Normales Ausmalbild, images/coloring-page-ok.jpg)}
@@ -11,4 +11,4 @@ Du erkennst sie am schwarzen Rahmen und am QR-Code:
 Im [PDF-Bereich der Homepage](https://scanarium.com/#pdfs) kannst du sie kostenlos runterladen.
 
 
-version: 1.001
+version: 1.006

@@ -136,6 +136,14 @@ def process_scanarium_homepage_dir(dir):
                conversion='jpg', small=True, small_levels=['90%', '100%'])
 
 
+def process_base_images():
+    for base_name in [
+            'sample-coloring-page-de-marked-qr.jpg',
+            'sample-coloring-page-de-marked-rectangle.jpg',
+            ]:
+        generate_small_image(os.path.join(IMAGE_DIR, base_name))
+
+
 def parse_arguments():
     parser = argparse.ArgumentParser(
         description='Updates static content sourced from other repos',
@@ -177,5 +185,7 @@ if __name__ == '__main__':
             exit_code = 1
             print(f'No {repo_conf["name"]} dir given. Skipping corresponding '
                   'updates')
+
+    process_base_images()
 
     sys.exit(exit_code)
