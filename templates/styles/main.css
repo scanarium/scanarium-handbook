@@ -341,6 +341,6 @@ a.clickable-heading-link, a.clickable-heading-link:hover, a.clickable-heading-li
     padding: 0.4em 0em;
 }
 
-.source-file {
+.debug-source-file, .debug-node-id {
     font-family: monospace;
 }
