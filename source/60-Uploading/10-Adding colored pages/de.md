@@ -1,12 +1,26 @@
-# Wie bekomme ich die ausgemalten Bilder in mein Scanarium?
+# Wie kann ich ausgemalte Bilder hochladen?
 
-Am einfachsten funktioniert das, wenn du ein Tablet oder Smatphone benutzt, weil dort eine Kamera eingebaut ist.
+Am einfachsten funktioniert's auf einem Tablet bzw. Smartphone.
+Am PC oder Laptop geht's natürlich auch.
 
-Wenn du beim Spielen auf den Scanarium-Bildschirm tippst, erscheint der Button "{=translate(Upload image)}" und du kannst dann die Kamera auswählen und direkt ein Foto machen, das automatisch hochgeladen wird, sobald du mit dem Häckchen bestätigst.
-Natürlich kannst du auch mit der Kamera wie gewohnt Fotos von den Ausmalbildern machen und bei "{=translate(Upload image)}" die gewünschte Fotodatei auswählen.
+Zuerst für Tablet bzw. Smartphone:
 
-Wenn du Scanarium auf einem Gerät spielst, das keine Kamera eingebaut hat (z.B. PC, Laptop,...), kannst du auch mit einer digitalen Kamera Fotos der Ausmalbilder machen und auf den PC, Laptop,... kopieren.
-Im Scanarium lädtst du dann ganz einfach die Bilddatei hoch (bei "{=translate(Upload image)}" einfach die gewünschte Datei auswählen).
-Natürlich geht das auch mit einem Scanner oder Kopierer mit Scanfunktion.
+* Starte dein Scanarium
+* Tippe/klicke auf den Bildschirm
+* Wähle oben "{=translate(Upload image)}"
+* Wähle "Kamera"
+* Fotografiere dein ausgemaltes [Scanarium-Ausmalbild](#scanarium-coloring-pages)
+* Tippe auf das Häckchen zum Bestätigen
+* Fertig :-)
 
-version: 1.001
+Und so klappt's am PC bzw. Laptop:
+
+* Speichere ein Foto von deinem ausgemalten [Scanarium-Ausmalbild](#scanarium-coloring-pages) auf den Computer.
+    (Fotoapparat, Scanner, Multifunktionsdrucker, Kopierer, …)
+* Starte dein Scanarium
+* Tippe/klicke auf den Bildschirm
+* Wähle oben "{=translate(Upload image)}"
+* Wähle das gespeicherte Foto aus
+* Fertig :-)
+
+version: 1.002
