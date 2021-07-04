@@ -1,5 +1,7 @@
 # Anhang: Fehlermeldungen
 
-{=macro(todo, Section schreiben)}
+Für die folgenden Fehlermeldungen gibt's ein eigenes Kapitel in diesem Dokument:
 
-version: 1.002
+{=macro(todo, linked toc list einfügen)}
+
+version: 1.003
