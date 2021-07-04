@@ -1,4 +1,4 @@
-# Weiterführende Links
+# Links
 
 * {=macro(linked-text-icon, Scanarium, Scanarium Homepage, https://scanarium.com/)}
 * {=macro(linked-text-icon, Scanarium, Scanarium Demo Seite, https://demo.scanarium.com/)}
@@ -8,4 +8,4 @@
 * {=macro(linked-text-icon, Twitter, Twitter, https://twitter.com/scanarium/)}
 * {=macro(linked-text-icon, YouTube, YouTube, https://www.youtube.com/channel/UCTwq7yR9KomRJythLrmhSyA)}
 
-version: 1.003
+version: 1.004
