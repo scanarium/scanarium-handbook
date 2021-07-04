@@ -1,4 +1,4 @@
-# Ich kann mein Bild nicht hochladen - was kann ich tun?
+# Das Hochladen klappt nicht!
 
 Am einfachsten klickst du auf den Knopf "{=translate(Online Help)}" unterhalb der Fehlermeldung in Scanarium.
 Das öffnet die Hilfeseite für genau das Problem, das es mit dem Bild gibt.
@@ -44,4 +44,4 @@ Generell ist wichtig darauf zu achten, dass
 Wenn das Hochladen trotzdem nicht klappt, schick uns das Bild bitte an {=macro(help-email-link)}
 
 
-version: 1.006
+version: 1.007
