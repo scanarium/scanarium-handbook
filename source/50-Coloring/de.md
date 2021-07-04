@@ -2,6 +2,4 @@
 
 {=macro(todo, high-level summary schreiben)}
 
-{=macro(todo, section für objekte schreiben)}
-
-version: 1.002
+version: 1.003
