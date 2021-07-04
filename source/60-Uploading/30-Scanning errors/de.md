@@ -3,6 +3,10 @@
 Am einfachsten klickst du auf den Knopf "{=translate(Online Help)}" unterhalb der Fehlermeldung in Scanarium.
 Das öffnet die Hilfeseite für genau das Problem, das es mit dem Bild gibt.
 
+Falls die Fehlermeldung und der Knopf schon weg ist, lade das Bild einfach nochmal hoch.
+
+Eine Liste der Fehlermeldungen findest du im [Anhang](#errors).
+
 Generell ist wichtig darauf zu achten, dass
 
 * du ein [Scanarium-Ausmalbild](#scanarium-coloring-pages) verwendest,
@@ -40,4 +44,4 @@ Generell ist wichtig darauf zu achten, dass
 Wenn das Hochladen trotzdem nicht klappt, schick uns das Bild bitte an {=macro(help-email-link)}
 
 
-version: 1.005
+version: 1.006
