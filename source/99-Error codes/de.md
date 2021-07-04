@@ -2,6 +2,6 @@
 
 Für die folgenden Fehlermeldungen gibt's ein eigenes Kapitel in diesem Dokument:
 
-{=macro(todo, linked toc list einfügen)}
+{=linkedToc()}
 
-version: 1.003
+version: 1.004

@@ -2,6 +2,6 @@
 
 In Scanarium gibt's aktuell {=macro(todo, subnodecount einfügen)} Szene, die du spielen kannst:
 
-{=macro(todo, linked toc list einfügen)}
+{=linkedToc()}
 
-version: 1.001
+version: 1.002
