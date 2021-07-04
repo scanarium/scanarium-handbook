@@ -1,7 +1,7 @@
 # Szenen
 
-In Scanarium gibt's aktuell {=macro(todo, subnodecount einfügen)} Szene, die du spielen kannst:
+In Scanarium gibt's aktuell {=subnodeCount()} Szenen, die du spielen kannst:
 
 {=linkedToc()}
 
-version: 1.002
+version: 1.003
