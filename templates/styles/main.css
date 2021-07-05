@@ -337,7 +337,7 @@ a.clickable-heading-link, a.clickable-heading-link:hover, a.clickable-heading-li
 }
 
 /* Rules specific to handbook *************************************************/
-#links + ul li, #links + p + ul li {
+#links + ul li, #links + p + p + ul li {
     padding: 0.4em 0em;
 }
 
