@@ -136,6 +136,14 @@ def process_scanarium_homepage_dir(dir):
     copy_image(source, target_name='sample-coloring-page-de.pdf',
                conversion='jpg', small=True, small_levels=['90%', '100%'])
 
+    copy_image(source, target_name='flower-fairy-normal.pdf',
+               conversion='jpg', small=True, small_levels=['90%', '100%'])
+
+    source = os.path.join(dir, 'published-html', 'pdfs', 'fairies',
+                          'FlowerFairy', 'de', 'Blumenfee-mit-Details.pdf')
+    copy_image(source, target_name='flower-fairy-detailed.pdf',
+               conversion='jpg', small=True, small_levels=['90%', '100%'])
+
 
 def process_base_images():
     for base_name in [
