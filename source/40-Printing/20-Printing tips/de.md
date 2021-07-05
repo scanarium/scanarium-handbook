@@ -2,7 +2,7 @@
 
 Achte beim Ausdrucken der [Scanarium-Ausmalbilder](#scanarium-coloring-pages) darauf, dass
 
-* der schwarze Rahmen vollständig drauf (nicht abgeschnitten) ist und
+* der [schwarze Rahmen](#rectangle) vollständig drauf (nicht abgeschnitten) ist und
 
     {=macro(zoomable-image-left, todo, images/printing-rectangle-cut-off.jpg)}
     {=macro(zoomable-image-left, todo, images/printing-ok-perfect.jpg)}
@@ -28,4 +28,4 @@ Ganz egal ob der Ausdruck gedreht, verkleinert, unzentriert, Hochformat oder auc
 {: class=clearfix}
 
 
-version: 1.001
+version: 1.002

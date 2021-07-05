@@ -35,7 +35,7 @@ Generell ist wichtig darauf zu achten, dass
     {=macro(zoomable-image-left, todo, images/scanning-ok.jpg)}
 {: class=clearfix}
 
-* der schwarze Rahmen am Rand des Ausmalbildes vollständig auf dem Bild ist (nicht abgeschnitten und nicht verdeckt).
+* der [schwarze Rahmen](#rectangle) am Rand des Ausmalbildes vollständig auf dem Bild ist (nicht abgeschnitten und nicht verdeckt).
 
     {=macro(zoomable-image-left, Schwarzer Rahmen ist oben abgeschnitten, images/scanning-rectangle-cut-off.jpg)}
     {=macro(zoomable-image-left, Schwarzer Rahmen ist vollständig auf dem Bild, images/scanning-ok.jpg)}
@@ -44,4 +44,4 @@ Generell ist wichtig darauf zu achten, dass
 Wenn das Hochladen trotzdem nicht klappt, schick uns das Bild bitte an {=macro(help-email-link)}
 
 
-version: 1.008
+version: 1.009

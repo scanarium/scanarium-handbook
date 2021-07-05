@@ -7,7 +7,7 @@ Auch nicht zum Beispiel im Hintergrund auf einer Schachtel oder einem Prospekt.
 
 Mach ein neues Foto von deinem [Scanarium-Ausmalbild](#scanarium-coloring-pages) und achte darauf, dass:
 
-* das schwarze Rechteck am Ausmalbild-Rand gut zu sehen ist,
+* das [schwarze Rechteck](#rectangle) am Ausmalbild-Rand gut zu sehen ist,
 * der [QR-Code des Ausmalbilds](#qr-code) gut zu sehen ist und
 * kein anderer QR-Code auf dem Foto ist.
 
@@ -19,4 +19,4 @@ Damit sollte das Hochladen klappen.
 
 Wenn es wieder nicht klappt, schick uns das Bild bitte an {=macro(help-email-link)}
 
-version: 1.006
+version: 1.007

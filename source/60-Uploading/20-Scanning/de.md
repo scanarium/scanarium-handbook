@@ -20,10 +20,10 @@ Damit das Hochladen des Bildes gut klappt, achte beim Fotografieren darauf dass:
     {=macro(zoomable-image-left, Bild liegt flach, images/scanning-ok.jpg)}
 {: class=clearfix}
 
-* der schwarzer Rahmen am Rand des Ausmalbilds ganz drauf ist.
+* der [schwarzer Rahmen](#rectangle) am Rand des Ausmalbilds ganz drauf ist.
 
     {=macro(zoomable-image-left, Rechteck abgeschnitten, images/scanning-rectangle-cut-off.jpg)}
     {=macro(zoomable-image-left, Rechteck ganz sichtbar, images/scanning-ok.jpg)}
 {: class=clearfix}
 
-version: 1.004
+version: 1.005
