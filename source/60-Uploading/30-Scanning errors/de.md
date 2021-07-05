@@ -28,7 +28,7 @@ Generell ist wichtig darauf zu achten, dass
     {=macro(zoomable-image-left, todo, images/scanning-ok.jpg)}
 {: class=clearfix}
 
-* der QR-Code gut lesbar ist (nicht verdeckt und nicht reingemalt),
+* der [QR-Code](#qr-code) gut lesbar ist (nicht verdeckt und nicht reingemalt),
 
     {=macro(zoomable-image-left, todo, images/scanning-object-on-qr.jpg)}
     {=macro(zoomable-image-left, todo, images/scanning-color-on-qr.jpg)}
@@ -44,4 +44,4 @@ Generell ist wichtig darauf zu achten, dass
 Wenn das Hochladen trotzdem nicht klappt, schick uns das Bild bitte an {=macro(help-email-link)}
 
 
-version: 1.007
+version: 1.008
