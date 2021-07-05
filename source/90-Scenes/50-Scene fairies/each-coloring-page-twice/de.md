@@ -1,5 +1,7 @@
 # Jedes Ausmalbild gibt's doppelt
 
+{=macro(todo, überarbeiten)}
+
 Sieht man sich die [Ausmalbilder der Szene „{=property(scene-translated)}”](https://scanarium.com/#pdfs-fairies) an, sieht es zuerst so aus, als gäbe es jedes Bild doppelt.
 
 Wenn man aber genauer hinschaut, sieht man, dass immer eines der beiden doppelten Bilder mehr Striche drin hat.
@@ -25,4 +27,4 @@ Und genauso wie wir's hier bei der Blumenfee gesehen haben ist's auch bei den an
 Steht „mit Details” im Namen mit dabei, sind schon mehr Sachen im Ausmalbild vorgegeben.
 Fehlt das „mit Details” im Namen, gibt's weniger Vorgaben und man kann sich selber ausdenken, wie es aussehen soll.
 
-version:1
+version:1.001
