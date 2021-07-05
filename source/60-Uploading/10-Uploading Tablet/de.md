@@ -12,6 +12,6 @@ Das Hochladen von Bildern am Tablet/Smartphone ist ganz einfach:
 * Tippe auf das Häckchen zum Bestätigen
 * Fertig :-)
 
-Falls du kein neues Foto machen, sondern ein bereits auf auf dem Tablet/Smartphone gespeichertes Foto direkt hochladen willst, benutze die [Anleitung für PC/Laptop](#uploading-pc).
+Falls du kein neues Foto machen, sondern ein bereits auf dem Tablet/Smartphone gespeichertes Foto direkt hochladen willst, benutze die [Anleitung für PC/Laptop](#uploading-pc).
 
-version: 1.001
+version: 1.002
