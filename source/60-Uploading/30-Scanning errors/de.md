@@ -5,11 +5,11 @@ Das öffnet die Hilfeseite für genau das Problem, das es mit dem Bild gibt.
 
 Falls die Fehlermeldung und der Knopf schon weg ist, lade das Bild einfach nochmal hoch.
 
-Eine Liste der Fehlermeldungen findest du im [Anhang](#errors).
+Eine Liste der Fehlermeldungen findest du im {=macro(labeled-node-link, errors, Anhang)}.
 
 Generell ist wichtig darauf zu achten, dass
 
-* du ein [Scanarium-Ausmalbild](#scanarium-coloring-pages) verwendest,
+* du ein {=macro(labeled-node-link, scanarium-coloring-pages, Scanarium-Ausmalbild)} verwendest,
 
     {=macro(zoomable-image-left, todo, images/scanning-foreign-page.jpg)}
     {=macro(zoomable-image-left, todo, images/scanning-ok.jpg)}
@@ -28,14 +28,14 @@ Generell ist wichtig darauf zu achten, dass
     {=macro(zoomable-image-left, todo, images/scanning-ok.jpg)}
 {: class=clearfix}
 
-* der [QR-Code](#qr-code) gut lesbar ist (nicht verdeckt und nicht reingemalt),
+* der {=macro(labeled-node-link, qr-code, QR-Code)} gut lesbar ist (nicht verdeckt und nicht reingemalt),
 
     {=macro(zoomable-image-left, todo, images/scanning-object-on-qr.jpg)}
     {=macro(zoomable-image-left, todo, images/scanning-color-on-qr.jpg)}
     {=macro(zoomable-image-left, todo, images/scanning-ok.jpg)}
 {: class=clearfix}
 
-* der [schwarze Rahmen](#rectangle) am Rand des Ausmalbildes vollständig auf dem Bild ist (nicht abgeschnitten und nicht verdeckt).
+* der {=macro(labeled-node-link, rectangle, schwarze Rahmen)} am Rand des Ausmalbildes vollständig auf dem Bild ist (nicht abgeschnitten und nicht verdeckt).
 
     {=macro(zoomable-image-left, Schwarzer Rahmen ist oben abgeschnitten, images/scanning-rectangle-cut-off.jpg)}
     {=macro(zoomable-image-left, Schwarzer Rahmen ist vollständig auf dem Bild, images/scanning-ok.jpg)}
@@ -44,4 +44,4 @@ Generell ist wichtig darauf zu achten, dass
 Wenn das Hochladen trotzdem nicht klappt, schick uns das Bild bitte an {=macro(help-email-link)}
 
 
-version: 1.009
+version: 1.010

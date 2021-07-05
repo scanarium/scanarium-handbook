@@ -1,12 +1,12 @@
 # Ausmalbilder
 
-Für Scanarium [benötigst](#ordinary-coloring-pages) du [Scanarium-Ausmalbilder](#scanarium-coloring-pages).
+Für Scanarium {=macro(labeled-node-link, ordinary-coloring-pages, benötigst)} du {=macro(labeled-node-link, scanarium-coloring-pages, Scanarium-Ausmalbilder)}.
 
 {=macro(zoomable-image-left, Scanarium-Ausmalbild, images/sample-coloring-page-de.jpg)}
 
-Die erkennst du am [QR-Code](#qr-code) und am [schwarzen Rahmen](#rectangle).
+Die erkennst du am {=macro(labeled-node-link, qr-code, QR-Code)} und am {=macro(labeled-node-link, rectangle, schwarzen Rahmen)}.
 
-Du kannst sie im [PDF-Bereich der Homepage](https://scanarium.com/#pdfs) [kostenlos runterladen](#downloading-coloring-pages).
+Du kannst sie im [PDF-Bereich der Homepage](https://scanarium.com/#pdfs) {=macro(labeled-node-link, downloading-coloring-pages, kostenlos runterladen)}.
 
 
-version:1.005
+version: 1.006

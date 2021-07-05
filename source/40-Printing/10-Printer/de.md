@@ -7,6 +7,7 @@ Ganz gleich ob Tintenstrahl-Drucker oder Laser-Drucker.
 
 Ganz gleich ob Multifunktionsgerät oder nicht.
 
-Solange die [Scanarium-Ausmalbilder](#scanarium-coloring-pages) beim Drucken nicht [abgeschnitten werden oder zu hell sind](#printing-tips), wird's klappen.
+Solange die {=macro(labeled-node-link, scanarium-coloring-pages, Scanarium-Ausmalbilder)} beim Drucken nicht {=macro(labeled-node-link, printing-tips, abgeschnitten werden oder zu hell sind)}, wird's klappen.
 
-version: 1.001
+
+version: 1.002

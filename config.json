@@ -17,6 +17,7 @@
     "macros": {
         "help-email-link": "[{=property(help-email-address)}](mailto:{=property(help-email-address)})",
         "node-link": "[{=nodeTitle($1)}](#$1)",
+        "labeled-node-link": "[$2](#$1 \"{=nodeTitle($1)}\")",
         "scene-header-image": "{=macro(zoomable-image-left, Screenshot {=property(scene-translated)},images/scenes/{=property(scene)}/scene-bait.png)}",
         "scene-header-text-de": "In der {=property(scene-translated)}-Szene könnt ihr $* ausmalen.",
         "scene-header-localized": "{=macro(scene-header-image)}\n{=macro(scene-header-text-{=property(language)},$*)}\n\n",

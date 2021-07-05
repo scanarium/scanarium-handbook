@@ -14,7 +14,7 @@ Beim Entwickeln testen wir akuell auf:
 * Motorola One Macro
 * diverse PCs und Laptops
 
-Neben dem Gerät selbst, kommt's auch noch auf den [Browser](#supported-browsers) an, den du verwendest.
+Neben dem Gerät selbst, kommt's auch noch auf den {=macro(labeled-node-link, supported-browsers, Browser)} an, den du verwendest.
 Mit *Chrome* klappt's gut.
 
-version: 1.002
+version: 1.003

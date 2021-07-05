@@ -1,6 +1,6 @@
 # Fehlermeldung: "{=translate({=property(error-message)})}"
 
-Wenn beim Hochladen das [schwarze Rechteck](#rectangle) nicht gefunden werden konnte, fotografiere das Bild nochmal neu und achte besonders darauf, dass
+Wenn beim Hochladen das {=macro(labeled-node-link, rectangle, schwarze Rechteck)} nicht gefunden werden konnte, fotografiere das Bild nochmal neu und achte besonders darauf, dass
 
 * das schwarze Rechteck vollständig auf dem Bild ist (nicht abgeschnitten und nicht verdeckt),
 
@@ -29,4 +29,5 @@ Damit sollte es klappen.
 
 Wenn es wieder nicht klappt, schick uns das Bild bitte an {=macro(help-email-link)}
 
-version: 1.004
+
+version: 1.005

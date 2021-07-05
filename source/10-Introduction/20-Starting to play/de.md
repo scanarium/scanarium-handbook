@@ -1,9 +1,9 @@
 # Wie kann ich losspielen?
 
-* [Druck](#printing) dir ein [Scanarium-Ausmalbild](https://scanarium.com/#pdfs) aus.
-* [Male](#coloring) es nach deinen Vorstellungen aus.
-* Starte [dein Scanarium](#launching).
-* Tippe/klicke auf den Bildschirm und dann auf "{=translate(Upload image)}" und [mache ein Foto](#takepicture) von dem ausgemalten Bild (entweder [direkt mit dem Tablet/Smartphone](#uploading-tablet) oder [lade die Fotodatei](#uploading-pc) in Scanarium).
+* {=macro(labeled-node-link, printing, Druck)} dir ein [Scanarium-Ausmalbild](https://scanarium.com/#pdfs) aus.
+* {=macro(labeled-node-link, coloring, Male)} es nach deinen Vorstellungen aus.
+* Starte {=macro(labeled-node-link, launching, dein Scanarium)}.
+* Tippe/klicke auf den Bildschirm und dann auf "{=translate(Upload image)}" und {=macro(labeled-node-link, takepicture, mache ein Foto)} von dem ausgemalten Bild (entweder {=macro(labeled-node-link, uploading-tablet, direkt mit dem Tablet/Smartphone)} oder {=macro(labeled-node-link, uploading-pc, lade die Fotodatei)} in Scanarium).
 
 Dann musst du nur noch zugucken und dich freuen... und natürlich noch viel mehr ausmalen :)
 
@@ -13,4 +13,4 @@ Hier gibt's auch noch Anleitungsvideos:
 
 {=macro(linked-text-icon, YouTube, Anleitung für Laptop/PC, https://www.youtube.com/watch?v=akekQRD-kuw&list=PL-o9mFmKUyebsYSo_hhymaLoi2dhylJuk)}
 
-version: 1.001
+version: 1.002

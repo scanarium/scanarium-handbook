@@ -1,8 +1,8 @@
 # Worauf muss ich beim Ausdrucken achten?
 
-Achte beim Ausdrucken der [Scanarium-Ausmalbilder](#scanarium-coloring-pages) darauf, dass
+Achte beim Ausdrucken der {=macro(labeled-node-link, scanarium-coloring-pages, Scanarium-Ausmalbilder)} darauf, dass
 
-* der [schwarze Rahmen](#rectangle) vollständig drauf (nicht abgeschnitten) ist und
+* der {=macro(labeled-node-link, rectangle, schwarze Rahmen)} vollständig drauf (nicht abgeschnitten) ist und
 
     {=macro(zoomable-image-left, todo, images/printing-rectangle-cut-off.jpg)}
     {=macro(zoomable-image-left, todo, images/printing-ok-perfect.jpg)}
@@ -28,4 +28,4 @@ Ganz egal ob der Ausdruck gedreht, verkleinert, unzentriert, Hochformat oder auc
 {: class=clearfix}
 
 
-version: 1.002
+version: 1.003

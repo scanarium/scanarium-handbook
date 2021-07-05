@@ -13,10 +13,10 @@ Aber Dank unserer Testspieler wissen wir, dass Scanarium zumindest auf folgenden
 * Silk
 * Vivaldi
 
-Einen dieser Browser solltet ihr auf allen [aktuellen Geräten](#supported-devices) installieren können.
+Einen dieser Browser solltet ihr auf allen {=macro(labeled-node-link, supported-devices, aktuellen Geräten)} installieren können.
 
 Wahrscheinlich klappt's aber auch mit anderen Browsern.
 Probier's aus und geh mit deinem Browser zur [Demo Seite](https://demo.scanarium.com/).
 Wenn die Demo Seite flüssig läuft, wird auch das Spielen klappen :-)
 
-version: 1.001
+version: 1.002

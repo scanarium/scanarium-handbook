@@ -1,9 +1,10 @@
 # Ausmalen
 
-Solange das Papier nicht zu wellig wird, kannst du die [Scanarim-Ausmalbilder](#scanarium-coloring-pages) ausmalen [womit du willst](#pens).
+Solange das Papier nicht zu wellig wird, kannst du die {=macro(labeled-node-link, scanarium-coloring-pages, Scanarim-Ausmalbilder)} ausmalen {=macro(labeled-node-link, pens, womit du willst)}.
 
 Farbstifte oder Filzstifte klappen zum Beispiel wunderbar.
 
-Aber du kannst die Ausmalbilder auch [bebasteln](#photos) oder [Figuren, Spielsachen und Gegenstände](#objects) zum Fotografieren draufstellen.
+Aber du kannst die Ausmalbilder auch {=macro(labeled-node-link, photos, bebasteln)} oder {=macro(labeled-node-link, objects, Figuren, Spielsachen und Gegenstände)} zum Fotografieren draufstellen.
 
-version: 1.004
+
+version: 1.005

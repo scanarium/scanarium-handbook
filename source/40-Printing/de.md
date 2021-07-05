@@ -1,9 +1,10 @@
 # Ausdrucken
 
-Für's Ausdrucken der [Scanarium-Ausmalbilder](#scanarium-coloring-pages) reicht jeder [normale Drucker](#printer).
+Für's Ausdrucken der {=macro(labeled-node-link, scanarium-coloring-pages, Scanarium-Ausmalbilder)} reicht jeder {=macro(labeled-node-link, printer, normale Drucker)}.
 
-[Wichtig ist nur](#printing-tips), dass der Ausdruck nicht zu hell ist und der [schwarze Rahmen](#rectangle) vollständig drauf ist.
+{=macro(labeled-node-link, printing-tips, Wichtig ist nur)}, dass der Ausdruck nicht zu hell ist und der {=macro(labeled-node-link, rectangle, schwarze Rahmen)} vollständig drauf ist.
 
-Wenn du [keinen Drucker hast](#no-printer), kannst du die Bilder auch in einem Grafikprogramm anmalen.
+Wenn du {=macro(labeled-node-link, no-printer, keinen Drucker hast)}, kannst du die Bilder auch in einem Grafikprogramm anmalen.
 
-version: 1.003
+
+version: 1.004

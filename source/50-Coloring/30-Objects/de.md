@@ -16,7 +16,7 @@ Das klappt mit kleinen Figuren, kleinen Kuscheltieren, Autos, Muscheln, Perlen, 
     {=macro(zoomable-image-left, todo, images/coloring-objects-drawing.jpg)}
 {: class=clearfix}
 
-* Achte darauf, dass der [schwarze Rahmen](#rectangle) und der [QR-Code](#qr-code) nicht verdeckt sind:
+* Achte darauf, dass der {=macro(labeled-node-link, rectangle, schwarze Rahmen)} und der {=macro(labeled-node-link, qr-code, QR-Code)} nicht verdeckt sind:
 
     {=macro(zoomable-image-left, todo, images/coloring-objects-rectangle-hidden.jpg)}
     {=macro(zoomable-image-left, todo, images/coloring-objects-qr-code-hidden.jpg)}
@@ -31,4 +31,4 @@ Das klappt mit kleinen Figuren, kleinen Kuscheltieren, Autos, Muscheln, Perlen, 
 {: class=clearfix}
 
 
-version: 1.000
+version: 1.001

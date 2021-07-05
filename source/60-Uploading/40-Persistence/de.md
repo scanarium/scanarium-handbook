@@ -8,6 +8,7 @@ Deine neuesten Bilder werden am häufigsten gezeigt.
 Aber es werden immer auch welche von den Älteren druntergemischt.
 Somit sind auch auch deine allerersten Bilder immer wieder mal dabei.
 
-Du kannst deine Ausmalbilder natürlich auch wieder [löschen](#delete), wenn du sie  nicht mehr haben möchtest.
+Du kannst deine Ausmalbilder natürlich auch wieder {=macro(labeled-node-link, delete, löschen)}, wenn du sie  nicht mehr haben möchtest.
 
-version: 1.003
+
+version: 1.004
