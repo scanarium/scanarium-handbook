@@ -2,8 +2,8 @@
 
 Nein, du brauchst nichts installieren.
 
-Ein normaler Browser (Chrome, Firefox, Edge,…) mit Internet-Zugang reicht.
+Ein [normaler Browser](#supported-browsers) (Chrome, Firefox, Edge,…) mit Internet-Zugang reicht.
 
 Probier's gleich auf unsere [Demo Seite](https://demo.scanarium.com/) aus.
 
-version: 1.004
+version: 1.005
