@@ -146,11 +146,7 @@ def process_scanarium_homepage_dir(dir):
 
 
 def process_base_images():
-    for base_name in [
-            'sample-coloring-page-de-marked-qr.jpg',
-            'sample-coloring-page-de-marked-rectangle.jpg',
-            ]:
-        generate_small_image(os.path.join(IMAGE_DIR, base_name))
+    pass
 
 
 def parse_arguments():
