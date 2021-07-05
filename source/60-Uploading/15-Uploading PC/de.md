@@ -2,11 +2,9 @@
 
 Das Hochladen von Bildern am PC/Laptop ist ganz einfach:
 
-{=macro(todo, "Starte dein Scanarium" verlinken, wenn ein solcher Abschnitt geschrieben wurde)}
-
 * Speichere ein Foto von deinem ausgemalten [Scanarium-Ausmalbild](#scanarium-coloring-pages) auf deinem Computer.
     (Fotoapparat, Scanner, Multifunktionsdrucker, Kopierer, …)
-* Starte dein Scanarium
+* [Starte dein Scanarium](#launching)
 * Tippe/klicke auf den Bildschirm
 * Wähle oben "{=translate(Upload image)}"
 * Wähle das gespeicherte Foto aus
@@ -14,4 +12,4 @@ Das Hochladen von Bildern am PC/Laptop ist ganz einfach:
 
 Falls du auch ein Tablet oder Smartphone hast, auf denen geht's [noch einfacher](#uploading-tablet).
 
-version: 1.001
+version: 1.002

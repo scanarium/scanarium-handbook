@@ -2,9 +2,7 @@
 
 Das Hochladen von Bildern am Tablet/Smartphone ist ganz einfach:
 
-{=macro(todo, "Starte dein Scanarium" verlinken, wenn ein solcher Abschnitt geschrieben wurde)}
-
-* Starte dein Scanarium
+* [Starte dein Scanarium](#launching)
 * Tippe/klicke auf den Bildschirm
 * Wähle oben "{=translate(Upload image)}"
 * Wähle "Kamera"
@@ -14,4 +12,4 @@ Das Hochladen von Bildern am Tablet/Smartphone ist ganz einfach:
 
 Falls du kein neues Foto machen, sondern ein bereits auf dem Tablet/Smartphone gespeichertes Foto direkt hochladen willst, benutze die [Anleitung für PC/Laptop](#uploading-pc).
 
-version: 1.002
+version: 1.003
