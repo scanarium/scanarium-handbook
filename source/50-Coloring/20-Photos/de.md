@@ -5,7 +5,7 @@ Ja, klar.
 Fotos, Zeichnungen, Bilder, Scherenschnitte, ….
 Du kannst die Scanarium-Ausmalbilder bebasteln, wie du willst.
 
-Solange der [schwarze Rahmen](#rectangle) und der [QR-Code](#qr-code) nicht abgeschnitten oder überbastelt wird, gibt's keine Grenzen.
+Solange der [schwarze Rahmen](#rectangle) und der [QR-Code](#qr-code) nicht abgeschnitten oder überbastelt werden, gibt's keine Grenzen.
 
 * Such dir raus, was du draufbasteln willst.
     Zum Beispiel Fotos:
@@ -26,4 +26,4 @@ Solange der [schwarze Rahmen](#rectangle) und der [QR-Code](#qr-code) nicht abge
 {: class=clearfix}
 
 
-version: 1.000
+version: 1.001
