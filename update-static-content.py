@@ -89,6 +89,7 @@ def process_scanarium_dir(dir):
         ('LocalizerFactory.py', 'translate'),
         ('Localizer.py', 'translate'),
         ('MessageFormatter.py', 'translate'),
+        ('Util.py', 'util'),
             ]:
         copy_file(os.path.join(dir, 'scanarium', name),
                   target_dir=os.path.join(PYTHON_SOURCE_DIR, group))
