@@ -6,9 +6,9 @@ Beim nächsten Spielen startet Scanarium gleich mit deinen vorhandenen Bildern u
 
 Deine neuesten Bilder werden am häufigsten gezeigt.
 Aber es werden immer auch welche von den Älteren druntergemischt.
-Somit sind auch auch deine allerersten Bilder immer wieder mal dabei.
+Somit sind auch deine allerersten Bilder immer wieder mal dabei.
 
 Du kannst deine Ausmalbilder natürlich auch wieder {=macro(labeled-node-link, delete, löschen)}, wenn du sie  nicht mehr haben möchtest.
 
 
-version: 1.004
+version: 1.005
