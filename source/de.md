@@ -5,11 +5,10 @@
 (Version {=property(build_day_iso)}, {=property(build_git_description)} )
 {: class=centered}
 
-_Dieses Dokument ist noch ein Platzhalter.
-Bei Fragen zu Scanarium, wende dich direkt an {=macro(help-email-link)}_
+Falls du in diesem Handbuch keine Antwort auf deine Frage findest, schick sie uns bitte direkt per Email an {=macro(help-email-link)}
 
 {=macro(todo, „Schwarzes Rechteck” einheitlich benennen)}
 
 id:root
-version:6.102
+version: 7.000
 help-email-address:hilfe@scanarium.com
