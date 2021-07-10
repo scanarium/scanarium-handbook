@@ -9,7 +9,6 @@ Oder Rennautofahren.
 Oder ein Ritt auf einem Einhorn.
 
 Scanarium macht daraus eine Fotowand und zeigt sie euch.
-
 {=macro(scene-links-localized)}
 
-version: 1.001
+version: 1.002
