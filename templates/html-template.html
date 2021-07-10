@@ -164,8 +164,19 @@ if (languages.length > 0) {
 }
 
 window.onhashchange = function() {
+  // Update language links to make sure they point to the correct hash
   for (const link of document.getElementsByClassName('language-text-link')) {
     link.href = link.href.replace(/#.*$/, '') + document.location.hash;
+  }
+
+  // Move the hashed element into view
+  if (document.location.hash && document.location.hash.length > 1) {
+    idToShow = document.location.hash.substring(1, document.location.hash.length);
+    console.log('Scrolling to ' + idToShow);
+    var elementToShow = document.getElementById(idToShow);
+    if (elementToShow) {
+      elementToShow.scrollIntoView();
+    }
   }
 }
 window.onhashchange();
