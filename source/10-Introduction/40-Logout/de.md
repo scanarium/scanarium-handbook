@@ -8,6 +8,6 @@ Zum Ausloggen gibt's einen eigenen Menüpunkt:
 
 Jetzt bist du ausgeloggt und wirst auf die Scanarium Homepage weitergeleitet.
 
-{=macro(todo, Einbauen, wie man sich wieder einloggen kann)}
+Um wieder weiterzuspielen, {=macro(labeled-node-link, launching, log dich einfach wieder ein)}.
 
-version: 2.001
+version: 2.002
