@@ -133,15 +133,6 @@ languages.forEach(language => {
 <!-- LANGUAGE-TEXT-LINKS -->
 </p>
 <script>
-var pathname_in_language = function (pathname, language) {
-  if (pathname.substring(pathname.length - 1, pathname.length) == '/') {
-    pathname += 'index.html.' + language;
-  } else {
-    pathname = location.pathname.replace(/\.[a-z]+$/i, '.' + language);
-  }
-  return pathname;
-}
-
 const separator = " | ";
 var languageTextLinks = document.getElementById("language-text-links");
 if (languages.length > 0) {
