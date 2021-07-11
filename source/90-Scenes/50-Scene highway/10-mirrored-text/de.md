@@ -18,8 +18,8 @@ Eine Ausnahme sind Fahrzeuge, bei denen auf dem Ausmalbild schon eine Aufschrift
 Bei diesen Bildern weiß Scanarium, wo der Text steht und kann ihn deswegen beim Spiegeln auslassen.
 Dort passt die Aufschrift, egal in welche Richtung das Fahrzeug fährt:
 
-{=macro(zoomable-image-left, Screenshot Lastwagen mit Aufschrift von rechts nach links, images/scene-highway-writing-mirrored-police-car-right-to-left.jpg)}
-{=macro(zoomable-image-left, Screenshot Lastwagen mit Aufschrift von rechts nach links, images/scene-highway-writing-mirrored-police-car-left-to-right.jpg)}
+{=macro(zoomable-image-left, Screenshot Polizeiauto mit Aufschrift von rechts nach links, images/scene-highway-writing-mirrored-police-car-right-to-left.jpg)}
+{=macro(zoomable-image-left, Screenshot Polizeiauto mit Aufschrift von rechts nach links, images/scene-highway-writing-mirrored-police-car-left-to-right.jpg)}
 {: class=clearfix}
 
-version: 1.102
+version: 1.103
