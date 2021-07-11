@@ -12,7 +12,7 @@ Es geht zum Beispiel wunderbar mit
 
 Wasserfarben und Fingerfarben klappen natürlich prinzipiell auch.
 Aber wenn man zu feucht malt, wellt sich das Papier.
-Und das kann beim Hochladen stören.
+Und das kann beim {=macro(labeled-node-link, scanning, Hochladen)} {=macro(labeled-node-link, takepicture, stören)}.
 
 Wir verwenden am liebsten:
 
@@ -21,4 +21,4 @@ Wir verwenden am liebsten:
 
 {=macro(todo, Sollen wir hier noch Fotos von den Stiften machen?)}
 
-version: 1.006
+version: 1.007
