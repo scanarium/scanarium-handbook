@@ -20,5 +20,6 @@ Wir verwenden am liebsten:
 * Filzstifte (z.B. [Stabilo Cappi](https://www.stabilo.com/de/produkte/malenundzeichnen/filzstifte/stabilo-cappi/) und [Power](https://www.stabilo.com/de/shop/401/Filzstift-STABILO-power/kaufen) oder [Staedtler Noris Doppelfasermaler](https://www.staedtler.com/de/de/produkte/malen/filzstifte/noris-320-doppelfasermaler-320-nwp12/)).
 
 {=macro(todo, Sollen wir hier noch Fotos von den Stiften machen?)}
+{=macro(todo, Hier eventuell Werbungsmarker setzen?)}
 
-version: 1.007
+version: 1.008
