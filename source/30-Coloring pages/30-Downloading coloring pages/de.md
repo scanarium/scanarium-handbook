@@ -4,6 +4,6 @@ Im [PDF-Bereich der Homepage](https://scanarium.com/#pdfs) kannst du sie kostenl
 
 Neben den PDFs der einzelnen Ausmalbilder, findest du dort auch Sammlungen mit mehr als einem Bild.
 
-Also zum Beispiel "[{=translate(All coloring pages)}](https://scanarium.com/pdfs/de/{=safeFilename({=translate(All coloring pages)})}.pdf)" oder "[{=translate1Param(All {scene_name} coloring pages, scene_name, space)}](https://scanarium.com/pdfs/space/scene/de/{=safeFilename({=translate1Param(All {scene_name} coloring pages, scene_name, space)})}.pdf)".
+Also zum Beispiel "[{=translate(All coloring pages)}](https://scanarium.com/pdfs/{=property(language)}/{=safeFilename({=translate(All coloring pages)})}.pdf)" oder "[{=translate1Param(All {scene_name} coloring pages, scene_name, space)}](https://scanarium.com/pdfs/space/scene/{=property(language)}/{=safeFilename({=translate1Param(All {scene_name} coloring pages, scene_name, space)})}.pdf)".
 
-version: 1.004
+version: 1.005
