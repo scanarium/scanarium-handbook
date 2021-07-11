@@ -8,7 +8,7 @@ Es geht zum Beispiel wunderbar mit
 * Filzstiften,
 * Gelstiften,
 * Glitzerstiften und
-* Ölkreiden.
+* Wachsmalstiften.
 
 Wasserfarben und Fingerfarben klappen natürlich prinzipiell auch.
 Aber wenn man zu feucht malt, wellt sich das Papier.
@@ -21,4 +21,4 @@ Wir verwenden am liebsten:
 
 {=macro(todo, Sollen wir hier noch Fotos von den Stiften machen?)}
 
-version: 1.005
+version: 1.006
