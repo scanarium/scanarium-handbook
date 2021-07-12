@@ -8,7 +8,5 @@
 _This is document is still under construction.
 If you have questions around scanarium, please reach out via email to {=macro(help-email-link)}_
 
-{=macro(todo, clarify use of image/picture/photo)}
-
 id:root
-version:6.102
+version:6.103
