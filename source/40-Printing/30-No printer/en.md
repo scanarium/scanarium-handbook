@@ -2,11 +2,13 @@
 
 In principle, you can color the {=macro(labeled-node-link, scanarium-coloring-pages, Scanarium coloring pages)} also directly in a graphics program on your computer and upload such colored files.
 
-But we think that it's much more fun to color on real real paper using real pens, crayons using real color.
+But we think that it's much more fun to color on real paper using real pens, crayons using real color.
+
+{=macro(todo, passt der hintere Teil vom Satz oben so?)}
 
 Maybe someone of your friends has a printer and can print a few Scanarium color pages for you?
 
 Or maybe you live close enough to a copy shop that offers low-cost printing?
 
 
-version: 1.000
+version: 1.001
