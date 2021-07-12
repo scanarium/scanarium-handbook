@@ -11,7 +11,9 @@ that are less than 5 years old.
 
 Try it out: Open the [demo page](https://demo.scanarium.com/) on your tablet, smartphone, ….
 
+{=macro(todo, "Open" nach Doppelpunkt klein schreiben?)}
+
 If the demo page runs smoothly on your device, playing should work fine too.
 
 
-version: 1.000
+version: 1.001
