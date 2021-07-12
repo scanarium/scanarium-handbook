@@ -16,7 +16,7 @@ It works with small figures, small plush animals, cars, shells, pearls, coins, s
     {=macro(zoomable-image-left, Object on a Scanarium coloring page, images/coloring-objects-drawing.jpg)}
 {: class=clearfix}
 
-* Take care that the {=macro(labeled-node-link, rectangle, bounding black rectangle)} and the {=macro(labeled-node-link, qr-code, QR code)} are both still well visible and not occluded.
+* Take care that the {=macro(labeled-node-link, rectangle, black bounding rectangle)} and the {=macro(labeled-node-link, qr-code, QR code)} are both still well visible and not occluded.
 
     {=macro(zoomable-image-left, Object occludes black bounding rectangle, images/coloring-objects-rectangle-hidden.jpg)}
     {=macro(zoomable-image-left, Object occludes QR code, images/coloring-objects-qr-code-hidden.jpg)}
@@ -31,4 +31,4 @@ It works with small figures, small plush animals, cars, shells, pearls, coins, s
 {: class=clearfix}
 
 
-version: 1.000
+version: 1.001

@@ -22,9 +22,9 @@ To assure a smooth uploading, take care when taking pictures that
 
 * the {=macro(labeled-node-link, rectangle, black bounding rectangle)} is well visible (neither occluded nor cut off).
 
-    {=macro(zoomable-image-left, Rectangle cut off, images/scanning-rectangle-cut-off.jpg)}
-    {=macro(zoomable-image-left, Rectangle well visible, images/scanning-ok.jpg)}
+    {=macro(zoomable-image-left, Black bounding rectangle cut off, images/scanning-rectangle-cut-off.jpg)}
+    {=macro(zoomable-image-left, Black bounding rectangle well visible, images/scanning-ok.jpg)}
 {: class=clearfix}
 
 
-version: 1.000
+version: 1.001

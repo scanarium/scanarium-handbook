@@ -4,7 +4,7 @@ When printing {=macro(labeled-node-link, scanarium-coloring-pages, Scanarium col
 
 * the {=macro(labeled-node-link, rectangle, black bounding rectangle)} does not get cut off, and
 
-    {=macro(zoomable-image-left, Black bounding box cut off, images/printing-rectangle-cut-off.jpg)}
+    {=macro(zoomable-image-left, Black bounding rectangle cut off, images/printing-rectangle-cut-off.jpg)}
     {=macro(zoomable-image-left, Good printout, images/printing-ok-perfect.jpg)}
 {: class=clearfix}
 
@@ -27,4 +27,4 @@ If you follow the above guidelines, it should work, no matter whether the printo
 {: class=clearfix}
 
 
-version: 1.000
+version: 1.001
