@@ -4,6 +4,10 @@ Im hochgeladenen Bild wurde ein QR-Code gefunden, der nicht zu Scanarium gehört
 
 Eventuell auf einer Schachtel oder auf einem Prospekt im Foto-Hintergrund.
 
+{=macro(zoomable-image-left, scanning-qr-on-other-object.jpg, Fremder QR-Code sichtbar)}
+{=macro(zoomable-image-left, scanning-ok.jpg, Nur der QR-Code vom Scanarium-Ausmalbild ist auf dem Foto)}
+{: class=clearfix}
+
 Mach ein neues Foto von deinem {=macro(labeled-node-link, scanarium-coloring-pages, Scanarium-Ausmalbild)} und achte darauf, dass:
 
 * das {=macro(labeled-node-link, rectangle, schwarze Rechteck)} am Ausmalbild-Rand gut zu sehen ist,
@@ -12,11 +16,7 @@ Mach ein neues Foto von deinem {=macro(labeled-node-link, scanarium-coloring-pag
 
 Damit sollte das Hochladen klappen.
 
-{=macro(zoomable-image-left, scanning-qr-on-other-object.jpg, Fremder QR-Code sichtbar)}
-{=macro(zoomable-image-left, scanning-ok.jpg, Nur der QR-Code vom Scanarium-Ausmalbild ist auf dem Foto)}
-{: class=clearfix}
-
 Wenn es wieder nicht klappt, schick uns das Bild bitte an {=macro(help-email-link)}
 
 
-version: 1.006
+version: 1.007
