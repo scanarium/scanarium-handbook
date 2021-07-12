@@ -15,7 +15,7 @@ In general, it's important to take care that
     {=macro(zoomable-image-left, Good image of a Scanarium coloring page, images/scanning-ok.jpg)}
 {: class=clearfix}
 
-* the image is evenly and well lit (neither too dark and no hard shadows),
+* the image is evenly and well lit (not too dark and no hard shadows),
 
     {=macro(zoomable-image-left, Image too dark, images/scanning-too-dark.jpg)}
     {=macro(zoomable-image-left, Image contains hard shadows, images/scanning-hard-shadows.jpg)}
@@ -44,4 +44,4 @@ In general, it's important to take care that
 If the uploading still does not work, please send us the image to {=macro(help-email-link)}
 
 
-version: 1.000
+version: 1.001
