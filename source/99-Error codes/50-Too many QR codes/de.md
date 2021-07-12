@@ -5,6 +5,10 @@ Es darf nur ein QR-Code zu sehen sein: Der {=macro(labeled-node-link, qr-code, Q
 Achte darauf, dass keine anderen QR-Codes im Bild sind.
 Auch nicht zum Beispiel im Hintergrund auf einer Schachtel oder einem Prospekt.
 
+{=macro(zoomable-image-left, scanning-multiple-qr-codes.jpg, Zu viele QR-Codes sichtbar)}
+{=macro(zoomable-image-left, scanning-ok.jpg, Nur der QR-Code vom Scanarium-Ausmalbild ist auf dem Foto)}
+{: class=clearfix}
+
 Mach ein neues Foto von deinem {=macro(labeled-node-link, scanarium-coloring-pages, Scanarium-Ausmalbild)} und achte darauf, dass:
 
 * das {=macro(labeled-node-link, rectangle, schwarze Rechteck)} am Ausmalbild-Rand gut zu sehen ist,
@@ -13,11 +17,7 @@ Mach ein neues Foto von deinem {=macro(labeled-node-link, scanarium-coloring-pag
 
 Damit sollte das Hochladen klappen.
 
-{=macro(zoomable-image-left, scanning-multiple-qr-codes.jpg, Zu viele QR-Codes sichtbar)}
-{=macro(zoomable-image-left, scanning-ok.jpg, Nur der QR-Code vom Scanarium-Ausmalbild ist auf dem Foto)}
-{: class=clearfix}
-
 Wenn es wieder nicht klappt, schick uns das Bild bitte an {=macro(help-email-link)}
 
 
-version: 1.008
+version: 1.009
