@@ -1,8 +1,9 @@
 # Muss ich mich einloggen?
 
-{=macro(todo, Diesen Teil nochmals überarbeiten, wenn klar ist, was man bei der Registrierung alles sieht/bekommt)}
-Ja, du erhältst Zugangsdaten für deinen persönlichen Scanarium-Account.
-Du brauchst Benutzername und Passwort.
-Rufe in einem Browser folgenden URL auf: DeinBenutzername.scanarium.com und gib dann in dem aufspringenden Fenster deinen Benutzernamen und dein Passwort ein.
+Ja.
+Das Einloggen ist notwendig, damit nur du (und die, denen du deinen Benutzernamen und Passwort verrätst) deine Bilder sehen können.
 
-version: 1.0002
+Nutze einen Passwort Manager, damit du dir dein Passwort nicht merken musst.
+Dadurch geht das {=macro(labeled-node-link, launching, Einloggen)} noch einfacher.
+
+version: 2.000
