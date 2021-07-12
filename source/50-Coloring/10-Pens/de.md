@@ -14,7 +14,7 @@ Wasserfarben und Fingerfarben klappen natürlich prinzipiell auch.
 Aber wenn man zu feucht malt, wellt sich das Papier.
 Und das kann beim {=macro(labeled-node-link, scanning, Hochladen)} {=macro(labeled-node-link, takepicture, stören)}.
 
-Wir verwenden am liebsten:
+Wir verwenden am liebsten¹:
 
 * Buntstifte (z.B. [Jolly Supersticks](https://jolly.at/produkt-kategorie/farbstifte/supersticks/)) und
 
@@ -28,6 +28,10 @@ Wir verwenden am liebsten:
     {=macro(zoomable-image-left, Staedtler Noris Doppelfasermaler, images/pens-staedtler-noris.jpg)}
 {: class=clearfix}
 
-{=macro(todo, Hier eventuell Werbungsmarker setzen?)}
+---
 
-version: 2.000
+¹ Diese Einschätzung ist unsere eigene.
+Wir haben die Stifte mit unserem eigenen Geld gekauft.
+Wir haben dafür weder Geld, Muster noch andere Zuwendungen erhalten.
+
+version: 3.000

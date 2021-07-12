@@ -13,7 +13,7 @@ The following typically work very well:
 Watercolors and fingerpaint can work too.
 But when painting too wet, the paper might curl up or get wavy, which can {=macro(labeled-node-link, takepicture, get in the way)} later during {=macro(labeled-node-link, scanning, upload)}.
 
-We prefer to color with:
+We prefer¹ to color with:
 
 * Colored pencils (e.g., [Jolly Supersticks](https://jolly.at/en/produkt-kategorie/colouring-pencils/supersticks-classic/)), and
 
@@ -27,6 +27,10 @@ We prefer to color with:
     {=macro(zoomable-image-left, Staedtler Noris Doppelfasermaler, images/pens-staedtler-noris.jpg)}
 {: class=clearfix}
 
-{=macro(todo, Hier eventuell Werbungsmarker setzen?)}
+---
 
-version: 2.000
+¹ Our opinion is our own.
+We bought these pens with our own money.
+We do not and did not receive money, samples, or donations for it.
+
+version: 3.000
