@@ -2,7 +2,7 @@
 
 Yes, of course:
 
-* Switch to the scene to delete pictures from.
+* Switch to the scene to delete images from.
 * Tap/click the screen and choose "{=translate(Settings)}".
 * Then choose the "{=translate(page_title, Administration)}" tab.
 * In the section "{=translate(Delete actors)}", select "{=translate1Param(Reset scene "{scene_name}", scene_name, […])}" to delete all images from this scene.
@@ -10,4 +10,4 @@ Yes, of course:
 
 Now all your images are deleted from the scene and you start afresh.
 
-version: 1.000
+version: 1.001
