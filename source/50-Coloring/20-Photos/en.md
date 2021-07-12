@@ -18,7 +18,7 @@ There are no limits as long as the {=macro(labeled-node-link, rectangle, black b
     {=macro(zoomable-image-left, Photos under coloring page, images/coloring-photos-drawing.jpg)}
 {: class=clearfix}
 
-* Take a photo of the coloring page und upload it to Scanarium
+* Take a picture of the coloring page und upload it to Scanarium
 
     Now off go the rockets, cars, balloons, … with your photos!
 
@@ -26,4 +26,4 @@ There are no limits as long as the {=macro(labeled-node-link, rectangle, black b
 {: class=clearfix}
 
 
-version: 1.000
+version: 1.001

@@ -28,11 +28,11 @@ If uploading fails because no {=macro(labeled-node-link, qr-code, QR code)} was 
     {=macro(zoomable-image-left, QR code is well visible, images/scanning-ok.jpg)}
 {: class=clearfix}
 
-* the image is taken straight from above.
+* the picture is taken straight from above.
 
-    {=macro(zoomable-image-left, Image taken from too far at the front, images/scanning-too-skew-front.jpg)}
-    {=macro(zoomable-image-left, Image taken from too far on the right, images/scanning-too-skew-sideways.jpg)}
-    {=macro(zoomable-image-left, Image taken straight from above, images/scanning-ok.jpg)}
+    {=macro(zoomable-image-left, Picture taken from too far at the front, images/scanning-too-skew-front.jpg)}
+    {=macro(zoomable-image-left, Picture taken from too far on the right, images/scanning-too-skew-sideways.jpg)}
+    {=macro(zoomable-image-left, Picture taken straight from above, images/scanning-ok.jpg)}
 {: class=clearfix}
 
 Uploading this new image should work.
@@ -40,4 +40,4 @@ Uploading this new image should work.
 If it still does not work, please send us the image to {=macro(help-email-link)}
 
 
-version: 1.000
+version: 1.001
