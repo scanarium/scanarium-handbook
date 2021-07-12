@@ -2,11 +2,6 @@
 
 Scanarium ist ein _Ausmalspiel für junge, kreative Kinder, die gerne zeichnen oder malen_.
 
-{=macro(todo, Da wäre: „für junge, kreative Zeichner:innen und Maler:innen” irgendwie schöner)}
-
-{=macro(todo, Vielleict: „für junge Kreative, die gerne zeichnen oder malen”?)}
-
-
 Es passt perfekt vom Kindergartenstart bis zum frühen Volksschulalter.
 
 So funktioniert's:
@@ -19,4 +14,4 @@ So funktioniert's:
 
 So beginnen die [Autos](https://demo.scanarium.com/?scene=highway) aus deinen Ausmalbildern zu fahren, oder deine [Raumschiffe](https://demo.scanarium.com/?scene=space) und [Vögel](https://demo.scanarium.com/?scene=balloons) zu fliegen.
 
-version:1.009
+version:1.010
