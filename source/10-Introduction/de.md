@@ -11,13 +11,12 @@ Es passt perfekt vom Kindergartenstart bis zum frühen Volksschulalter.
 
 So funktioniert's:
 
-* Ihr druckt euch ein [Scanarium-Ausmalbild](https://scanarium.com/#pdfs) aus und {=macro(labeled-node-link, coloring, malt es aus)}.
-* Die ausgemalten Bilder {=macro(labeled-node-link, scanning, ladet)} ihr dann zu Scanarium {=macro(labeled-node-link, scanning, hoch)}.
-* Und Scanarium [animiert](https://demo.scanarium.com/) sie dann für euch.
+* Du druckst dir ein [Scanarium-Ausmalbild](https://scanarium.com/#pdfs) aus und {=macro(labeled-node-link, coloring, malst es aus)}.
+* Das ausgemalte Bild {=macro(labeled-node-link, scanning, lädst)} du dann zu Scanarium {=macro(labeled-node-link, scanning, hoch)}.
+* Und Scanarium [animiert](https://demo.scanarium.com/) es dann für dich.
 
 ![Scanarium worflow](images/bait.gif){: class=big-image}
 
-So beginnen die [Autos](https://demo.scanarium.com/?scene=highway) aus euren Ausmalbildern zu fahren, oder eure [Raumschiffe](https://demo.scanarium.com/?scene=space) und [Vögel](https://demo.scanarium.com/?scene=balloons) zu fliegen.
-{=macro(todo, Sollen wir hier wirklich auf „du” also Anrede umstellen?)}
+So beginnen die [Autos](https://demo.scanarium.com/?scene=highway) aus deinen Ausmalbildern zu fahren, oder deine [Raumschiffe](https://demo.scanarium.com/?scene=space) und [Vögel](https://demo.scanarium.com/?scene=balloons) zu fliegen.
 
-version:1.008
+version:1.009

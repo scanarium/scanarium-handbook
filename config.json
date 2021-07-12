@@ -20,7 +20,7 @@
         "node-link": "[{=nodeTitle($1)}](#$1 \"{=translate(Chapter)}: {=nodeTitle($1)}\")",
         "labeled-node-link": "[{=shift($*)}](#$1 \"{=translate(Chapter)}: {=nodeTitle($1)}\")",
         "scene-header-image": "{=macro(zoomable-image-left, scenes/{=property(scene)}/scene-bait.png, Screenshot {=property(scene-translated)})}",
-        "scene-header-text-de": "In der {=property(scene-translated)}-Szene könnt ihr $* ausmalen.",
+        "scene-header-text-de": "In der {=property(scene-translated)}-Szene kannst du $* ausmalen.",
         "scene-header-text-en": "In the {=property(scene-translated)} scene, you can color $*.",
         "scene-header-localized": "{=macro(scene-header-image)}\n{=macro(scene-header-text-{=property(language)},$*)}\n\n",
         "scene-links": "{: class=clearfix}\\n\\n{=macro(linked-text-icon, YouTube, $1, https://www.youtube.com/watch?v={=property(youtube-demo-video-id)}&list=PL-o9mFmKUyeaNl0TSucCBEsVJLK6gcZdZ)}\\n\\n{=macro(linked-text-icon, Scanarium, $2, https://demo.scanarium.com/?scene={=property(scene)})}\\n\\n{=macro(linked-text-icon, Coloring-page, $3, https://scanarium.com/#pdfs-{=property(scene)})}",

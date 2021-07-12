@@ -2,7 +2,7 @@
 
 ## German
 
-* Wir sprechen die  Leser mit „du” an.
+* Wir sprechen die Leser mit „du” an (Kein „Sie”. Kein „ihr”).
 * Bei Ablaufbeschreibungen versuchen wir „klicke/tippe” zu vermeiden und statt dessen Ausdrücke wie „auswählen” zu verwenden.
     („klicke/tippe” nur verwenden, wenn man das Spiel pausieren bzw. zu den Einstellungen muss.)
 * Beim Beantworten von Fragen, lassen wir „für Scanarium”, „bei Scanarium” etc weg.
