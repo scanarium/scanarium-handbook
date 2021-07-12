@@ -17,14 +17,14 @@ We prefer¹ to color with:
 
 * Colored pencils (e.g., [Jolly Supersticks](https://jolly.at/en/produkt-kategorie/colouring-pencils/supersticks-classic/)), and
 
-    {=macro(zoomable-image-left, images/pens-jolly-supersticks.jpg, Jolly Supersticks)}
+    {=macro(zoomable-image-left, pens-jolly-supersticks.jpg, Jolly Supersticks)}
 {: class=clearfix}
 
 * Felt-tip pens (e.g., [Stabilo Cappi](https://www.stabilo.com/com/products/coloring-drawing/coloring-felt-tip-pens/stabilo-cappi/) und [Power](https://www.stabilo.com/com/products/coloring-drawing/coloring-felt-tip-pens/stabilo-power/) oder [Staedtler Noris Doppelfasermaler](https://www.staedtler.com/intl/en/products/products-for-colouring/fibre-tip-pens/noris-320-double-ended-fibre-tip-pen-320-nwp12/)).
 
-    {=macro(zoomable-image-left, images/pens-stabilo-cappi.jpg, Stabilo Cappi)}
-    {=macro(zoomable-image-left, images/pens-stabilo-power.jpg, Stabilo Power)}
-    {=macro(zoomable-image-left, images/pens-staedtler-noris.jpg, Staedtler Noris Doppelfasermaler)}
+    {=macro(zoomable-image-left, pens-stabilo-cappi.jpg, Stabilo Cappi)}
+    {=macro(zoomable-image-left, pens-stabilo-power.jpg, Stabilo Power)}
+    {=macro(zoomable-image-left, pens-staedtler-noris.jpg, Staedtler Noris Doppelfasermaler)}
 {: class=clearfix}
 
 ---

@@ -18,14 +18,14 @@ Wir verwenden am liebsten¹:
 
 * Buntstifte (z.B. [Jolly Supersticks](https://jolly.at/produkt-kategorie/farbstifte/supersticks/)) und
 
-    {=macro(zoomable-image-left, images/pens-jolly-supersticks.jpg, Jolly Supersticks)}
+    {=macro(zoomable-image-left, pens-jolly-supersticks.jpg, Jolly Supersticks)}
 {: class=clearfix}
 
 * Filzstifte (z.B. [Stabilo Cappi](https://www.stabilo.com/de/produkte/malenundzeichnen/filzstifte/stabilo-cappi/) und [Power](https://www.stabilo.com/de/shop/401/Filzstift-STABILO-power/kaufen) oder [Staedtler Noris Doppelfasermaler](https://www.staedtler.com/de/de/produkte/malen/filzstifte/noris-320-doppelfasermaler-320-nwp12/)).
 
-    {=macro(zoomable-image-left, images/pens-stabilo-cappi.jpg, Stabilo Cappi)}
-    {=macro(zoomable-image-left, images/pens-stabilo-power.jpg, Stabilo Power)}
-    {=macro(zoomable-image-left, images/pens-staedtler-noris.jpg, Staedtler Noris Doppelfasermaler)}
+    {=macro(zoomable-image-left, pens-stabilo-cappi.jpg, Stabilo Cappi)}
+    {=macro(zoomable-image-left, pens-stabilo-power.jpg, Stabilo Power)}
+    {=macro(zoomable-image-left, pens-staedtler-noris.jpg, Staedtler Noris Doppelfasermaler)}
 {: class=clearfix}
 
 ---

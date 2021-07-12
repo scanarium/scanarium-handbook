@@ -1,6 +1,6 @@
 # Why is there a black bounding rectangle?
 
-{=macro(zoomable-image-left, images/coloring-page-rectangle.jpg, Scanarium coloring page with highlighted black bounding rectangle)}
+{=macro(zoomable-image-left, coloring-page-rectangle.jpg, Scanarium coloring page with highlighted black bounding rectangle)}
 
 The black bounding rectangle helps Scanarium to figure out how the coloring page is oriented in the {=macro(labeled-node-link, scanning, uploaded image)}.
 

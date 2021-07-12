@@ -10,19 +10,19 @@ Solange der {=macro(labeled-node-link, rectangle, schwarze Rahmen)} und der {=ma
 * Such dir raus, was du draufbasteln willst.
     Zum Beispiel Fotos:
 
-    {=macro(zoomable-image-left, images/coloring-photos-photos.jpg, Fotos zum Reinbasteln)}
+    {=macro(zoomable-image-left, coloring-photos-photos.jpg, Fotos zum Reinbasteln)}
 {: class=clearfix}
 
 * Klebe oder lege sie auf das ausgemalte Bild drauf (oder schneide Löcher ins Ausmalbild und lege sie drunter):
 
-    {=macro(zoomable-image-left, images/coloring-photos-drawing.jpg, Fotos unter Ausmalbild)}
+    {=macro(zoomable-image-left, coloring-photos-drawing.jpg, Fotos unter Ausmalbild)}
 {: class=clearfix}
 
 * Fotografiere das fertige Ausmalbild und lade es zu deinem Scanarium hoch.
 
     Jetzt flitzen die Raketen, Autos, Luftballons, … mit deinen Fotos über den Bildschirm:
 
-    {=macro(zoomable-image-left, images/coloring-photos-screenshot.jpg, Reingebastelte Fotos in Scanarium)}
+    {=macro(zoomable-image-left, coloring-photos-screenshot.jpg, Reingebastelte Fotos in Scanarium)}
 {: class=clearfix}
 
 

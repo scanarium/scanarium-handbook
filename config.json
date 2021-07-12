@@ -19,7 +19,7 @@
         "url": "[$1]($1 \"$2\")",
         "node-link": "[{=nodeTitle($1)}](#$1 \"{=translate(Chapter)}: {=nodeTitle($1)}\")",
         "labeled-node-link": "[{=shift($*)}](#$1 \"{=translate(Chapter)}: {=nodeTitle($1)}\")",
-        "scene-header-image": "{=macro(zoomable-image-left, images/scenes/{=property(scene)}/scene-bait.png, Screenshot {=property(scene-translated)})}",
+        "scene-header-image": "{=macro(zoomable-image-left, scenes/{=property(scene)}/scene-bait.png, Screenshot {=property(scene-translated)})}",
         "scene-header-text-de": "In der {=property(scene-translated)}-Szene könnt ihr $* ausmalen.",
         "scene-header-text-en": "In the {=property(scene-translated)} scene, you can color $*.",
         "scene-header-localized": "{=macro(scene-header-image)}\n{=macro(scene-header-text-{=property(language)},$*)}\n\n",
@@ -30,8 +30,8 @@
         "todo": "\n\n(todo) $*\n{: class=todo}\n\n",
         "text-icon": "![$1 icon](images/{=lower($1)}.png \"$2\"){: class=text-icon}",
         "linked-text-icon": "[{=macro(text-icon, $1, $2)} $2]($3)",
-        "zoomable-image-left": "[![{=shift($*)}]({=substring($1,,-4)}-small.jpg \"{=shift($*)}\"){: class=left-image }]($1)",
-        "zoomable-image-right": "[![{=shift($*)}]({=substring($1,,-4)}-small.jpg \"{=shift($*)}\"){: class=right-image }]($1)"
+        "zoomable-image-left": "[![{=shift($*)}](images/{=substring($1,,-4)}-small.jpg \"{=shift($*)}\"){: class=left-image }](images/$1)",
+        "zoomable-image-right": "[![{=shift($*)}](images/{=substring($1,,-4)}-small.jpg \"{=shift($*)}\"){: class=right-image }](images/$1)"
     },
     "external_functions": {
         "translate": {

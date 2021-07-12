@@ -12,8 +12,8 @@ Mach ein neues Foto von deinem {=macro(labeled-node-link, scanarium-coloring-pag
 
 Damit sollte das Hochladen klappen.
 
-{=macro(zoomable-image-left, images/scanning-qr-on-other-object.jpg, Fremder QR-Code sichtbar)}
-{=macro(zoomable-image-left, images/scanning-ok.jpg, Nur der QR-Code vom Scanarium-Ausmalbild ist auf dem Foto)}
+{=macro(zoomable-image-left, scanning-qr-on-other-object.jpg, Fremder QR-Code sichtbar)}
+{=macro(zoomable-image-left, scanning-ok.jpg, Nur der QR-Code vom Scanarium-Ausmalbild ist auf dem Foto)}
 {: class=clearfix}
 
 Wenn es wieder nicht klappt, schick uns das Bild bitte an {=macro(help-email-link)}

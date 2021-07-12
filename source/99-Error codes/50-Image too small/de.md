@@ -2,8 +2,8 @@
 
 Das hochgeladene Bild ist zu klein.
 
-{=macro(zoomable-image-left, images/scanning-too-small.jpg, Bild ist zu klein)}
-{=macro(zoomable-image-left, images/scanning-ok.jpg, Bild ist groß genug)}
+{=macro(zoomable-image-left, scanning-too-small.jpg, Bild ist zu klein)}
+{=macro(zoomable-image-left, scanning-ok.jpg, Bild ist groß genug)}
 {: class=clearfix}
 
 Erhöhe die Auflösung bzw. Detailstufe des Geräts, mit dem du die Fotos machst (zB Kamera, Handy-App, ...).

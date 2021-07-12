@@ -13,8 +13,8 @@ Take a new picture of your {=macro(labeled-node-link, scanarium-coloring-pages, 
 
 Then uploading this new image should work.
 
-{=macro(zoomable-image-left, images/scanning-multiple-qr-codes.jpg, Zu viele QR-Codes sichtbar)}
-{=macro(zoomable-image-left, images/scanning-ok.jpg, Nur der QR-Code vom Scanarium-Ausmalbild ist auf dem Foto)}
+{=macro(zoomable-image-left, scanning-multiple-qr-codes.jpg, Zu viele QR-Codes sichtbar)}
+{=macro(zoomable-image-left, scanning-ok.jpg, Nur der QR-Code vom Scanarium-Ausmalbild ist auf dem Foto)}
 {: class=clearfix}
 
 If it still does not work, please send us the image to {=macro(help-email-link)}
