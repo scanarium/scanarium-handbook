@@ -4,24 +4,24 @@ If uploading fails because no {=macro(labeled-node-link, rectangle, black boundi
 
 * the {=macro(labeled-node-link, rectangle, black bounding rectangle)} is well visible (neither occluded nor cut off),
 
-    {=macro(zoomable-image-left, Black bounding rectangle is cut off, images/scanning-rectangle-cut-off.jpg)}
-    {=macro(zoomable-image-left, Dogear occludes black bounding rectangle, images/scanning-dog-ear.jpg)}
-    {=macro(zoomable-image-left, Object occludes black bounding rectangle, images/scanning-object-on-rectangle.jpg)}
-    {=macro(zoomable-image-left, Black bounding rectangle is fully visible, images/scanning-ok.jpg)}
+    {=macro(zoomable-image-left, images/scanning-rectangle-cut-off.jpg, Black bounding rectangle is cut off)}
+    {=macro(zoomable-image-left, images/scanning-dog-ear.jpg, Dogear occludes black bounding rectangle)}
+    {=macro(zoomable-image-left, images/scanning-object-on-rectangle.jpg, Object occludes black bounding rectangle)}
+    {=macro(zoomable-image-left, images/scanning-ok.jpg, Black bounding rectangle is fully visible)}
 {: class=clearfix}
 
 * the coloring page lies flat
 
-    {=macro(zoomable-image-left, Dogear stands up, images/scanning-dog-ear.jpg)}
-    {=macro(zoomable-image-left, Coloring page is not flat, images/scanning-not-flat.jpg)}
-    {=macro(zoomable-image-left, Coloring page lies flat, images/scanning-ok.jpg)}
+    {=macro(zoomable-image-left, images/scanning-dog-ear.jpg, Dogear stands up)}
+    {=macro(zoomable-image-left, images/scanning-not-flat.jpg, Coloring page is not flat)}
+    {=macro(zoomable-image-left, images/scanning-ok.jpg, Coloring page lies flat)}
 {: class=clearfix}
 
 * the picture is taken straight from above.
 
-    {=macro(zoomable-image-left, Picture taken from too far at the front, images/scanning-too-skew-front.jpg)}
-    {=macro(zoomable-image-left, Picture taken from too far on the right, images/scanning-too-skew-sideways.jpg)}
-    {=macro(zoomable-image-left, Picture taken straight from above, images/scanning-ok.jpg)}
+    {=macro(zoomable-image-left, images/scanning-too-skew-front.jpg, Picture taken from too far at the front)}
+    {=macro(zoomable-image-left, images/scanning-too-skew-sideways.jpg, Picture taken from too far on the right)}
+    {=macro(zoomable-image-left, images/scanning-ok.jpg, Picture taken straight from above)}
 {: class=clearfix}
 
 Uploading this new image should work.

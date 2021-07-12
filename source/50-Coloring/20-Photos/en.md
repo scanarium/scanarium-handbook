@@ -10,19 +10,19 @@ There are no limits as long as the {=macro(labeled-node-link, rectangle, black b
 * Find something to put onto the Scanarium coloring page.
     In this example, we'll add these four photos:
 
-    {=macro(zoomable-image-left, Photos to add to a Scanarium coloring page, images/coloring-photos-photos.jpg)}
+    {=macro(zoomable-image-left, images/coloring-photos-photos.jpg, Photos to add to a Scanarium coloring page)}
 {: class=clearfix}
 
 * Glue or put them onto the colored page (or cut holes and put them under the page):
 
-    {=macro(zoomable-image-left, Photos under coloring page, images/coloring-photos-drawing.jpg)}
+    {=macro(zoomable-image-left, images/coloring-photos-drawing.jpg, Photos under coloring page)}
 {: class=clearfix}
 
 * Take a picture of the coloring page und upload it to Scanarium
 
     Now off go the rockets, cars, balloons, … with your photos!
 
-    {=macro(zoomable-image-left, Photos in Scanarium, images/coloring-photos-screenshot.jpg)}
+    {=macro(zoomable-image-left, images/coloring-photos-screenshot.jpg, Photos in Scanarium)}
 {: class=clearfix}
 
 

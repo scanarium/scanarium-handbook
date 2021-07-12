@@ -1,6 +1,6 @@
 # Wofür ist der Rahmen um das Ausmalbild?
 
-{=macro(zoomable-image-left, Rahmen im Scanarium-Ausmalbilds, images/coloring-page-rectangle.jpg)}
+{=macro(zoomable-image-left, images/coloring-page-rectangle.jpg, Rahmen im Scanarium-Ausmalbilds)}
 
 Am Rahmen erkennt Scanarium wie das Ausmalbild im Foto liegt.
 

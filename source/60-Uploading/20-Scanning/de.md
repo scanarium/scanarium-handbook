@@ -4,26 +4,26 @@ Damit das Hochladen des Bildes gut klappt, achte beim Fotografieren darauf dass:
 
 * es nicht zu dunkel ist,
 
-    {=macro(zoomable-image-left, Bild zu dunkel, images/scanning-too-dark.jpg)}
-    {=macro(zoomable-image-left, Bild hell genug, images/scanning-ok.jpg)}
+    {=macro(zoomable-image-left, images/scanning-too-dark.jpg, Bild zu dunkel)}
+    {=macro(zoomable-image-left, images/scanning-ok.jpg, Bild hell genug)}
 {: class=clearfix}
 
 * das Bild nicht zu sehr verwackelt ist,
 
-    {=macro(zoomable-image-left, Zu verwackelt, images/scanning-too-blurry.jpg)}
-    {=macro(zoomable-image-left, Still, images/scanning-ok.jpg)}
+    {=macro(zoomable-image-left, images/scanning-too-blurry.jpg, Zu verwackelt)}
+    {=macro(zoomable-image-left, images/scanning-ok.jpg, Still)}
 {: class=clearfix}
 
 * das Ausmalbild flach liegt und
 
-    {=macro(zoomable-image-left, Bild liegt nicht flach, images/scanning-not-flat.jpg)}
-    {=macro(zoomable-image-left, Bild liegt flach, images/scanning-ok.jpg)}
+    {=macro(zoomable-image-left, images/scanning-not-flat.jpg, Bild liegt nicht flach)}
+    {=macro(zoomable-image-left, images/scanning-ok.jpg, Bild liegt flach)}
 {: class=clearfix}
 
 * der {=macro(labeled-node-link, rectangle, schwarzer Rahmen)} am Rand des Ausmalbilds ganz drauf ist.
 
-    {=macro(zoomable-image-left, Rechteck abgeschnitten, images/scanning-rectangle-cut-off.jpg)}
-    {=macro(zoomable-image-left, Rechteck ganz sichtbar, images/scanning-ok.jpg)}
+    {=macro(zoomable-image-left, images/scanning-rectangle-cut-off.jpg, Rechteck abgeschnitten)}
+    {=macro(zoomable-image-left, images/scanning-ok.jpg, Rechteck ganz sichtbar)}
 {: class=clearfix}
 
 

@@ -1,6 +1,6 @@
 # Why is there a QR code?
 
-{=macro(zoomable-image-left, Scanarium coloring page with highlighted QR code, images/coloring-page-qr-code.jpg)}
+{=macro(zoomable-image-left, images/coloring-page-qr-code.jpg, Scanarium coloring page with highlighted QR code)}
 
 Scanarium uses the QR code to determine which coloring page is visible in the {=macro(labeled-node-link, scanning, uploaded image)}.
 

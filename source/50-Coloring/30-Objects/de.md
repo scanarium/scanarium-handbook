@@ -8,26 +8,26 @@ Das klappt mit kleinen Figuren, kleinen Kuscheltieren, Autos, Muscheln, Perlen, 
 * Such dir raus, was in's Scanarium rein soll.
     Zum Beispiel ein Bügelperlenbild:
 
-    {=macro(zoomable-image-left, Gegenstand zum Drauflegen, images/coloring-objects-object.jpg)}
+    {=macro(zoomable-image-left, images/coloring-objects-object.jpg, Gegenstand zum Drauflegen)}
 {: class=clearfix}
 
 * Leg es auf ein Scanarium-Ausmalbild drauf:
 
-    {=macro(zoomable-image-left, Gegenstand auf Ausmalbild, images/coloring-objects-drawing.jpg)}
+    {=macro(zoomable-image-left, images/coloring-objects-drawing.jpg, Gegenstand auf Ausmalbild)}
 {: class=clearfix}
 
 * Achte darauf, dass der {=macro(labeled-node-link, rectangle, schwarze Rahmen)} und der {=macro(labeled-node-link, qr-code, QR-Code)} nicht verdeckt sind:
 
-    {=macro(zoomable-image-left, Gegenstand verdeckt schwarzen Rahmen, images/coloring-objects-rectangle-hidden.jpg)}
-    {=macro(zoomable-image-left, Gegenstand verdeckt QR-Code, images/coloring-objects-qr-code-hidden.jpg)}
-    {=macro(zoomable-image-left, Ausmalbild mit einwandfrei plaziertem Gegenstand, images/coloring-objects-ok.jpg)}
+    {=macro(zoomable-image-left, images/coloring-objects-rectangle-hidden.jpg, Gegenstand verdeckt schwarzen Rahmen)}
+    {=macro(zoomable-image-left, images/coloring-objects-qr-code-hidden.jpg, Gegenstand verdeckt QR-Code)}
+    {=macro(zoomable-image-left, images/coloring-objects-ok.jpg, Ausmalbild mit einwandfrei plaziertem Gegenstand)}
 {: class=clearfix}
 
 * Fotografiere es und lade es zu deinem Scanarium hoch.
 
     Jetzt flitzen die Raketen, Autos, Luftballons, … mit deinem Bügelperlenbild, deiner Figur oder deinem Spielzeug über den Bildschirm:
 
-    {=macro(zoomable-image-left, Eingescannter Gegenstand in Scanarium, images/coloring-objects-screenshot.jpg)}
+    {=macro(zoomable-image-left, images/coloring-objects-screenshot.jpg, Eingescannter Gegenstand in Scanarium)}
 {: class=clearfix}
 
 

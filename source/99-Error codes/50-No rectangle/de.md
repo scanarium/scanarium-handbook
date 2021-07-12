@@ -4,24 +4,24 @@ Wenn beim Hochladen das {=macro(labeled-node-link, rectangle, schwarze Rechteck)
 
 * das {=macro(labeled-node-link, rectangle, schwarze Rechteck)} vollständig auf dem Bild ist (nicht abgeschnitten und nicht verdeckt),
 
-    {=macro(zoomable-image-left, Schwarzer Rahmen ist abgeschnitten, images/scanning-rectangle-cut-off.jpg)}
-    {=macro(zoomable-image-left, Eselsohr verdeckt schwarzen Rahmen, images/scanning-dog-ear.jpg)}
-    {=macro(zoomable-image-left, Schwarzer Rahmen ist verdeckt, images/scanning-object-on-rectangle.jpg)}
-    {=macro(zoomable-image-left, Schwarzer Rahmen ist gut lesbar, images/scanning-ok.jpg)}
+    {=macro(zoomable-image-left, images/scanning-rectangle-cut-off.jpg, Schwarzer Rahmen ist abgeschnitten)}
+    {=macro(zoomable-image-left, images/scanning-dog-ear.jpg, Eselsohr verdeckt schwarzen Rahmen)}
+    {=macro(zoomable-image-left, images/scanning-object-on-rectangle.jpg, Schwarzer Rahmen ist verdeckt)}
+    {=macro(zoomable-image-left, images/scanning-ok.jpg, Schwarzer Rahmen ist gut lesbar)}
 {: class=clearfix}
 
 * das Bild flach liegt,
 
-    {=macro(zoomable-image-left, Eselsohr, images/scanning-dog-ear.jpg)}
-    {=macro(zoomable-image-left, Ausmalbild steht oben ab und liegt nicht flach, images/scanning-not-flat.jpg)}
-    {=macro(zoomable-image-left, Ausmalbild liegt flach, images/scanning-ok.jpg)}
+    {=macro(zoomable-image-left, images/scanning-dog-ear.jpg, Eselsohr)}
+    {=macro(zoomable-image-left, images/scanning-not-flat.jpg, Ausmalbild steht oben ab und liegt nicht flach)}
+    {=macro(zoomable-image-left, images/scanning-ok.jpg, Ausmalbild liegt flach)}
 {: class=clearfix}
 
 * das Bild nicht von zu schräg gemacht wird.
 
-    {=macro(zoomable-image-left, Foto von zu weit vorne, images/scanning-too-skew-front.jpg)}
-    {=macro(zoomable-image-left, Foto von zu weit rechts, images/scanning-too-skew-sideways.jpg)}
-    {=macro(zoomable-image-left, Foto gut von oben, images/scanning-ok.jpg)}
+    {=macro(zoomable-image-left, images/scanning-too-skew-front.jpg, Foto von zu weit vorne)}
+    {=macro(zoomable-image-left, images/scanning-too-skew-sideways.jpg, Foto von zu weit rechts)}
+    {=macro(zoomable-image-left, images/scanning-ok.jpg, Foto gut von oben)}
 {: class=clearfix}
 
 Lade dieses neue Bild hoch.
