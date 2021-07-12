@@ -2,7 +2,7 @@
 
 Wenn beim Hochladen das {=macro(labeled-node-link, rectangle, schwarze Rechteck)} nicht gefunden werden konnte, fotografiere das Bild nochmal neu und achte besonders darauf, dass
 
-* das schwarze Rechteck vollständig auf dem Bild ist (nicht abgeschnitten und nicht verdeckt),
+* das {=macro(labeled-node-link, rectangle, schwarze Rechteck)} vollständig auf dem Bild ist (nicht abgeschnitten und nicht verdeckt),
 
     {=macro(zoomable-image-left, Schwarzer Rahmen ist abgeschnitten, images/scanning-rectangle-cut-off.jpg)}
     {=macro(zoomable-image-left, Eselsohr verdeckt schwarzen Rahmen, images/scanning-dog-ear.jpg)}
@@ -30,4 +30,4 @@ Damit sollte es klappen.
 Wenn es wieder nicht klappt, schick uns das Bild bitte an {=macro(help-email-link)}
 
 
-version: 1.006
+version: 1.007
