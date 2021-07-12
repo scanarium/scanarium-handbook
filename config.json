@@ -30,8 +30,8 @@
         "todo": "\n\n(todo) $*\n{: class=todo}\n\n",
         "text-icon": "![$1 icon](images/{=lower($1)}.png \"$2\"){: class=text-icon}",
         "linked-text-icon": "[{=macro(text-icon, $1, $2)} $2]($3)",
-        "zoomable-image-left": "[![$2]({=substring($1,,-4)}-small.jpg \"$2\"){: class=left-image }]($1)",
-        "zoomable-image-right": "[![$2]({=substring($1,,-4)}-small.jpg \"$2\"){: class=right-image }]($1)"
+        "zoomable-image-left": "[![{=shift($*)}]({=substring($1,,-4)}-small.jpg \"{=shift($*)}\"){: class=left-image }]($1)",
+        "zoomable-image-right": "[![{=shift($*)}]({=substring($1,,-4)}-small.jpg \"{=shift($*)}\"){: class=right-image }]($1)"
     },
     "external_functions": {
         "translate": {
