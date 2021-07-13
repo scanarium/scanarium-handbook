@@ -70,6 +70,10 @@ h4, h5, h6 {
   vertical-align: bottom;
 }
 
+.license-icon {
+  vertical-align: bottom;
+}
+
 #toc-container {
     position: fixed;
     left: 0px;
