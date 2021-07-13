@@ -10,7 +10,7 @@ Eventuell auf einer Schachtel oder auf einem Prospekt im Foto-Hintergrund.
 
 Mach ein neues Foto von deinem {=macro(labeled-node-link, scanarium-coloring-pages, Scanarium-Ausmalbild)} und achte darauf, dass:
 
-* das {=macro(labeled-node-link, rectangle, schwarze Rechteck)} am Ausmalbild-Rand gut zu sehen ist,
+* der {=macro(labeled-node-link, rectangle, schwarze Rahmen)} am Ausmalbild-Rand gut zu sehen ist,
 * der {=macro(labeled-node-link, qr-code, QR-Code)} des Ausmalbilds gut zu sehen ist und
 * kein anderer QR-Code auf dem Foto ist.
 
@@ -19,4 +19,4 @@ Damit sollte das Hochladen klappen.
 Wenn es wieder nicht klappt, schick uns das Bild bitte an {=macro(help-email-link)}
 
 
-version: 1.007
+version: 1.008

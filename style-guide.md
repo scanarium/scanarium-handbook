@@ -10,6 +10,7 @@
 * Wir versuchen uns an eifacher Sprache zu orientieren (https://www.leichte-sprache.org/die-regeln/ bzw. https://www.leichte-sprache.org/wp-content/uploads/2017/11/Regeln_Leichte_Sprache.pdf )
 * Wir benutzen folgende Schreibweisen:
     * QR-Code
+    * schwarzer Rahmen
     * Scanarium-Ausmalbild
     * Benutzername
 

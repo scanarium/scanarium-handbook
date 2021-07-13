@@ -7,8 +7,6 @@
 
 Falls du in diesem Handbuch keine Antwort auf deine Frage findest, schick sie uns bitte direkt per Email an {=macro(help-email-link)}
 
-{=macro(todo, „Schwarzes Rechteck” einheitlich benennen)}
-
 id:root
-version: 7.000
+version: 7.001
 help-email-address:hilfe@scanarium.com
