@@ -231,6 +231,7 @@ a.clickable-heading-link, a.clickable-heading-link:hover, a.clickable-heading-li
     background-color: #35c8ff;
     margin-top: 10em;
     padding: 0.2em 0em;
+    text-align:center;
 }
 
 .footer a, .footer a:visited {
@@ -241,15 +242,6 @@ a.clickable-heading-link, a.clickable-heading-link:hover, a.clickable-heading-li
 
 .footer a:hover {
     background: #027dfd;
-}
-
-.footer #language-text-links {
-    text-align: center;
-}
-
-.impressum {
-  text-align:right;
-  padding-right: 0.5em;
 }
 
 #top-language-selector {
