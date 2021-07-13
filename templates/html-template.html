@@ -181,6 +181,16 @@ window.onhashchange = function() {
   }
 }
 window.onhashchange();
+
+document.addEventListener ("DOMContentLoaded", () => {
+  // Make sure content element has focus, so users can navigate using
+  // PageUp/PageDown without having to click.
+  var contentElement = document.getElementById('content');
+  if (contentElement) {
+    contentElement.tabIndex = -1;
+    contentElement.focus();
+  }
+});
 </script>
   <p class="impressum">
     <a href="https://creativecommons.org/licenses/by-sa/4.0/" title="CC-BY-SA 4.0"><img class="license-icon" src="images/cc-by-sa-small.png"></img></a>

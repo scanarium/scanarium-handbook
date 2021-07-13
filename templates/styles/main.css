@@ -27,6 +27,11 @@ body {
   margin-right:auto;
 }
 
+#content:focus, #content::-moz-focus-inner {
+  border: 0px solid white;
+  outline: none;
+}
+
 h1 {
   text-shadow: 2px 2px 4px #000;
   background: #35c8ff;
