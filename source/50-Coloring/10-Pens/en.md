@@ -20,7 +20,7 @@ We prefer¹ to color with:
     {=macro(zoomable-image-left, pens-jolly-supersticks.jpg, Jolly Supersticks)}
 {: class=clearfix}
 
-* Felt-tip pens (e.g., [Stabilo Cappi](https://www.stabilo.com/com/products/coloring-drawing/coloring-felt-tip-pens/stabilo-cappi/) and [Power](https://www.stabilo.com/com/products/coloring-drawing/coloring-felt-tip-pens/stabilo-power/) or [Staedtler Noris Doppelfasermaler](https://www.staedtler.com/intl/en/products/products-for-colouring/fibre-tip-pens/noris-320-double-ended-fibre-tip-pen-320-nwp12/)).
+* Felt-tip pens (e.g., [Stabilo Cappi](https://www.stabilo.com/com/products/coloring-drawing/coloring-felt-tip-pens/stabilo-cappi/), [Stabilo Power](https://www.stabilo.com/com/products/coloring-drawing/coloring-felt-tip-pens/stabilo-power/), or [Staedtler Noris Doppelfasermaler](https://www.staedtler.com/intl/en/products/products-for-colouring/fibre-tip-pens/noris-320-double-ended-fibre-tip-pen-320-nwp12/)).
 
     {=macro(zoomable-image-left, pens-stabilo-cappi.jpg, Stabilo Cappi)}
     {=macro(zoomable-image-left, pens-stabilo-power.jpg, Stabilo Power)}
@@ -33,4 +33,4 @@ We prefer¹ to color with:
 We bought these pens with our own money.
 We do not and did not receive money, samples, or donations for it.
 
-version: 3.001
+version: 3.002
