@@ -28,7 +28,7 @@
         "scene-links-en": "{=macro(scene-links, Demo video on YouTube, Live online demo, Coloring pages for this scene)}",
         "scene-links-localized": "{=macro(scene-links-{=property(language)})}",
         "todo": "\n\n(todo) $*\n{: class=todo}\n\n",
-        "text-icon": "![$1 icon](images/{=lower($1)}.png \"$2\"){: class=text-icon}",
+        "text-icon": "![$1 icon](images/icons/{=lower($1)}.png \"$2\"){: class=text-icon}",
         "linked-text-icon": "[{=macro(text-icon, $1, $2)} $2]($3)",
         "zoomable-image-left": "[![{=shift($*)}](images/{=substring($1,,-4)}-small.jpg \"{=shift($*)}\"){: class=left-image }](images/$1)",
         "zoomable-image-right": "[![{=shift($*)}](images/{=substring($1,,-4)}-small.jpg \"{=shift($*)}\"){: class=right-image }](images/$1)"

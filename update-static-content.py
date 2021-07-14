@@ -120,6 +120,7 @@ def process_scanarium_support_dir(dir):
 
 
 def process_scanarium_homepage_dir(dir):
+    icon_target_dir = os.path.join(IMAGE_DIR, 'icons')
     for image in [
         'facebook',
         'github',
@@ -129,7 +130,8 @@ def process_scanarium_homepage_dir(dir):
         'twitter',
         'youtube',
             ]:
-        copy_image(os.path.join(dir, f'dynamisch/images/{image}.png'))
+        copy_image(os.path.join(dir, f'dynamisch/images/icons/{image}.png'),
+                   target_dir=icon_target_dir)
 
     source = os.path.join(dir, 'published-html', 'pdfs', 'fairies',
                           'FlowerFairy', 'de', 'Blumenfee.pdf')
