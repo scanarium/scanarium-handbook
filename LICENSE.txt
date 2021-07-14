@@ -1,0 +1,16 @@
+The Scanarium Handbook is licensed under the GNU Affero General Public
+License v3.0 (See `LICENSE.AGPL3.txt` for the full license text), with
+the following exceptions:
+
+* Rights for `images/icons/*` are not covered by the license and rights stay
+    with their respective copyright holders.
+* The following files are dual-licensed and may also be consumed under the
+    Creative Commons Attribution-ShareAlike 4.0 International license (See
+    `LICENSE.CC-BY-SA-4.txt` for the full license text):
+
+    * `images/*.png`
+    * `images/*.gif`
+    * `images/*.jpg`
+    * `images/scenes/**`
+    * `functions/translate/localizations/*.json`
+    * `source/**`
