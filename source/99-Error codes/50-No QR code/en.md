@@ -8,7 +8,7 @@ If uploading fails because no {=macro(labeled-node-link, qr-code, QR code)} was 
     {=macro(zoomable-image-left, scanning-ok.jpg, Gutes Foto eines Scanarium-Ausmalbilds)}
 {: class=clearfix}
 
-* the image is eventy and well lit (not too dark and no hard shadows),
+* the image is evenly and well lit (not too dark and no hard shadows),
 
     {=macro(zoomable-image-left, scanning-too-dark.jpg, Image too dark)}
     {=macro(zoomable-image-left, scanning-hard-shadows.jpg, Image contains hard shadows)}
@@ -40,4 +40,4 @@ Uploading this new image should work.
 If it still does not work, please send us the image to {=macro(help-email-link)}
 
 
-version: 1.001
+version: 1.002

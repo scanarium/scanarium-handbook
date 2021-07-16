@@ -9,7 +9,9 @@ Or of you on top of a tower in a castle ruin.
 Of you after driving a racing car.
 Of you riding a unicorn.
 
+{=macro(todo, Or of you/Of you - passt das so?)}
+
 Scanarium arranges your photos into a photo wall that scrolls by.
 {=macro(scene-links-localized)}
 
-version: 1.000
+version: 1.001
