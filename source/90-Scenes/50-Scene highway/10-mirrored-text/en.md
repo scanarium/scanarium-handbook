@@ -16,13 +16,11 @@ If they have some text written on them, this text of course gets mirrored along 
 {: class=clearfix}
 
 Vehicles that come with text already on their coloring page are the exception (e.g., the "POLICE" mark on the police car).
-There, Scanarium knows where the text is can exclude that part when mirroring the vehicle.
+There, Scanarium knows where the text is and can exclude that part when mirroring the vehicle.
 So the text is readable regardless of the direction the vehicle is going in:
-
-{=macro(todo, There, Scanarium knows where the text is AND??? can exclude that part when mirroring the vehicle.)}
 
 {=macro(zoomable-image-left, scene-highway-writing-mirrored-police-car-right-to-left.jpg, Screenshot of police car going from right to left)}
 {=macro(zoomable-image-left, scene-highway-writing-mirrored-police-car-left-to-right.jpg, Screenshot of police car going from left to right)}
 {: class=clearfix}
 
-version: 1.001
+version: 1.002
