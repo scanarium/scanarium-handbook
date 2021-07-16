@@ -18,7 +18,7 @@ function makeHeadingsClickable() {
         const node = nodes[i];
         if (node.nodeName.substring(0,1).toUpperCase() == 'H') {
             const level = parseInt(node.nodeName.substring(1), 10)
-            if (level > 1) {
+            if (level >= 1) {
                 makeHeadingClickable(node);
             }
         }
