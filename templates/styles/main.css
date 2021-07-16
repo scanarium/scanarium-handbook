@@ -27,7 +27,30 @@ body {
   margin-right:auto;
 }
 
-#content:focus, #content::-moz-focus-inner {
+/* Do not merge these focus rules into a single rule.
+ * The rationale is that since some of these rules invole pseudo classes that
+ * are either fresh (from 2021) or browser specific, chances are that not all
+ * browsers can properly parse all of them. But when not being able to properly
+ * parse the rule, the whole rule will get dropped, which we do not want. So we
+ * split it into individual rules. And if a browser cannot parse a rule, the
+ * others are unaffected and still effective.
+ */
+#content:focus {
+  border: 0px solid white;
+  outline: none;
+}
+
+#content:focus-within {
+  border: 0px solid white;
+  outline: none;
+}
+
+#content:focus-visible {
+  border: 0px solid white;
+  outline: none;
+}
+
+#content::-moz-focus-inner {
   border: 0px solid white;
   outline: none;
 }
