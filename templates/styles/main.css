@@ -56,6 +56,7 @@ body {
 }
 
 h1 {
+  font-size: 300%;
   text-shadow: 2px 2px 4px #000;
   background: #35c8ff;
   background: linear-gradient(0deg, #9ef2f9 0%, #81bffe 100%);
