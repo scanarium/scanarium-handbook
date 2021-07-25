@@ -2,6 +2,7 @@
 # GNU Affero General Public License v3.0 (See LICENSE.md)
 # SPDX-License-Identifier: AGPL-3.0-only
 
+import collections.abc
 import datetime
 import logging
 import os
@@ -52,13 +53,17 @@ def generate_thumbnail(scanarium, dir, file, force, levels=[]):
         scanarium.run(command)
 
 
-def get_log_filename(scanarium, name):
-    now = datetime.datetime.now()
-    date_dir = now.strftime(os.path.join('%Y', '%m', '%d'))
-    full_dir = os.path.join(scanarium.get_log_dir_abs(), date_dir)
-    os.makedirs(full_dir, exist_ok=True)
+def get_log_filename(scanarium, name, timestamped=True):
+    full_dir = scanarium.get_log_dir_abs()
+    if timestamped:
+        now = get_now()
+        date_dir = now.strftime(os.path.join('%Y', '%m', '%d'))
+        full_dir = os.path.join(full_dir, date_dir)
 
-    full_file = os.path.join(full_dir, now.strftime('%H.%M.%S.%f-') + name)
+        name = now.strftime('%H.%M.%S.%fZ-') + name
+
+    os.makedirs(full_dir, exist_ok=True)
+    full_file = os.path.join(full_dir, name)
     return full_file
 
 
@@ -88,6 +93,57 @@ def to_safe_filename(name):
     return ret
 
 
+def update_dict(target, source, merge_lists=False):
+    for key, value in source.items():
+        if isinstance(value, collections.abc.Mapping):
+            target[key] = update_dict(target.get(key, {}), value)
+        elif merge_lists and isinstance(value, list) \
+                and isinstance(target.get(key, 0), list):
+            target[key] += value
+        else:
+            target[key] = value
+    return target
+
+
+def embed_metadata(scanarium, filename, metadata={}):
+    now = get_now()
+    command = [
+        scanarium.get_config('programs', 'exiftool'),
+        '-overwrite_original',
+        '-all:all=',
+        ]
+
+    gkvs = {
+        'XMP-x': {
+            'XMPToolkit': 'n/a',
+            },
+        'XMP-xmp': {
+            'CreateDate': now.strftime('%Y:%m:%d %H:%M:%SZ'),
+            },
+        }
+    gkvs = update_dict(gkvs, metadata)
+
+    for group, kvs in gkvs.items():
+        for k, v in kvs.items():
+            param = '-' + group
+            if k:
+                param += ':' + k
+
+            if v:
+                command.append(f'{param}={v}')
+
+    command.append(filename)
+    scanarium.run(command)
+
+
+def get_now():
+    return datetime.datetime.now(tz=datetime.timezone.utc)
+
+
+def get_timestamp_for_filename():
+    return f'{get_now().timestamp():.3f}'
+
+
 class Util(object):
     def __init__(self, scanarium):
         self._scanarium = scanarium
@@ -98,11 +154,20 @@ class Util(object):
     def file_needs_update(self, destination, sources, force=False):
         return file_needs_update(destination, sources, force)
 
-    def get_log_filename(self, name):
-        return get_log_filename(self._scanarium, name)
+    def get_log_filename(self, name, timestamped=True):
+        return get_log_filename(self._scanarium, name, timestamped)
 
     def guess_image_format(self, file_path):
         return guess_image_format(file_path)
 
     def to_safe_filename(self, name):
         return to_safe_filename(name)
+
+    def embed_metadata(self, scanarium, filename, metadata):
+        return embed_metadata(scanarium, filename, metadata)
+
+    def get_now(self):
+        return get_now()
+
+    def get_timestamp_for_filename(self):
+        return get_timestamp_for_filename()
