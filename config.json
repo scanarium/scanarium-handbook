@@ -50,5 +50,6 @@
             "file": "{conf_dir}/functions/util.py",
             "name": "safeFilename"
         }
-    }
+    },
+    "version_mismatch_actions": ["append-macro-todo", "warning"]
 }
