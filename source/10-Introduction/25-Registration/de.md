@@ -1,10 +1,16 @@
 # Wie kann ich mich registrieren?
 
 Wir sind noch im Testbetrieb.
+Deswegen benötigst du einen Einladungs-Code für die Registrierung.
+(Falls du keinen Einladungs-Code hast, schicke uns eine E-mail an {=macro(help-email-link)})
 
-Die öffentliche Registrierung ist noch nicht freigeschaltet.
+Das Registrieren ist einfach:
 
-Falls du beim Testen mithelfen willst, freuen wir uns natürlich.
-Schreib uns deinen Wunsch-Benutzernamen an {=macro(help-email-link)} und wir richten dir einen Zugang ein.
+* Gehe zur Registrierungs-Seite: {=macro(url, https://scanarium.com/signup.html, Sign up page)}
+* Gib deinen Einladungs-Code und die gewünschten Benutzername und Passwort ein.
+* Lies die {=macro(named-url, https://scanarium.com/privacy-policy.txt, {=translate(privacy policy)})} and {=macro(named-url, https://scanarium.com/terms-of-service.txt, {=translate(terms of service)})} und hake die jeweiligen Kästchen an, wenn du sie akzeptierst.
+* Drücke den "{=translate(Sign up)}" Knopf im Formular.
+* Fertig.
 
-version: 1.001
+
+version: 2.000
