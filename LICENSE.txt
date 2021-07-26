@@ -5,8 +5,8 @@ the following exceptions:
 * Rights for `images/icons/*` are not covered by the license and rights stay
     with their respective copyright holders.
 * The following files are dual-licensed and may also be consumed under the
-    Creative Commons Attribution-ShareAlike 4.0 International license (See
-    `LICENSE.CC-BY-SA-4.txt` for the full license text):
+    Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+    license (See `LICENSE.CC-BY-NC-SA-4.txt` for the full license text):
 
     * `images/*.png`
     * `images/*.gif`
