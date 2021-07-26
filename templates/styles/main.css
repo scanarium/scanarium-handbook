@@ -377,3 +377,7 @@ a.clickable-heading-link, a.clickable-heading-link:hover, a.clickable-heading-li
 .debug-source-file, .debug-node-id {
     font-family: monospace;
 }
+
+#build {
+  display: none;
+}
