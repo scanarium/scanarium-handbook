@@ -9,6 +9,8 @@ Then all you need to do is watch and enjoy ... and of course color more pages! :
 
 Here's a video tutorial:
 
-{=macro(linked-text-icon, YouTube, Scanarium Online Tutorial, https://www.youtube.com/watch?v=eBJdwvjq5xM&list=PL-o9mFmKUyeYvgPEVxx5N6JRAwVu1MtcQ)}
+{=macro(linked-text-icon, YouTube, Tutorial for Mobile Phone/Tablet, https://www.youtube.com/watch?v=1Tk4RaaV-FY&list=PL-o9mFmKUyeYvgPEVxx5N6JRAwVu1MtcQ)}
 
-version: 1.001
+{=macro(linked-text-icon, YouTube, Tutorial for Laptop/PC, https://www.youtube.com/watch?v=gtT545aiTJE&list=PL-o9mFmKUyeYvgPEVxx5N6JRAwVu1MtcQ)}
+
+version: 1.002
