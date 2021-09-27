@@ -1,15 +1,11 @@
 # How can I sign up?
 
-We're still in test mode.
-So you'll need an invitation code to sign up.
-(If you do not have an invitation code, send us an email at {=macro(help-email-link)})
-
 Signing up is easy:
 
 * Go to the sign up page: {=macro(url, https://signup.scanarium.com/, Sign up page)}
-* Enter your invitation code, username and password.
+* Enter your username and password.
 * Read the {=macro(named-url, https://scanarium.com/privacy-policy.txt, {=translate(url-description, privacy policy)})} and {=macro(named-url, https://scanarium.com/terms-of-service.txt, {=translate(url-description, terms of service)})} documents, and check the checkboxes if you accept them.
 * Hit the form's "{=translate(Sign up)}" button.
 * Done.
 
-version: 3.001
+version: 4.000
