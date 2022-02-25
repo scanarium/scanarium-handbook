@@ -8,7 +8,7 @@ Du erkennst sie am {=macro(labeled-node-link, rectangle, schwarzen Rahmen)} und 
 {=macro(zoomable-image-left, coloring-page-ok.jpg, Normales Ausmalbild)}
 {: class=clearfix}
 
-Im [PDF-Bereich der Homepage](https://scanarium.com/#pdfs) kannst du sie kostenlos runterladen.
+Im [PDF-Bereich der Homepage](https://scanarium.com/coloring-pages.html) kannst du sie kostenlos runterladen.
 
 
-version: 1.007
+version: 1.008

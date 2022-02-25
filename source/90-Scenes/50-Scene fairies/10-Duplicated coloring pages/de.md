@@ -1,6 +1,6 @@
 # Warum gibt's die Ausmalbilder doppelt?
 
-Jedes der [Ausmalbilder der Szene „{=property(scene-translated)}”](https://scanarium.com/#pdfs-fairies) gibt's in zwei Varianten:
+Jedes der [Ausmalbilder der Szene „{=property(scene-translated)}”](https://scanarium.com/coloring-pages.html?scene=fairies) gibt's in zwei Varianten:
 
 {=macro(zoomable-image-left, flower-fairy-normal.jpg, Blumenfee)} Die „normale” Variante hat nur wenige vorgezeichnete Linien innerhalb der Figur.
 Hier hast du viel Platz für eigene Ideen und Feinheiten.
@@ -13,7 +13,7 @@ So wie in einem Ausmalbuch.
 Dort sind dann zum Beispiel Gesicht, Gürtel und andere Details genauer vorgezeichnet.
 {: class=clearfix}
 
-Beide Varianten findest du direkt im <a href="https://scanarium.com/#pdfs-fairies">{=property(scene-translated)} PDF-Bereich der Homepage</a>.
+Beide Varianten findest du direkt im <a href="https://scanarium.com/coloring-pages.html?scene=fairies">{=property(scene-translated)} PDF-Bereich der Homepage</a>.
 
 
-version:1.002
+version:1.003

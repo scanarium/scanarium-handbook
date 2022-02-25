@@ -8,9 +8,9 @@ Sie haben einen am {=macro(labeled-node-link, rectangle, schwarzen Rahmen)} und 
 {=macro(zoomable-image-left, coloring-page-ok.jpg, Scanarium-Ausmalbild)}
 {: class=clearfix}
 
-Im [PDF-Bereich der Homepage](https://scanarium.com/#pdfs) kannst du sie kostenlos runterladen.
+Im [PDF-Bereich der Homepage](https://scanarium.com/coloring-pages.html) kannst du sie kostenlos runterladen.
 
 Scanarium funktioniert nur mit diesen Scanarium-Ausmalbildern.
 
 
-version: 1.003
+version: 1.004

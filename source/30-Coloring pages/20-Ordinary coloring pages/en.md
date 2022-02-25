@@ -8,7 +8,7 @@ You can recognize them by their {=macro(labeled-node-link, rectangle, black boun
 {=macro(zoomable-image-left, coloring-page-ok.jpg, Normales Ausmalbild)}
 {: class=clearfix}
 
-You can download them for free in the [PDF section](https://scanarium.com/#pdfs) of the homepage.
+You can download them for free in the [PDF section](https://scanarium.com/coloring-pages.html) of the homepage.
 
 
-version: 1.000
+version: 1.001

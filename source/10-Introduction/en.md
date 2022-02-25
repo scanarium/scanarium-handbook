@@ -6,7 +6,7 @@ It's perfect for kids from pre-kindergarten to early primary school.
 
 Here's is how it works:
 
-* You print a [Scanarium coloring page](https://scanarium.com/#pdfs) and {=macro(labeled-node-link, coloring, color it)}.
+* You print a [Scanarium coloring page](https://scanarium.com/coloring-pages.html) and {=macro(labeled-node-link, coloring, color it)}.
 * Then you {=macro(labeled-node-link, scanning, upload)} the colored page to Scanarium.
 * And Scanarium [animates](https://demo.scanarium.com/) it for you.
 
@@ -14,4 +14,4 @@ Here's is how it works:
 
 Scanarium makes your [cars drive around](https://demo.scanarium.com/?scene=highway), your [starships explore space](https://demo.scanarium.com/?scene=space) and your [birds pop balloons](https://demo.scanarium.com/?scene=balloons).
 
-version: 1.001
+version: 1.002

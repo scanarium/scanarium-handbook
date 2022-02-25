@@ -24,7 +24,7 @@
         "scene-header-text-de": "In der {=property(scene-translated)}-Szene kannst du $* ausmalen.",
         "scene-header-text-en": "In the {=property(scene-translated)} scene, you can color $*.",
         "scene-header-localized": "{=macro(scene-header-image)}\n{=macro(scene-header-text-{=property(language)},$*)}\n\n",
-        "scene-links": "{: class=clearfix}\\n\\n{=macro(linked-text-icon, YouTube, $1, https://www.youtube.com/watch?v={=property(youtube-demo-video-id)}&list=PL-o9mFmKUyeaNl0TSucCBEsVJLK6gcZdZ)}\\n\\n{=macro(linked-text-icon, Scanarium, $2, https://demo.scanarium.com/?scene={=property(scene)})}\\n\\n{=macro(linked-text-icon, Coloring-page, $3, https://scanarium.com/#pdfs-{=property(scene)})}",
+        "scene-links": "{: class=clearfix}\\n\\n{=macro(linked-text-icon, YouTube, $1, https://www.youtube.com/watch?v={=property(youtube-demo-video-id)}&list=PL-o9mFmKUyeaNl0TSucCBEsVJLK6gcZdZ)}\\n\\n{=macro(linked-text-icon, Scanarium, $2, https://demo.scanarium.com/?scene={=property(scene)})}\\n\\n{=macro(linked-text-icon, Coloring-page, $3, https://scanarium.com/coloring-pages.html?scene={=property(scene)})}",
         "scene-links-de": "{=macro(scene-links, Demo Video bei YouTube, Live Demo, Ausmalbilder für diese Szene)}",
         "scene-links-en": "{=macro(scene-links, Demo video on YouTube, Live online demo, Coloring pages for this scene)}",
         "scene-links-localized": "{=macro(scene-links-{=property(language)})}",

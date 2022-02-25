@@ -1,6 +1,6 @@
 # Why is each coloring page duplicated?
 
-Each of the [coloring pages from the „{=property(scene-translated)}” scene](https://scanarium.com/#pdfs-fairies) is available in two variants:
+Each of the [coloring pages from the „{=property(scene-translated)}” scene](https://scanarium.com/coloring-pages.html?scene=fairies) is available in two variants:
 
 {=macro(zoomable-image-left, flower-fairy-normal.jpg, Blumenfee)} The „normal” variant comes with only few lines on the inside.
 This variant provides much room for your own ideas and details.
@@ -14,7 +14,7 @@ Just like in a coloring book.
 There you'll find for example a more detailed face, accessoires like a belt around the waist, or patterns in the wings.
 {: class=clearfix}
 
-You can download both variants directly in the <a href="https://scanarium.com/#pdfs-fairies">{=property(scene-translated)} part of the PDF section</a> on the homepage.
+You can download both variants directly in the <a href="https://scanarium.com/coloring-pages.html?scene=fairies">{=property(scene-translated)} part of the PDF section</a> on the homepage.
 
 
-version:1.000
+version:1.001
