@@ -1,6 +1,6 @@
 # Kann ich auch ohne Drucker spielen?
 
-Du kannst die PDFs der {=macro(labeled-node-link, scanarium-coloring-pages, Scanarium-Ausmalbilder)} prinzipiell auch direkt am Computer mit einem Grafikprogramm anmalen und dann diese ausgemalte Datei hochladen.
+Du kannst die {=macro(labeled-node-link, scanarium-coloring-pages, Scanarium-Ausmalbilder)} prinzipiell auch direkt am Computer mit einem Grafikprogramm anmalen und dann diese ausgemalte Datei hochladen.
 
 Aber wir finden, dass es am meisten Spaß macht, die Bilder mit echten Stiften auf echtem Papier anzumalen.
 
@@ -9,4 +9,4 @@ Vielleicht kann dir ja jemand aus deinem Freundeskreis ein paar Scanarium-Ausmal
 Oder vielleicht gibt es einen Copy-Shop in deiner Nähe, wo du sie kostengünstig ausdrucken kannst?
 
 
-version: 1.001
+version: 1.003

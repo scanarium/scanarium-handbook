@@ -14,7 +14,7 @@ Just like in a coloring book.
 There you'll find for example a more detailed face, accessoires like a belt around the waist, or patterns in the wings.
 {: class=clearfix}
 
-You can download both variants directly in the <a href="https://scanarium.com/coloring-pages.html?scene=fairies">{=property(scene-translated)} part of the PDF section</a> on the homepage.
+You can download both variants directly in the <a href="https://scanarium.com/coloring-pages.html?scene=fairies">{=property(scene-translated)} part of the Coloring Pages section</a> on the homepage.
 
 
-version:1.001
+version:1.002

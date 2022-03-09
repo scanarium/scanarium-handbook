@@ -8,9 +8,9 @@ They come with a {=macro(labeled-node-link, rectangle, black bounding rectangle)
 {=macro(zoomable-image-left, coloring-page-ok.jpg, Scanarium coloring page)}
 {: class=clearfix}
 
-You can download them for free in the [PDF section](https://scanarium.com/coloring-pages.html) of the homepage.
+You can download them for free in the [Coloring Pages section](https://scanarium.com/coloring-pages.html) of the homepage.
 
 Scanarium only works with these Scanarium coloring pages.
 
 
-version: 1.004
+version: 1.005
