@@ -2,7 +2,7 @@
 
 You can download them for free in the [Coloring Pages section](https://scanarium.com/coloring-pages.html) of the homepage.
 
-There you'll find the individual coloring pages in different types of files: jpg, pdf, png and svg.
+There you'll find the individual coloring pages in different types of files: JPG, PDF, PNG and SVG.
 
 Besides that there are collections with more than one coloring page.
 
@@ -10,4 +10,4 @@ For example "[{=translate(All coloring pages)}](https://scanarium.com/pdfs/{=pro
 
 You can use the search form to filter coloring pages.
 
-version: 1.002
+version: 1.003
