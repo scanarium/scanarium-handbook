@@ -1,5 +1,5 @@
 # This file is part of Scanarium https://scanarium.com/ and licensed under the
-# GNU Affero General Public License v3.0 (See LICENSE.md)
+# GNU Affero General Public License v3.0 (See LICENSE.AGPL3.txt)
 # SPDX-License-Identifier: AGPL-3.0-only
 
 import collections.abc
@@ -7,6 +7,7 @@ import datetime
 import logging
 import os
 import re
+import xml.etree.ElementTree as ET
 
 logger = logging.getLogger(__name__)
 
@@ -26,6 +27,89 @@ HEIC_MAJOR_BRANDS = [bytes(brand, 'utf-8') for brand in [
     'mif1',
     'msf1',
 ]]
+
+
+EXIFTOOL_METADATA_GROUPING = {
+    'Copyright': {
+        '': '@copyright',
+        },
+    'ExifIFD': {
+        'UserComment': '@description',
+        },
+    'File': {
+        'Comment': '@description',
+        },
+    'IFD0': {
+        'Artist': '@attribution_name',
+        'Copyright': '@copyright',
+        'ImageDescription': '@description',
+        'XResolution': '@dpi',
+        'YResolution': '@dpi',
+        },
+    'IPTC': {
+        'By-line': '@attribution_name',
+        'Caption-Abstract': '@description',
+        'CopyrightNotice': '@copyright',
+        'Keywords': '@keywords',
+        'OriginatingProgram': '@attribution_name',
+        },
+    'PDF': {
+        'Keywords': '@keywords',
+        'Author': '@attribution_name',
+        'Producer': '@attribution_name',
+        'Creator': '@attribution_name',
+        'Title': '@title',
+        'Subject': '@description',
+        },
+    'XMP-cc': {
+        'attributionName': '@attribution_name',
+        'attributionURL': '@attribution_url',
+        'license': '@license_url',
+        'morePermissions': '@rights_url',
+        },
+    'XMP-dc': {
+        'creator': '@attribution_name',
+        'description': '@description',
+        'language': '@language',
+        'rights': '@copyright',
+        'title': '@title',
+        },
+    'XMP-exif': {
+        'UserComment': '@description',
+        },
+    'XMP-tiff': {
+        'Artist': '@attribution_name',
+        'ImageDescription': '@description',
+        'Software': '@attribution_name',
+        },
+    'XMP-photoshop': {
+        'Credit': '@attribution_name',
+        'Headline': '@description',
+        },
+    'XMP-plus': {
+        'LicensorName': '@attribution_name',
+        'LicensorURL': '@rights_url',
+        },
+    'XMP-pdf': {
+        'Keywords': '@keywords',
+        'Producer': '@attribution_name',
+        'Creator': '@attribution_name',
+        },
+    'XMP-x': {
+        'XMPToolkit': 'n/a',
+        },
+    'XMP-xmp': {
+        'CreatorTool': '@creator_tool',
+        'Label': '@label',
+        'CreateDate': '@now_exif',
+        },
+    'XMP-xmpRights': {
+        'Marked': 'True',
+        'Owner': '@attribution_name',
+        'UsageTerms': '@copyright',
+        'WebStatement': '@rights_url',
+        },
+    }
 
 
 def file_needs_update(destination, sources, force=False):
@@ -87,7 +171,28 @@ def guess_image_format(file_path):
 
 
 def to_safe_filename(name):
-    ret = re.sub('[^a-zA-Z0-9]+', '-', name).strip('-')
+    ret = name
+    ret = ret.replace('Ä', 'Ae')
+    ret = ret.replace('ä', 'ae')
+    ret = ret.replace('Ö', 'Oe')
+    ret = ret.replace('ö', 'oe')
+    ret = ret.replace('Ü', 'Ue')
+    ret = ret.replace('ü', 'ue')
+    ret = ret.replace('ß', 'ss')
+    ret = ret.replace('Ĉ', 'Cx')
+    ret = ret.replace('ĉ', 'cx')
+    ret = ret.replace('Ĝ', 'Gx')
+    ret = ret.replace('ĝ', 'gx')
+    ret = ret.replace('Ĥ', 'Hx')
+    ret = ret.replace('ĥ', 'hx')
+    ret = ret.replace('Ĵ', 'Jx')
+    ret = ret.replace('ĵ', 'jx')
+    ret = ret.replace('Ŝ', 'Sx')
+    ret = ret.replace('ŝ', 'sx')
+    ret = ret.replace('Ŭ', 'Ux')
+    ret = ret.replace('ŭ', 'ux')
+    ret = re.sub('[^abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+                 '0123456789]+', '-', ret).strip('-')
     if not ret:
         ret = 'unnamed'
     return ret
@@ -105,32 +210,110 @@ def update_dict(target, source, merge_lists=False):
     return target
 
 
-def embed_metadata(scanarium, filename, metadata={}):
-    now = get_now()
+def embed_metadata(scanarium, target, metadata={}):
+    metadata = update_dict({
+            'now_exif': get_now().strftime('%Y:%m:%d %H:%M:%SZ'),
+            'now': get_now().strftime('%Y-%m-%dT%H:%M:%SZ')
+            }, metadata)
+    if isinstance(target, ET.ElementTree):
+        embed_metadata_svg_element_tree(scanarium, target, metadata)
+    elif isinstance(target, str):
+        embed_metadata_exiftool(scanarium, target, metadata)
+    else:
+        raise NotImplementedError(
+            f'Unsupported type {type(target)} for metadata embedding')
+
+
+def embed_metadata_svg_element_tree(scanarium, tree, metadata={}):
+    def set_agent(element, kind, value):
+        if value:
+            child = ET.SubElement(element, f'dc:{kind}')
+            agent = ET.SubElement(child, 'cc:Agent')
+            title = ET.SubElement(agent, 'dc:title')
+            title.text = value
+
+    def add_subelement(element, kind, value):
+        if value:
+            child = ET.SubElement(element, kind)
+            child.text = value.strip()
+
+    def add_cc_resource(element, kind, what):
+        ET.SubElement(
+            element, f'cc:{kind}',
+            attrib={'rdf:resource': f'http://creativecommons.org/ns#{what}'})
+
+    for work in list(tree.iter("{http://creativecommons.org/ns#}Work")):
+        if 'title' in metadata:
+            for element in work.iter():
+                if element.tag == '{http://purl.org/dc/elements/1.1/}title':
+                    element.text = metadata['title']
+
+        if 'keywords' in metadata:
+            subject = ET.SubElement(work, 'dc:subject')
+            bag = ET.SubElement(subject, 'rdf:Bag')
+            for keyword in metadata['keywords'].split(','):
+                add_subelement(bag, 'rdf:li', keyword)
+
+        if 'license_url' in metadata:
+            license_url = metadata['license_url']
+            ET.SubElement(work, 'cc:license',
+                          attrib={'rdf:resource': license_url})
+
+            set_agent(work, 'rights', license_url)
+
+        if 'attribution_name' in metadata:
+            set_agent(work, 'creator', metadata['attribution_name'])
+
+        if 'now' in metadata:
+            add_subelement(work, 'dc:date', metadata['now'])
+
+        if 'creator_tool' in metadata:
+            set_agent(work, 'publisher', metadata['creator_tool'])
+
+        if 'attribution_url' in metadata:
+            add_subelement(work, 'dc:source', metadata['attribution_url'])
+
+        if 'language' in metadata:
+            add_subelement(work, 'dc:language', metadata['language'])
+
+        if 'description' in metadata:
+            add_subelement(work, 'dc:description', metadata['description'])
+
+    if 'license_url' in metadata:
+        license_url = metadata['license_url']
+        if license_url == 'https://creativecommons.org/licenses/by-nc-sa/4.0/':
+            for workParent in list(tree.iterfind(
+                    '{http://www.w3.org/2000/svg}metadata/'
+                    '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF')):
+                license = ET.SubElement(workParent, 'cc:License',
+                                        attrib={'rdf:about': license_url})
+                add_cc_resource(license, 'permits', 'Reproduction')
+                add_cc_resource(license, 'permits', 'Distribution')
+                add_cc_resource(license, 'permits', 'DerivativeWorks')
+                add_cc_resource(license, 'requires', 'Notice')
+                add_cc_resource(license, 'requires', 'Attribution')
+                add_cc_resource(license, 'requires', 'ShareAlike')
+                add_cc_resource(license, 'prohibits', 'CommercialUse')
+
+
+def embed_metadata_exiftool(scanarium, filename, metadata={}):
     command = [
         scanarium.get_config('programs', 'exiftool'),
         '-overwrite_original',
         '-all:all=',
         ]
 
-    gkvs = {
-        'XMP-x': {
-            'XMPToolkit': 'n/a',
-            },
-        'XMP-xmp': {
-            'CreateDate': now.strftime('%Y:%m:%d %H:%M:%SZ'),
-            },
-        }
-    gkvs = update_dict(gkvs, metadata)
-
-    for group, kvs in gkvs.items():
+    for group, kvs in EXIFTOOL_METADATA_GROUPING.items():
         for k, v in kvs.items():
             param = '-' + group
             if k:
                 param += ':' + k
 
             if v:
-                command.append(f'{param}={v}')
+                if v[0] == '@':
+                    v = metadata.get(v[1:], '')
+                if v:
+                    command.append(f'{param}={v}')
 
     command.append(filename)
     scanarium.run(command)
@@ -167,8 +350,8 @@ class Util(object):
     def to_safe_filename(self, name):
         return to_safe_filename(name)
 
-    def embed_metadata(self, scanarium, filename, metadata):
-        return embed_metadata(scanarium, filename, metadata)
+    def embed_metadata(self, scanarium, target, metadata):
+        return embed_metadata(scanarium, target, metadata)
 
     def get_now(self):
         return get_now()
@@ -178,3 +361,6 @@ class Util(object):
 
     def get_versioned_filename(self, dir, file, suffix, decoration_version):
         return get_versioned_filename(dir, file, suffix, decoration_version)
+
+    def update_dict(self, target, source, merge_lists=False):
+        return update_dict(target, source, merge_lists=merge_lists)

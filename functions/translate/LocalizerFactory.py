@@ -1,5 +1,5 @@
 # This file is part of Scanarium https://scanarium.com/ and licensed under the
-# GNU Affero General Public License v3.0 (See LICENSE.md)
+# GNU Affero General Public License v3.0 (See LICENSE.AGPL3.txt)
 # SPDX-License-Identifier: AGPL-3.0-only
 
 import json
